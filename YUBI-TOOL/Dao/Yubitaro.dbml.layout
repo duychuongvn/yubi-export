@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 12, 17.875" name="Yubitaro">
+  <DataContextMoniker Name="/YubitaroDataContext" />
+  <nestedChildShapes>
+    <classShape Id="e79d3c3e-8ed9-4270-ae29-1280248fa876" absoluteBounds="0.75, 0.75, 2, 6.9630354817708326">
+      <DataClassMoniker Name="/YubitaroDataContext/WORK_DATA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="69f0ee75-2cec-4b45-afdf-fb9578ec0082" absoluteBounds="0.765, 1.21, 1.9700000000000002, 6.403035481770833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9418bcc9-ff67-4642-bd7b-0e57bbe4d766" absoluteBounds="3.75, 0.75, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/YubitaroDataContext/COMPANY" />
+      <nestedChildShapes>
+        <elementListCompartment Id="db63fa5c-c6bb-433a-af64-d8317baecab9" absoluteBounds="3.765, 1.21, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="026e13c0-ada3-4103-84d7-29347bc0f092" absoluteBounds="3.75, 4.75, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/YubitaroDataContext/CSV_OUTPUT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="190e7547-7feb-46cb-87de-e586e2ba672f" absoluteBounds="3.765, 5.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="181a81f9-8690-4467-a466-bb17272281c2" absoluteBounds="6.75, 0.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/YubitaroDataContext/DB_VERSION" />
+      <nestedChildShapes>
+        <elementListCompartment Id="49e5ba14-4b79-46e1-a9d9-12cbf2a3d7df" absoluteBounds="6.765, 1.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9b06f09c-61a1-4fa6-8961-7081c912112b" absoluteBounds="6.75, 2.75, 2, 4.2708154296874987">
+      <DataClassMoniker Name="/YubitaroDataContext/EMPLOYEE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a6c3a6a8-634d-407f-9cf0-9766486e49ce" absoluteBounds="6.765, 3.21, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="47dec689-df0c-486d-8b6e-f2cd5cb06434" absoluteBounds="0.75, 8.75, 2, 1.9631982421874987">
+      <DataClassMoniker Name="/YubitaroDataContext/HOLIDAY" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f86494f9-1df8-4051-b4d9-1dc7dd767485" absoluteBounds="0.765, 9.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d379a6be-4991-4a87-b1e8-36f2450805f3" absoluteBounds="3.75, 8.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/YubitaroDataContext/MONTHLY" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5f688ef1-1af5-494b-b233-bbb716218359" absoluteBounds="3.765, 9.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fd145337-c9d3-41d7-b954-7f409b3ceba7" absoluteBounds="6.75, 8.75, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/YubitaroDataContext/POST" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7de940ce-e8ac-4a94-ba1d-2a265ffb2447" absoluteBounds="6.765, 9.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="716634af-84c3-4a0b-920a-2bc69c6a49ff" absoluteBounds="9.75, 0.75, 2, 4.2708154296874987">
+      <DataClassMoniker Name="/YubitaroDataContext/TERMINAL_SETTING" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d25e9223-454c-4c91-b8b3-01704870af89" absoluteBounds="9.765, 1.21, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0b6068ca-c831-47b6-9eaa-a82ded751273" absoluteBounds="9.75, 6.75, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/YubitaroDataContext/TERMINAL_USER_DATA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1bef5e96-616b-4886-88c4-ec6d388e33f5" absoluteBounds="9.765, 7.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4991e46b-5112-40d8-91b6-563228ee710c" absoluteBounds="9.75, 9.75, 2, 7.9245426432291666">
+      <DataClassMoniker Name="/YubitaroDataContext/TIME_TABLE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="15f24fa3-9390-423f-8bd9-d3c7a88205f8" absoluteBounds="9.765, 10.21, 1.9700000000000002, 7.3645426432291661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

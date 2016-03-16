@@ -1,0 +1,82 @@
+﻿<UserControl x:Class="YUBI_TOOL.View.MainMenuView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+              mc:Ignorable="d"  Style="{StaticResource resChildWindow}"
+             d:DesignHeight="740" d:DesignWidth="1000">
+    <Grid Style="{StaticResource resMainGrid}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="10"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="10"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="1" Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60"></RowDefinition>
+                <RowDefinition Height="5"></RowDefinition>
+                <RowDefinition Height="100"></RowDefinition>
+                <RowDefinition Height="10"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="10"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="10"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label FontFamily="{Binding Path=LblMain.FontFamily}"  x:Name="LblMain_Text"  Grid.Column="0" Grid.ColumnSpan="4" Content="Menu" Style="{StaticResource resLabelWindownTitle}" >
+
+            </Label>
+            <GroupBox Grid.Column="1" Grid.Row="2" 
+                        Header="{Binding Path=LblMessageArea.Text}"
+                      FontFamily="{Binding Path=LblMessageArea.FontFamily}"
+                      FontSize="{Binding Path=LblMessageArea.FontSize}"
+                      >
+                <Border Padding="0,5,0,5">
+                    <TextBox Text="{Binding Path=Message.Message}" Background="{Binding Path=Message.Background}"
+                             Foreground="{Binding Path=Message.Foreground}"
+                         FontFamily="{Binding Path=LblMessageText.FontFamily}" FontSize="{Binding Path=LblMessageText.FontSize}" Style="{StaticResource resTextBoxMessage}"></TextBox>
+                </Border>
+            </GroupBox>
+            <Border Grid.Row="4" Grid.Column="1" BorderThickness="1" BorderBrush="#FFFFCF">
+                <Grid Grid.Row="4" Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="5"></RowDefinition>
+                        <RowDefinition Height="50"></RowDefinition>
+                        <RowDefinition Height="10"></RowDefinition>
+                        <RowDefinition Height="50"></RowDefinition>
+                        <RowDefinition Height="10"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="10"></RowDefinition>
+                        <RowDefinition Height="50"></RowDefinition>
+                        <RowDefinition Height="10"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="30"></ColumnDefinition>
+                        <ColumnDefinition ></ColumnDefinition>
+                        <ColumnDefinition Width="30"></ColumnDefinition>
+                        <ColumnDefinition ></ColumnDefinition>
+                        <ColumnDefinition Width="30"></ColumnDefinition>
+                        <ColumnDefinition ></ColumnDefinition>
+                        <ColumnDefinition Width="30"></ColumnDefinition>
+                        <ColumnDefinition ></ColumnDefinition>
+                        <ColumnDefinition Width="30"></ColumnDefinition>
+                        <ColumnDefinition ></ColumnDefinition>
+
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="1" Grid.Row="1" x:Name="ActivateEmployeeList" Content="{Binding Path=LblEmployeeList.Text}" Style="{StaticResource resButtonCommon}"></Button>
+                    <Button Grid.Column="7" Grid.Row="7" x:Name="Logout" Content="{Binding Path=LblLogout.Text}" Style="{StaticResource resButtonCommon}"></Button>
+                    <Button Grid.Column="9" Grid.Row="7" x:Name="Close" Content="{Binding Path=LblExit.Text}" Style="{StaticResource resButtonCommon}"></Button>
+                </Grid>
+            </Border>
+
+        </Grid>
+        <ContentControl x:Name="ActiveItem"  Grid.Row="1" Grid.Column="1"></ContentControl>
+    </Grid>
+</UserControl>

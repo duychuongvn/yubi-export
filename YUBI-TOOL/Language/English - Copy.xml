@@ -1,0 +1,1411 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language>
+  <message>
+    <A0001>The following data has already existed in the system. Please check.\n{0},0,16</A0001>
+    <A0002>The following data has already existed in the system. Please check.\n{0} {1},0,16</A0002>
+    <A0003>The following data has already existed in the system. Please check.\n{0} {1} {2},0,16</A0003>
+    <A0005>The following is compulsory item.\n{0},0,16</A0005>
+    <A0011>The following item is not checked.,0,16</A0011>
+    <A0012>No user information is registered in the Fingerpritn Recognition Terminal. Please register users to the Fingerprint Recognition Terminal or run "Fingerprint Terminal Recovery".,0,16</A0012>
+    <!--<A0013>The user information has not been registered.<A0013>-->
+    <A0014>Please insert a numerical value. ,0,16</A0014>
+    <A0015>Please select the output item.,0,16</A0015>
+    <A0016>No employee information is registered in the "Employee Administration". Please register employee information by "Employee Administration" first.,0,16</A0016>
+    <A0017>Employee Number ({0}) has been used.\nPlease enter another Employee Number.,0,16</A0017>
+    <!--<A0017>Employee Number cannot be reused.,0,16</A0017>-->
+    <A0018>The maximum number of employees can be output at the same time is 255.,0,16</A0018>
+    <A0019>{0} is up to the Start Time of next businese day.,0,16</A0019>
+    <A0020>The Employee Number has not yet been configured. \nPlease insert the Employee Number by using "Employee Administration".,0,16</A0020>
+    <A0021>Please insert,0,16</A0021>
+    <A0022>The date is incorrect.,0,16</A0022>
+    <A0023>The Employee Number and the password do not match.,0,16</A0023>
+    <A0024>Unregistered ID in "Employee Administration" is found in the Fingerprint Recognition Terminal. \nPlease register the employee in the "Employee Administration".,0,16</A0024>
+    <A0025>The period specified is incorrect.,0,16</A0025>
+    <A0026>{0} is a time later than {1}.,0,16</A0026>
+    <A0027>The time of the following item is incorrect.,0,16</A0027>
+    <A0028>{0} is up to {1}.,0,16</A0028>
+    <A0029>Please select either User Registration Terminal or shared Terminal only.,0,16</A0029>
+    <A0030>Please insert only a number from 1 to 31.,0,16</A0030>
+    <!--<A0031>Attendance data does not exist.<A0031>-->
+    <A0032>The year and month do not exist.,0,16</A0032>
+    <!--<A0033>Please use 9999/99 as the last Application End Month.<A0033>-->
+    <!--<A0034>Please insert the monthly cut-off date.<A0034>-->
+    <A0035>Application Start Date is later than the Application End Date.,0,16</A0035>
+    <!--<A0036>Application period is not in continuous sequence.<A0036>-->
+    <!--<A0037>Please insert the Working Time Unit.<A0037>-->
+    <A0038>User ID ({0}) is being added. \nPlease register by the Fingerprint Recognition Terminal first.,0,16</A0038>
+    <A0039>Please specify the Working Time Unit from 01 to 60.,0,16</A0039>
+    <A0040>Start Time is the same as End Time or later than End Time.,0,16</A0040>
+    <A0041>Please insert the data by half-width character.,0,16</A0041>
+    <!--<A0042>Please insert the data using half-width character.<A0042>-->
+    <A0043>The time of {0}～{1} and {2}～{3} are duplicating.,0,16</A0043>
+    <A0044>Please insert {0} with the value bigger than 1.,0,16</A0044>
+    <A0045>Please insert half-width character\, number or "-".,0,16</A0045>
+    <A0046>Please select the default timetable in the "Employee Administration".,0,16</A0046>
+    <A0047>Please insert the Start/End of Core Time within the range of the Start/End of Business Time.,0,16</A0047>
+    <A0048>The Name has not yet been configured. \nPlease insert the Name by using the "Employee Administration".,0,16</A0048>
+    <A0049>Fingerprint Recognition Terminal for attendance registration has not been configured. Please configure by using the "Fingerprint Terminal Administration".,0,16</A0049>
+    <A0050>Fingerprint Recognition Terminal for user registration has not been configured. Please configure by using the "Fingerprint Terminal Administration".,0,16</A0050>
+    <!--<A0051>No department information is registered in the "Department Administration". Please register department information by using "Department Administration" first.<A0051>-->
+    <A0052>No company information is registered in the "Company Administration". Please register company information by using "Company Administration" first.,0,16</A0052>
+    <A0053>No timetable information is registered in the "Timetable Administration". Please register timetable information by using "Timetable Administration" first.,0,16</A0053>
+    <A0054>No calender information is registered in the "Monthly Calender Administration". Please register calender information by using "Monthly Calender Administration" first.,0,16</A0054>
+    <A0055>{0} is incorrect.,0,16</A0055>
+    <A0056>If the device is TCP/IP\, please insert {0}.,0,16</A0056>
+    <A0057>The time of {0} and {1} are duplicating.,0,16</A0057>
+    <A0058>Please select/specify the Alarm Time from 00:00 to 23:59.,0,16</A0058>
+    <!--<A0059>The following IP address and port are duplicating.<A0059>-->
+    <A0060>No fingerprint terminal information is registered in the "Fingerprint Terminal Administration". Please register fingerpring terminal by using "Fingerprint Terminal Registration" first.,0,16</A0060>
+    <A0061>Please register at least one fingerprint terminal.,0,16</A0061>
+    <A0062>There is blank item in on/off duty time.,0,16</A0062>
+    <A0063>Cut-off Day has not been configured. \nPlease configure the Cut-off Day by using "Monthly Calender Administration".,0,16</A0063>
+    <A0064>No file output information has been registered in "File Output Administration". \nPlease register by using "File Output Administration" first.,0,16</A0064>
+    <A0065>Recognized user cannot login.,0,16</A0065>
+    <A0066>No file output information has been registered in "File Output Administration". \nPlease register by using "File Output Administration" first.,0,16</A0066>
+    <!--<A0067>Cannot be used in period of employee's Application Start Date.<A0067>-->
+    <A0068>There is data with no employee number in "Employee Administration". \nPlease insert the employee number by using the "Employee Administration" first.,0,16</A0068>
+    <!--<A0069>Cannot configure the time out of on/off duty time.<A0069>-->
+    <A0070>The format of IP address is incorrect.,0,16</A0070>
+    <A0071>Machine No.{0}  Usage Type:{1}  Device:{2}  </A0071>
+    <A0072>IP Address:{0}  Port:{1}</A0072>
+    <!--<A0072>The selected timetable number is out of the application period.<A0072>-->
+    <A0073>{0} : {1} is a future time comparing with {2} of the day after.,0,16</A0073>
+    <A0074>{0} : {1} is up to {2}.,0,16</A0074>
+    <A0075>{0} : {1} is a pass time comparing with {2} of the day before.,0,16</A0075>
+    <A0076>{0} : {1} is incorrect.,0,16</A0076>
+    <A0077>{0} : The selected timetable is out of the application period.,0,16</A0077>
+    <A0078>{0} : Work Type is incorrect.,0,16</A0078>
+    <A0079>{0} : {1} is a pass time comparing with {2} of the day before.,0,16</A0079>
+    <A0080>No calender information is registerd in the "Monthly Calender Administration".,0,16</A0080>
+    <A0081>{0} is a future time comparing with {1}.,,16</A0081>
+    <A0082>The user data file loaded from the terminal is not found.,,16</A0082>
+    <A0083>The attendance data file loaded from the termimal is not found.,,16</A0083>
+    <A0084>In case there is change in Employee Number or Company Name, the data cannot be modified.,,16</A0084>
+    <A0085>\\, /\, :\, *\, ?\, "\, &lt;\, &gt;\, | and space cannot be used.,,16</A0085>
+    <A0086>The selected database cannot be used.,,16</A0086>
+    <A0087>{0} : {1} cannot be inserted in the selected Duty Type.,0,16</A0087>
+    <A0088>{0} : {1} is over the Daily Limit.,0,16</A0088>
+    <A0089>Yearly summation of {0} is more than {1} days.,0,16</A0089>
+    <A0090>When inserting {0}\, you should also insert {1}.,0,16</A0090>
+    <A0091>Fingerprint Recognition Terminal for attendance registration has not been configured.,0,16</A0091>
+    <A0092>Fingerprint Recognition Terminal for user registration has not been configured.,0,16</A0092>
+    <A0093>The user information in the Fingerprint Recognition Terminal is corrupted.\nPlease perform "Fingerprint Terminal Recovery".,0,16</A0093>
+    <I0001>Are you sure to update the data?,1,64</I0001>
+    <I0002>Are you sure to cancel the updated data?,1,64</I0002>
+    <I0003>Are you sure to add the data with the inserted value?,1,64</I0003>
+    <I0004>Are you sure to change the data with the inserted value?,1,64</I0004>
+    <I0005>Are you sure to delete the data?,1,64</I0005>
+    <I0006>Are you sure to update the data? \n\n[Yes] The previous month data after update is displayed. \n[No] The previous month data without update is displayed. \n[Cancel] Canel to display the previous month data.,3,32</I0006>
+    <I0007>Are you sure to update the data? \n\n[Yes] The next month data after update is displayed. \n[No] The next month data without update is displayed. \n[Cancel] Cancel to display the next month data.,3,32</I0007>
+    <I0011>Are you sure to overwrite all the user data in the Fingerprint Recognition Terminal with the employee data in the database?,1,64</I0011>
+    <I0012>Are you sure to change all \n{2} to holiday during the period from {0} to {1}?,1,64</I0012>
+    <!--<I0013>Are you sure to change all \n{2} to cut-off day during the period from {0} to {1}?<I0013>-->
+    <I0014>Due to communication failure with the fingerprint recognition terminal\, the most up-to-date attendance data cannot be acquired. Are you sure to display the Attendance List?,1,64</I0014>
+    <!--<I0015>Due to communication failure with the fingerprint recognition terminal\, the most up-to-date attendance record cannot be acquired. Are you sure to output the List?<I0015>-->
+    <I0016>The file output process has been finished.,1,64</I0016>
+    <I0017>The attendance data has been loaded.,0,64</I0017>
+    <I0021>The database backup has been completed.,1,64</I0021>
+    <I0022>The user information of Fingerprint Recognition Terminal has been updated.,1,64</I0022>
+    <!--<I0023>Are you sure to overwrite the file?<I0023>-->
+    <I0024>The alarm information of Fingerprint Recognition Terminal was updated.,1,64</I0024>
+    <I0025>Fingerprint Recognition Terminal (Acquring the user data from Machine No.{0}),1,64</I0025>
+    <I0026>Fingerprint Recognition Terminal (Writing the user data to Machine No.{0}),1,64</I0026>
+    <I0027>Fingerprint Recognition Terminal (Acquring the attendance data from Machine No.{0}),1,64</I0027>
+    <I0028>Fingerprint Recognition Terminal (Connecting to Machine No.{0}),1,64</I0028>
+    <I0029>Fingerprint Recognition Terminal (Writing terminal settings to Machine No.{0}),1,64</I0029>
+    <I0030>Application Start Date is later than the system date. Do you want to change to the system date?,1,64</I0030>
+    <I0031>The database has been restored.,0,64</I0031>
+    <I0032>The database has not been restored.\nPlease edit it again.,0,64</I0032>
+    <I0033>The database server was changed.\nPlease start application again.,0,64</I0033>
+    <I1001>Row Deletion: Highlight the date and press the "Delete" button on the keyboard.\nRow Copy: Press Ctrl + C. \nRow Paste: Press "Ctrl + V.\nTo amend the duty time\, please input the time in "On Duty (A)" or "Off Duty (A)"</I1001>
+    <I1002>Please click the button that corresponds to function desired. To confirm or amend the duty time\, please click the "Employee List" button.</I1002>
+    <I1003>Please insert the Employee Number and Password\, or perform fingerprint recognition by using the terminal for user registration.</I1003>
+    <I1004>By double-clicking the corresponding data\, the input screen will be displayed. The registration number is the registered user ID in the fingerprint recognition terminal. Only the employee who has been assigned a password can login the system.</I1004>
+    <I1006>Please configure the holiday. Regular holiday can be added collectively from the following input item. The deleted company's holiday data cannot be changed.</I1006>
+    <I1008>Please insert the Company Information.</I1008>
+    <I1009>Please insert the Department Information.</I1009>
+    <I1010>Please insert timetable. \nPlease select "Working Hour Unit" as the round down unit of total daily working hours (in terms of minute). \nPlease select "Overtime Unit" as the round down unit of total daily overtime hours (in terms of minute).</I1010>
+    <!--<I1011>Please selected year and month.<I1011>-->
+    <I1012>Please configure to a format matching with the payroll software you are using. The item(s) shown in the list on the lefthand side of the "Output Item" will be output. For more details\, please refer to the menu of the payroll software.</I1012>
+    <I1013>Please select the employee whose attendance list is required. To print or output to file\, please click the check box of the employee record or double-click the employee record. </I1013>
+    <I1014>Please configure the Cut-off Day and Working Time Unit. Please selecte "Working Time Unit" as the round down unit of the monthly total working hours (in terms of minute).</I1014>
+    <I1015>Please insert the Fingerprint Terminal information.</I1015>
+    <I1016>Please insert the Employee Number and Password.</I1016>
+    <I1017>Please insert the Employee Information. The Employee Number cannot be changed. Only the employee who has been assigned a password can login the system.</I1017>
+    <I1018>Please insert the Employee Information. Only the employee who has assigned a password can login the system.</I1018>
+    <I1019>Please input the server name of the database.</I1019>
+    <!--<L0001>Fingerprint Recognition Terminal has not yet been connected.<L0001>-->
+    <!--<L0002>Fingerprint Recognition Terminal is locked.<L0002>-->
+    <!--<L0003>There is no data in the Fingerprint Recognition Terminal.<L0003>-->
+    <!--<L0004>The user name could not be registered.<L0004>-->
+    <!--<L0005>The user information in the Fingerprint Recognition Terminal could not be acquired.<L0005>-->
+    <!--<L0006>The fingerprint data and password in the Fingerprint Recognition Terminal could not be acquired.<L0006>-->
+    <!--<L0007>The user could not be created.<L0007>-->
+    <S0001>ActionID is incorrect.,0,16</S0001>
+    <!--<S0002>Connection Information of the Fingerprint Recognition Terminal is incorrect.<S0002>-->
+    <S0011>Failure occurred while updating the data of the Fingerprint Recognition Terminal.,0,16</S0011>
+    <S0012>Failure occurred while acquiring the attendance data of the Fingerprint Recognition Terminal.,0,16</S0012>
+    <S0013>Failure occurred while communicating with the Fingerprint Recognition Terminal.,0,16</S0013>
+    <S0014>Failure occurred while communicating with the Fingerprint Recognition Terminal. Please make sure the Fingerprint Recognition Terminal is connecting correctly and the power is switched/turned on.,0,16</S0014>
+    <S0015>Failure occurred while acquiring the attendance data of the Fingerprint Recognition Terminal. Please make sure the Employee Number and Password are inserted and click "Login".,0,16</S0015>
+    <S0101>Error occurred while outputting the record. Microsoft Excel has not yet been installed.,0,16</S0101>
+  </message>
+  <form>
+    <Login>
+      <Text>Welcome!</Text>
+      <Title>
+        <Text>Login</Text>
+        <Font>MS UI Gothic</Font>
+      </Title>
+      <MessageArea>
+        <Text>Message</Text>
+        <Font>MS UI Gothic</Font>
+        <MessageText>
+          <Font>MS UI Gothic</Font>
+        </MessageText>
+      </MessageArea>
+      <grpInput>
+        <Text>Input Item</Text>
+        <Font>MS UI Gothic</Font>
+        <lblCompany>
+          <Text>Company:</Text>
+          <Font>MS UI Gothic,12</Font>
+        </lblCompany>
+        <cmbCompany>
+          <Font>MS UI Gothic</Font>
+        </cmbCompany>
+        <lblEmployeeNo>
+          <Text>Employee No:</Text>
+          <Font>MS UI Gothic,12</Font>
+        </lblEmployeeNo>
+        <txtEmployeeNo>
+          <Font>MS UI Gothic</Font>
+        </txtEmployeeNo>
+        <lblPassword>
+          <Text>Password:</Text>
+          <Font>MS UI Gothic,12</Font>
+        </lblPassword>
+        <txtPassword>
+          <Font>MS UI Gothic</Font>
+        </txtPassword>
+      </grpInput>
+      <btnDBServerMante>
+        <Text>DB Server</Text>
+        <Font>MS UI Gothic</Font>
+      </btnDBServerMante>
+      <btnLogin>
+        <Text>Login</Text>
+        <Font>MS UI Gothic</Font>
+      </btnLogin>
+      <btnEnd>
+        <Text>Exit</Text>
+        <Font>MS UI Gothic</Font>
+      </btnEnd>
+    </Login>
+
+    <DBServerMante>
+      <Text>YUBI-TARO</Text>
+      <Title>
+        <Text>DB Server Change</Text>
+        <Font>MS UI Gothic</Font>
+      </Title>
+      <MessageArea>
+        <Text>Message</Text>
+        <Font>MS UI Gothic</Font>
+        <MessageText>
+          <Font>MS UI Gothic</Font>
+        </MessageText>
+      </MessageArea>
+      <grpInput>
+        <Text>Input</Text>
+        <Font>MS UI Gothic</Font>
+        <lblDBServerName>
+          <Text>Server Name:</Text>
+          <Font>MS UI Gothic,12</Font>
+        </lblDBServerName>
+        <txtDBServerName>
+          <Font>MS UI Gothic</Font>
+        </txtDBServerName>
+        <lblAuthentication>
+          <Text>Authentication:</Text>
+          <Font>MS UI Gothic,12</Font>
+        </lblAuthentication>
+        <rdoWindowsAuthentication>
+          <Text>Windows Authentication</Text>
+          <Font>MS UI Gothic,12</Font>
+        </rdoWindowsAuthentication>
+        <rdoSQLServerAuthentication>
+          <Text>SQL Server Authentication</Text>
+          <Font>MS UI Gothic,12</Font>
+        </rdoSQLServerAuthentication>
+      </grpInput>
+      <btnUpdate>
+        <Text>Update</Text>
+        <Font>MS UI Gothic</Font>
+      </btnUpdate>
+      <btnCancel>
+        <Text>Cancel</Text>
+        <Font>MS UI Gothic</Font>
+      </btnCancel>
+      <btnEnd>
+        <Text>Exit</Text>
+        <Font>MS UI Gothic</Font>
+      </btnEnd>
+    </DBServerMante>
+
+    <Menu>
+      <Text>YUBI-TARO</Text>
+      <Title>
+        <Text>Menu</Text>
+        <Font>MS UI Gothic</Font>
+      </Title>
+      <MessageArea>
+        <Text>Message</Text>
+        <Font>MS UI Gothic</Font>
+        <MessageText>
+          <Font>MS UI Gothic</Font>
+        </MessageText>
+      </MessageArea>
+      <GroupBox1>
+        <Text>Attendance Data</Text>
+        <Font>MS UI Gothic</Font>
+        <btnEmployeeList>
+          <Text>Employee List</Text>
+          <Font>MS UI Gothic</Font>
+        </btnEmployeeList>
+      </GroupBox1>
+      <GroupBox3>
+        <Text>System Maintenance</Text>
+        <Font>MS UI Gothic</Font>
+        <btnBackup>
+          <Text>Backup</Text>
+          <Font>MS UI Gothic</Font>
+        </btnBackup>
+        <btnRestoring>
+          <Text>Restore</Text>
+          <Font>MS UI Gothic</Font>
+        </btnRestoring>
+        <btnRecovery>
+          <Text>Recovery</Text>
+          <Font>MS UI Gothic</Font>
+        </btnRecovery>
+      </GroupBox3>
+      <GroupBox4>
+        <Text>USB Memory</Text>
+        <Font>MS UI Gothic</Font>
+        <btnInOutLogImport>
+          <Text>Load Attendance Log</Text>
+          <Font>MS UI Gothic,14</Font>
+        </btnInOutLogImport>
+      </GroupBox4>
+      <GroupBox2>
+        <Text>System Administration</Text>
+        <Font>MS UI Gothic</Font>
+        <btnEmployeeMante>
+          <Text>Employee</Text>
+          <Font>MS UI Gothic</Font>
+        </btnEmployeeMante>
+        <btnCompanyMante>
+          <Text>Company</Text>
+          <Font>MS UI Gothic</Font>
+        </btnCompanyMante>
+        <btnPostMante>
+          <Text>Department</Text>
+          <Font>MS UI Gothic</Font>
+        </btnPostMante>
+        <btnTimeTableMante>
+          <Text>Timetable</Text>
+          <Font>MS UI Gothic</Font>
+        </btnTimeTableMante>
+        <btnHolidayMante>
+          <Text>Holiday</Text>
+          <Font>MS UI Gothic</Font>
+        </btnHolidayMante>
+        <btnMonthlyMante>
+          <Text>Calender</Text>
+          <Font>MS UI Gothic</Font>
+        </btnMonthlyMante>
+        <btnFileOutput>
+          <Text>File Output</Text>
+          <Font>MS UI Gothic</Font>
+        </btnFileOutput>
+        <btnTerminalSettingMainte>
+          <Text>FP Terminal</Text>
+          <Font>MS UI Gothic</Font>
+        </btnTerminalSettingMainte>
+      </GroupBox2>
+      <btnLogout>
+        <Text>Logout</Text>
+        <Font>MS UI Gothic</Font>
+      </btnLogout>
+      <btnEnd>
+        <Text>Exit</Text>
+        <Font>MS UI Gothic</Font>
+      </btnEnd>
+    </Menu>
+
+    <EmployeeList>
+      <Text>YUBI-TARO</Text>
+      <Title>
+        <Text>Employee List</Text>
+        <Font>MS UI Gothic</Font>
+      </Title>
+      <MessageArea>
+        <Text>Message</Text>
+        <Font>MS UI Gothic</Font>
+        <MessageText>
+          <Font>MS UI Gothic</Font>
+        </MessageText>
+      </MessageArea>
+      <GroupBox1>
+        <chkExport>
+          <Text>All</Text>
+          <Font>MS UI Gothic</Font>
+        </chkExport>
+      </GroupBox1>
+      <Label3>
+        <Text>Co.:</Text>
+        <Font>MS UI Gothic</Font>
+      </Label3>
+      <cmb_Company>
+        <Font>MS UI Gothic</Font>
+         </cmb_Company>
+      <Label1>
+        <Text>Dept.:</Text>
+        <Font>MS UI Gothic</Font>
+        <!--<Left></Left>-->
+      </Label1>
+      <cmb_Post>
+        <Font>MS UI Gothic</Font>
+      </cmb_Post>
+      <Label8>
+        <Text>EmployeeNo./Name:</Text>
+        <Font>MS UI Gothic,12.5</Font>
+        <Left>550</Left>
+      </Label8>
+      <txt_EmployeeNo>
+        <Font>MS UI Gothic</Font>
+      </txt_EmployeeNo>
+      <btn_Search>
+        <Text>Search</Text>
+        <Font>MS UI Gothic,12</Font>
+      </btn_Search>
+      <Label2>
+        <Text>Mth/Yr:</Text>
+        <Font>MS UI Gothic</Font>
+        <Left>522</Left>
+      </Label2>
+      <cmb_Year>
+        <Font>MS UI Gothic</Font>
+        <Left>826</Left>
+      </cmb_Year>
+      <Label4>
+        <Text>/</Text>
+        <Font>MS UI Gothic</Font>
+        <Left>800</Left>
+      </Label4>
+      <cmb_Month>
+        <Font>MS UI Gothic</Font>
+        <Text>January=1,February,March,April,May,June,July,August,September,October,November,December</Text>
+         <Left>607</Left>
+        <Width>110</Width>
+      </cmb_Month>
+      <Label7>
+        <Text>/</Text>
+        <Font>MS UI Gothic</Font>
+        <Left>723</Left>
+      </Label7>
+      <cmb_Day>
+      <Font>MS UI Gothic</Font>
+        <Left>749</Left>
+      </cmb_Day>
+      <DataGridView>
+        <HeaderText>,EXPIRATION_FROM,EXPIRATION_TO,Company,Dept.,No.,Name,Contract Hr,Working Hr,Overtime Hr,Remarks,ID,COMPANY_NO,TIME_TABLE_NO,EMSIZE_LAST_NAME,EMSIZE_FIRST_NAME</HeaderText>
+        <HeaderFont>MS UI Gothic,12</HeaderFont>
+        <Font>MS UI Gothic</Font>
+      </DataGridView>
+      <GroupBox3>
+        <btnFileOutput>
+          <Text>Output File</Text>
+          <Font>MS UI Gothic,14</Font>
+        </btnFileOutput>
+        <cmb_Output_Name>
+          <Font>MS UI Gothic</Font>
+        </cmb_Output_Name>
+      </GroupBox3>
+      <btnXlsExport>
+        <Text>Output Record</Text>
+        <Font>MS UI Gothic,14</Font>
+      </btnXlsExport>
+      <btnAttendanceListXlsExport>
+        <!--customize(huecompany) *** start-->
+       <!--<Text>Working of situation</Text>-->
+        <Text>Daily</Text>
+        <!--customize(huecompany) *** end-->
+        <Font>MS UI Gothic,14</Font>
+      </btnAttendanceListXlsExport>
+      <Label5>
+        <Text>Contract Hr</Text>
+        <Font>MS UI Gothic,9</Font>
+      </Label5>
+      <lblContractTime>
+        <Font>MS UI Gothic</Font>
+      </lblContractTime>
+      <Label6>
+        <Text>Working Hr</Text>
+        <Font>MS UI Gothic,9</Font>
+      </Label6>
+      <lblWorkingTime>
+        <Font>MS UI Gothic</Font>
+      </lblWorkingTime>
+      <Label9>
+        <Text>Overtime Hr</Text>
+        <Font>MS UI Gothic,9</Font>
+      </Label9>
+      <lblOverTime>
+        <Font>MS UI Gothic</Font>
+      </lblOverTime>
+      <btnPrevious>
+        <Text>Cancel</Text>
+        <Font>MS UI Gothic,14</Font>
+      </btnPrevious>
+      <btnCustomizeList1XlsExport>
+        <!--customize(huecompany) *** start-->
+        <Text>Monthly</Text>
+        <!--customize(huecompany) *** end-->
+        <Font>MS UI Gothic,14</Font>
+        <!--<Left>842</Left>-->
+      </btnCustomizeList1XlsExport>
+      <btnCustomizeList2XlsExport>
+        <Text>CustomizeList2</Text>
+        <Font>MS UI Gothic,14</Font>
+        <!--<Left>676</Left>-->
+      </btnCustomizeList2XlsExport>
+      <btnCustomizeList3XlsExport>
+        <Text>CustomizeList3</Text>
+        <Font>MS UI Gothic,14</Font>
+        <!--<Left>510</Left>-->
+      </btnCustomizeList3XlsExport>
+    </EmployeeList>
+
+    <WorkList>
+      <Text>YUBI-TARO</Text>
+      <!--<ContextMenuStrip></ContextMenuStrip>-->
+      <Title>
+        <Text>Attendance List</Text>
+        <Font>MS UI Gothic,24</Font>
+      </Title>
+      <Label1>
+        <Text>Name:</Text>
+        <Font>MS UI Gothic</Font>
+      </Label1>
+      <lblEmployeeName>
+        <Font>MS UI Gothic</Font>
+      </lblEmployeeName>
+      <Label3>
+        <Text>Period:</Text>
+        <Font>MS UI Gothic</Font>
+      </Label3>
+      <btnPreviousMonth>
+        <Text>&lt;</Text>
+        <Font>MS UI Gothic</Font>
+      </btnPreviousMonth>
+      <lblPeriodFromTo>
+        <Font>MS UI Gothic</Font>
+        <Tag>DMY</Tag>
+      </lblPeriodFromTo>
+      <btnNextMonth>
+        <Text>&gt;</Text>
+        <Font>MS UI Gothic</Font>
+        <Left>680</Left>
+      </btnNextMonth>
+      <MessageArea>
+        <Text>Message</Text>
+        <Font>MS UI Gothic</Font>
+        <MessageText>
+          <Font>MS UI Gothic</Font>
+        </MessageText>
+      </MessageArea>
+      <!--<Label4>
+        <Text>年</Text>
+        <Font>MS UI Gothic</Font>
+      </Label4>
+      <Label2>
+        <Text>月</Text>
+        <Font>MS UI Gothic</Font>
+      </Label2>-->
+      <DataGridView>
+        <HeaderText>WORK_DATE,Date,On Duty,Off Duty,Duty\nType,WORK_DAY_TYPE_NO,Timetable,On Duty\n(A),Off Duty\n(A),REST_TIME,Recess,CONTRACT_TIME,WORKING_TIME,Work,OVER_TIME,Overtime,LATE_NIGHT_TIME,Midnight,HOLIDAY_TIME,Holiday,HOLIDAY_LATE_NIGHT_TIME,Holiday's Midnight,PAID_VACATION_TIME,Paid Time Off,BEING_LATE_TIME,Lateness,LEAVING_EARLY_TIME,Early Leave,Memo,WORK_DAYS,HOLIDAY_DAYS,PAID_VACATION_DAYS,COMPENSATORY_DAY_OFF,SPECIAL_HOLIDAYS,ABSENCE_DAYS,DILIGENCE_INDOLENCE_POINT,BEING_LATE_DAYS,LEAVING_EARLY_DAYS,CREATE_DATE_TIME,UPDATE_DATE_TIME</HeaderText>
+        <HeaderFont>MS UI Gothic,10</HeaderFont>
+        <!--<HeaderHeight></HeaderHeight>-->
+        <Font>MS UI Gothic</Font>
+        <WORK_DATE_VIEWColumn>
+          <Font>MS UI Gothic,10</Font>
+        </WORK_DATE_VIEWColumn>
+        <WORK_TYPE_NOColumn>
+          <!--customize(huecompany) *** start-->
+          <!--<Text>Normal Duty=1,Paid Leave,Half-day Leave (AM),Half-day Leave (PM),Special Leave,Replacement Leave,Absence,Holiday Duty,Substitute Duty</Text>-->
+          <Text>Normal Duty=1,Annual Leave=2,Permission=7,1/2 Permission=30,Maternity Leave=31, Absent without permission=28,Special Leave=5,Holiday Duty=8</Text>
+          <!--customize(huecompany) *** end-->
+        </WORK_TYPE_NOColumn>
+        <Tag>DM</Tag>
+      </DataGridView>
+      <Label5>
+        <Text>Contract</Text>
+        <Font>MS UI Gothic,8</Font>
+      </Label5>
+      <lblContractTime>
+        <Font>MS UI Gothic</Font>
+      </lblContractTime>
+      <Label6>
+        <Text>Working</Text>
+        <Font>MS UI Gothic,8</Font>
+      </Label6>
+      <lblTrueWorkTime>
+        <Font>MS UI Gothic</Font>
+      </lblTrueWorkTime>
+      <Label9>
+        <Text>Overtime</Text>
+        <Font>MS UI Gothic,8</Font>
+      </Label9>
+      <lblOverTime>
+        <Font>MS UI Gothic</Font>
+      </lblOverTime>
+      <Label10>
+        <Text>Midnight</Text>
+        <Font>MS UI Gothic,8</Font>
+      </Label10>
+      <lblLateNightTime>
+        <Font>MS UI Gothic</Font>
+      </lblLateNightTime>
+      <Label11>
+        <Text>Holiday</Text>
+        <Font>MS UI Gothic,8</Font>
+      </Label11>
+      <lblHolidayTime>
+        <Font>MS UI Gothic</Font>
+      </lblHolidayTime>
+      <Label18>
+        <Text>Holiday's Midnight</Text>
+        <Font>MS UI Gothic,8</Font>
+      </Label18>
+      <lblHolidayLateNightTime>
+        <Font>MS UI Gothic</Font>
+      </lblHolidayLateNightTime>
+      <Label8>
+        <Text>Paid Time Off</Text>
+        <Font>MS UI Gothic,8</Font>
+      </Label8>
+      <lblPaidVacationTime>
+        <Font>MS UI Gothic</Font>
+      </lblPaidVacationTime>
+      <Label12>
+        <!--customize(huecompany) *** start-->
+        <!--<Text>Paid Leave</Text>-->
+        <Text>AL</Text>
+        <!--customize(huecompany) *** end-->
+        <Font>MS UI Gothic,8</Font>
+      </Label12>
+      <lblPaidVacationDays>
+        <Font>MS UI Gothic</Font>
+      </lblPaidVacationDays>
+      <Label13>
+        <Text>RPL</Text>
+        <Text>--</Text>
+        <Font>MS UI Gothic,8</Font>
+      </Label13>
+      <lblCompensatoryDayOff>
+        <Font>MS UI Gothic</Font>
+      </lblCompensatoryDayOff>
+      <Label14>
+        <!--customize(huecompany) *** start-->
+        <!--<Text>Absence</Text>-->
+        <Text>P</Text>
+        <!--customize(huecompany) *** end-->
+        <Font>MS UI Gothic,8</Font>
+      </Label14>
+      <lblAbsenceDays>
+        <Font>MS UI Gothic</Font>
+      </lblAbsenceDays>
+      <Label2>
+        <!--customize(huecompany) *** start-->
+        <!--<Text>SPL</Text>-->
+        <Text>SL</Text>
+        <!--customize(huecompany) *** end-->
+        <Font>MS UI Gothic,8</Font>
+      </Label2>
+      <lblSpecialHolidays>
+        <Font>MS UI Gothic</Font>
+      </lblSpecialHolidays>
+      <Label4>
+        <Text>Lateness</Text>
+        <Font>MS UI Gothic,8</Font>
+      </Label4>
+      <lblBeingLateTime>
+        <Font>MS UI Gothic</Font>
+      </lblBeingLateTime>
+      <Label7>
+        <Text>Early L</Text>
+        <Font>MS UI Gothic,8</Font>
+      </Label7>
+      <lblLeavingEarlyTime>
+        <Font>MS UI Gothic</Font>
+      </lblLeavingEarlyTime>
+      <btnOutputList>
+        <Text>Output Record</Text>
+        <Font>MS UI Gothic,14</Font>
+      </btnOutputList>
+      <btnPreviousMenu>
+        <Text>Menu</Text>
+        <Font>MS UI Gothic</Font>
+      </btnPreviousMenu>
+      <btnUpdate>
+        <Text>Update</Text>
+        <Font>MS UI Gothic</Font>
+      </btnUpdate>
+      <btnPrevious>
+        <Text>Cancel</Text>
+        <Font>MS UI Gothic</Font>
+      </btnPrevious>
+    </WorkList>
+
+    <EmployeeMainte>
+      <Text>YUBI-TARO</Text>
+      <Title>
+        <Text>Employee Adiminstration</Text>
+        <Font>MS UI Gothic</Font>
+      </Title>
+      <MessageArea>
+        <Text>Message</Text>
+        <Font>MS UI Gothic</Font>
+        <MessageText>
+          <Font>MS UI Gothic</Font>
+        </MessageText>
+      </MessageArea>
+      <Label3>
+        <Text>Co.:</Text>
+        <Font>MS UI Gothic</Font>
+      </Label3>
+      <cmb_Company>
+        <Font>MS UI Gothic</Font>
+      </cmb_Company>
+      <Label1>
+        <Text>Dept.:</Text>
+        <Font>MS UI Gothic</Font>
+        <!--<Left></Left>-->
+      </Label1>
+      <cmb_Post>
+        <Font>MS UI Gothic</Font>
+      </cmb_Post>
+      <Label2>
+        <Text>EmployeeNo./Name:</Text>
+        <Font>MS UI Gothic,12.5</Font>
+        <Left>550</Left>
+      </Label2>
+      <txt_EmployeeNo>
+        <Font>MS UI Gothic</Font>
+      </txt_EmployeeNo>
+      <btn_Search>
+        <Text>Search</Text>
+        <Font>MS UI Gothic,12</Font>
+      </btn_Search>
+      <GroupBox1>
+        <chkDeleteRowVisible>
+          <Text>Show deleted record</Text>
+          <Font>MS UI Gothic,10</Font>
+        </chkDeleteRowVisible>
+      </GroupBox1>
+      <DataGridView>
+        <HeaderText>Registration No.,Employee No.,LOGIN_PASSWORD,Login\nPassword,EXPIRATION_FROM,Application\nStart Date,End Date,Co. No.,Co.,Dept. No.,Dept.,Timetable,Timetable,Last Name,First Name,Last Name(en),First Name(en),RETIREMENT_DATE,Date of Resignation,Remarks,STATUS,CREATE_DATE_TIME,UPDATE_DATE_TIME</HeaderText>
+        <HeaderFont>MS UI Gothic</HeaderFont>
+        <Font>MS UI Gothic</Font>
+        <EXPIRATION_FROM_VIEWColumn>
+          <DateView>DMY,0</DateView>
+        </EXPIRATION_FROM_VIEWColumn>
+        <RETIREMENT_DATE_VIEWColumn>
+          <DateView>DMY,NULL</DateView>
+        </RETIREMENT_DATE_VIEWColumn>
+      </DataGridView>
+      <btn_Upd>
+        <Text>Update</Text>
+        <Font>MS UI Gothic</Font>
+      </btn_Upd>
+      <btn_Ret>
+        <Text>Cancel</Text>
+        <Font>MS UI Gothic</Font>
+      </btn_Ret>
+    </EmployeeMainte>
+
+    <EmployeeInput>
+      <Text>YUBI-TARO</Text>
+      <Title>
+        <Text>Employee Administration</Text>
+        <Font>MS UI Gothic</Font>
+      </Title>
+      <MessageArea>
+        <Text>Message</Text>
+        <Font>MS UI Gothic</Font>
+        <MessageText>
+          <Font>MS UI Gothic</Font>
+        </MessageText>
+      </MessageArea>
+      <lbl_UserID>
+        <Text>Reg. No.</Text>
+        <Font>MS UI Gothic</Font>
+      </lbl_UserID>
+      <txt_UserID>
+        <Font>MS UI Gothic</Font>
+      </txt_UserID>
+      <lbl_EmployeeNO>
+        <Text>Employee No.</Text>
+        <Font>MS UI Gothic</Font>
+      </lbl_EmployeeNO>
+      <txt_EmployeeNO>
+        <Font>MS UI Gothic</Font>
+      </txt_EmployeeNO>
+      <lbl_LoginPW>
+        <Text>Login Password</Text>
+        <Font>MS UI Gothic</Font>
+        
+      </lbl_LoginPW>
+      <txt_LoginPW>
+        <Font>MS UI Gothic</Font>
+        
+      </txt_LoginPW>
+      <lbl_Use_Flag_Of_Holiday>
+        <Text>Holiday Admin</Text>
+        <Font>MS UI Gothic</Font>
+        
+      </lbl_Use_Flag_Of_Holiday>
+      <cmb_Use_Flag_Of_Holiday>
+        <Text>Not use,Use</Text>
+        <Font>MS UI Gothic</Font>
+        
+        
+      </cmb_Use_Flag_Of_Holiday>
+      <lbl_Company>
+        <Text>Company Name</Text>
+        <Font>MS UI Gothic</Font>
+      </lbl_Company>
+      <cmb_Company>
+        <Font>MS UI Gothic</Font>
+      </cmb_Company>
+      <lbl_Post>
+        <Text>Department Name</Text>
+        <Font>MS UI Gothic</Font>
+      </lbl_Post>
+      <cmb_Post>
+        <Font>MS UI Gothic</Font>
+      </cmb_Post>
+      <lbl_TimeTable>
+        <Text>TimeTable</Text>
+        <Font>MS UI Gothic</Font>
+      </lbl_TimeTable>
+      <cmb_TimeTable>
+        <Font>MS UI Gothic</Font>
+      </cmb_TimeTable>
+      <lbl_Name1>
+        <Text>Last Name</Text>
+        <Font>MS UI Gothic</Font>
+      </lbl_Name1>
+      <txt_Name1>
+        <Font>MS UI Gothic</Font>
+      </txt_Name1>
+      <lbl_Name2>
+        <Text>First Name</Text>
+        <Font>MS UI Gothic</Font>
+      </lbl_Name2>
+      <txt_Name2>
+        <Font>MS UI Gothic</Font>
+      </txt_Name2>
+      <lbl_Remarks>
+        <Text>Remarks</Text>
+        <Font>MS UI Gothic</Font>
+      </lbl_Remarks>
+      <txt_Remarks>
+        <Font>MS UI Gothic</Font>
+      </txt_Remarks>
+      <!--customize(huecompany) *** start-->
+      <lbl_RemarksA>
+        <!--<Text>RemarksA</Text>-->
+        <Text>Team</Text>
+        <Font>MS UI Gothic</Font>
+      </lbl_RemarksA>
+      <txt_RemarksA>
+        <Font>MS UI Gothic</Font>
+      </txt_RemarksA>
+      <lbl_RemarksB>
+        <!--<Text>RemarksB</Text>-->
+        <Text>Position</Text>
+        <Font>MS UI Gothic</Font>
+      </lbl_RemarksB>
+      <txt_RemarksB>
+        <Font>MS UI Gothic</Font>
+      </txt_RemarksB>
+      <!--customize(huecompany) *** end-->
+      <lbl_Expiration_From>
+        <Text>Start Date</Text>
+        <Font>MS UI Gothic</Font>
+      </lbl_Expiration_From>
+      <txt_Expiration_From>
+        <Font>MS UI Gothic</Font>
+        <DateView>DMY,0</DateView>
+      </txt_Expiration_From>
+      <txt_Expiration_To>
+        <DateView>DMY,99999999</DateView>
+      </txt_Expiration_To>
+      <lbl_Retirement_Date>
+        <Text>Date of Resignation</Text>
+        <Font>MS UI Gothic</Font>
+      </lbl_Retirement_Date>
+      <txt_Retirement_Date>
+        <Font>MS UI Gothic</Font>
+        <DateView>DMY,NULL</DateView>
+      </txt_Retirement_Date>
+      <btn_Add>
+        <Text>Add</Text>
+        <Font>MS UI Gothic</Font>
+      </btn_Add>
+      <btn_Upd>
+        <Text>Modify</Text>
+        <Font>MS UI Gothic</Font>
+      </btn_Upd>
+      <btn_Del>
+        <Text>Delete</Text>
+        <Font>MS UI Gothic</Font>
+      </btn_Del>
+      <btn_Ret>
+        <Text>Cancel</Text>
+        <Font>MS UI Gothic</Font>
+      </btn_Ret>
+    </EmployeeInput>
+
+    <CompanyMainte>
+      <Text>YUBI-TARO</Text>
+      <Title>
+        <Text>Company Administration</Text>
+        <Font>MS UI Gothic</Font>
+      </Title>
+      <MessageArea>
+        <Text>Message</Text>
+        <Font>MS UI Gothic</Font>
+        <MessageText>
+          <Font>MS UI Gothic</Font>
+        </MessageText>
+      </MessageArea>
+      <GroupBox1>
+        <chkDeleteRowVisible>
+          <Text>Show deleted record</Text>
+          <Font>MS UI Gothic,10</Font>
+        </chkDeleteRowVisible>
+      </GroupBox1>
+      <DataGridView>
+        <HeaderText>,Co. No.,EXPIRATION_FROM,Start\nDate,EXPIRATION_TO,End\nDate,Company,FISCAL_YEAR_FROM,Year Start Date,Paid Time Off (Days),WORKING_MINUTES,Paid Time Off Limit (Daily),STATUS,CREATE_DATE_TIME,UPDATE_DATE_TIME</HeaderText>
+        <HeaderFont>MS UI Gothic</HeaderFont>
+        <HeaderHeight>60</HeaderHeight>
+        <Font>MS UI Gothic,12</Font>
+        <DeleteColumn>
+          <Text>DEL</Text>
+        </DeleteColumn>
+        <EXPIRATION_FROM_VIEWColumn>
+          <DateView>DMY,0</DateView>
+        </EXPIRATION_FROM_VIEWColumn>
+        <EXPIRATION_TO_VIEWColumn>
+          <DateView>DMY,99999999</DateView>
+        </EXPIRATION_TO_VIEWColumn>
+        <!--<COMPANYNOColumn>
+          <Width></Width>
+        </COMPANYNOColumn>-->
+        <FISCAL_YEAR_FROM_VIEWColumn>
+          <!--<Width></Width>-->
+          <DateView>DM,NULL</DateView>
+        </FISCAL_YEAR_FROM_VIEWColumn>
+      </DataGridView>
+      <btnUpdate>
+        <Text>Update</Text>
+        <Font>MS UI Gothic</Font>
+      </btnUpdate>
+      <btnCancel>
+        <Text>Cancel</Text>
+        <Font>MS UI Gothic</Font>
+      </btnCancel>
+    </CompanyMainte>
+
+    <PostMainte>
+      <Text>YUBI-TARO</Text>
+      <Title>
+        <Text>Department Administration</Text>
+        <Font>MS UI Gothic</Font>
+      </Title>
+      <MessageArea>
+        <Text>Message</Text>
+        <Font>MS UI Gothic</Font>
+        <MessageText>
+          <Font>MS UI Gothic</Font>
+        </MessageText>
+      </MessageArea>
+      <Label3>
+        <Text>Co.:</Text>
+        <Font>MS UI Gothic</Font>
+      </Label3>
+      <cmb_Company>
+        <Font>MS UI Gothic</Font>
+      </cmb_Company>
+      <GroupBox1>
+        <chkDeleteRowVisible>
+          <Text>Show deleted record</Text>
+          <Font>MS UI Gothic,10</Font>
+        </chkDeleteRowVisible>
+      </GroupBox1>
+      <DataGridView>
+        <HeaderText>,Co.No.,Dept. No.,EXPIRATION_FROM,Start Date,EXPIRATION_TO,End Date,Department,STATUS,CREATE_DATE_TIME,UPDATE_DATE_TIME</HeaderText>
+        <HeaderFont>MS UI Gothic</HeaderFont>
+        <Font>MS UI Gothic</Font>
+        <DeleteColumn>
+          <Text>DEL</Text>
+        </DeleteColumn>
+        <EXPIRATION_FROM_VIEWColumn>
+          <DateView>DMY,0</DateView>
+        </EXPIRATION_FROM_VIEWColumn>
+        <EXPIRATION_TO_VIEWColumn>
+          <DateView>DMY,99999999</DateView>
+        </EXPIRATION_TO_VIEWColumn>
+      </DataGridView>
+      <btnUpdate>
+        <Text>Update</Text>
+        <Font>MS UI Gothic</Font>
+      </btnUpdate>
+      <btnCancel>
+        <Text>Cancel</Text>
+        <Font>MS UI Gothic</Font>
+      </btnCancel>
+    </PostMainte>
+
+    <HolidayMainte>
+      <Text>YUBI-TARO</Text>
+      <Title>
+        <Text>Holiday Administration</Text>
+        <Font>MS UI Gothic</Font>
+      </Title>
+      <MessageArea>
+        <Text>Message</Text>
+        <Font>MS UI Gothic</Font>
+        <MessageText>
+          <Font>MS UI Gothic</Font>
+        </MessageText>
+      </MessageArea>
+      <Label3>
+        <Text>Co.:</Text>
+        <Font>MS UI Gothic,10</Font>
+      </Label3>
+      <cmbCompany>
+        <Font>MS UI Gothic</Font>
+      </cmbCompany>
+      <Label4>
+        <Text>Mth/Yr:</Text>
+        <Font>MS UI Gothic,10</Font>
+        <!--<Left></Left>-->
+      </Label4>
+      <cmbYear>
+        <Font>MS UI Gothic</Font>
+        <Left>540</Left>
+      </cmbYear>
+      <Label1>
+        <Text>/</Text>
+        <Font>MS UI Gothic</Font>
+        <Left>520</Left>
+      </Label1>
+      <cmbMonth>
+        <Text>January=1,February,March,April,May,June,July,August,September,October,November,December</Text>
+        <Font>MS UI Gothic</Font>
+        <Left>410</Left>
+        <Width>110</Width>
+      </cmbMonth>
+      <DataGridView>
+        <HeaderText>Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday</HeaderText>
+        <HeaderFont>MS UI Gothic</HeaderFont>
+        <Font>MS UI Gothic</Font>
+      </DataGridView>
+      <btn_Previous>
+        <Text>&lt;</Text>
+        <Font>MS UI Gothic</Font>
+      </btn_Previous>
+      <btn_Next>
+        <Text>&gt;</Text>
+        <Font>MS UI Gothic</Font>
+      </btn_Next>
+      <Label7>
+        <Text>Remarks:</Text>
+        <Font>MS UI Gothic,10</Font>
+      </Label7>
+      <txt_Remarks>
+        <Font>MS UI Gothic</Font>
+      </txt_Remarks>
+      <GroupBox1>
+        <Text>Regular Holiday Setup</Text>
+        <Font>MS UI Gothic</Font>
+        <Label2>
+          <Text>Period:</Text>
+          <Font>MS UI Gothic,10</Font>
+          <!--<Left></Left>-->
+        </Label2>
+        <dtbFrom>
+          <Font>MS UI Gothic</Font>
+          <DateView>DM,0</DateView>
+        </dtbFrom>
+        <Label8>
+          <Text>-</Text>
+          <Font>MS UI Gothic</Font>
+        </Label8>
+        <dtbTo>
+          <Font>MS UI Gothic</Font>
+          <DateView>DM,0</DateView>
+        </dtbTo>
+        <lbl_Weekday>
+          <Visible>True</Visible>
+          <Text>A day of the week:</Text>
+          <Font>MS UI Gothic,10</Font>
+        </lbl_Weekday>
+        <cmb_Weekday>
+          <Text>Sun=0,Mon,Tue,Wed,Thu,Fri,Sat</Text>
+          <Font>MS UI Gothic</Font>
+          <Left>430</Left>
+          <!--<Width></Width>-->
+        </cmb_Weekday>
+        <Label5>
+          <Visible>True</Visible>
+          <Text></Text>
+          <Font>MS UI Gothic</Font>
+        </Label5>
+        <Label6>
+          <Text>Remarks:</Text>
+          <Font>MS UI Gothic,10</Font>
+        </Label6>
+        <txt_AddRemarks>
+          <Font>MS UI Gothic</Font>
+          <!--<Left></Left>-->
+        </txt_AddRemarks>
+        <btnSetBatch>
+          <Text>Set</Text>
+          <Font>MS UI Gothic</Font>
+        </btnSetBatch>
+      </GroupBox1>
+      <btnUpdate>
+        <Text>Update</Text>
+        <Font>MS UI Gothic</Font>
+      </btnUpdate>
+      <btnCancel>
+        <Text>Cancel</Text>
+        <Font>MS UI Gothic</Font>
+      </btnCancel>
+    </HolidayMainte>
+
+    <MonthlyMainte>
+      <Text>YUBI-TARO</Text>
+      <Title>
+        <Text>Monthly Calender Administration</Text>
+        <Font>MS UI Gothic</Font>
+      </Title>
+      <MessageArea>
+        <Text>Message</Text>
+        <Font>MS UI Gothic</Font>
+        <MessageText>
+          <Font>MS UI Gothic</Font>
+        </MessageText>
+      </MessageArea>
+      <Label3>
+        <Text>Co.:</Text>
+        <Font>MS UI Gothic</Font>
+      </Label3>
+      <cmbCompany>
+        <Font>MS UI Gothic</Font>
+      </cmbCompany>
+      <DataGridView>
+        <HeaderText>,COMPANY_NO,EXPIRATION_FROM,Start Month,EXPIRATION_TO,Cut-off Date,Working Time Unit,STATUS,CREATE_DATE_TIME,UPDATE_DATE_TIME</HeaderText>
+        <HeaderFont>MS UI Gothic</HeaderFont>
+        <Font>MS UI Gothic</Font>
+        <EXPIRATION_FROM_VIEWColumn>
+          <DateView>MY,0</DateView>
+        </EXPIRATION_FROM_VIEWColumn>
+      </DataGridView>
+      <btnUpdate>
+        <Text>Update</Text>
+        <Font>MS UI Gothic</Font>
+      </btnUpdate>
+      <btnCancel>
+        <Text>Cancel</Text>
+        <Font>MS UI Gothic</Font>
+      </btnCancel>
+    </MonthlyMainte>
+
+    <FileOutput>
+      <Text>YUBI-TARO</Text>
+      <Title>
+        <Text>File Output Administration</Text>
+        <Font>MS UI Gothic</Font>
+      </Title>
+      <MessageArea>
+        <Text>Message</Text>
+        <Font>MS UI Gothic</Font>
+        <MessageText>
+          <Font>MS UI Gothic</Font>
+        </MessageText>
+      </MessageArea>
+      <grp_Output_File_Type>
+        <Text>Settings Selection</Text>
+        <Font>MS UI Gothic</Font>
+        <cmb_Output_Name>
+          <Font>MS UI Gothic</Font>
+        </cmb_Output_Name>
+      </grp_Output_File_Type>
+      <grp_Csv_Output_Setting>
+        <Text>Output Settings</Text>
+        <Font>MS UI Gothic</Font>
+        <grp_Output_Name>
+          <Text>Name</Text>
+          <Font>MS UI Gothic</Font>
+          <txt_Output_Name>
+            <Font>MS UI Gothic</Font>
+          </txt_Output_Name>
+        </grp_Output_Name>
+        <grp_Output_Type>
+          <Text>Text Separator</Text>
+          <Font>MS UI Gothic</Font>
+          <cmb_Output_Type>
+            <Text>Separate by comma,Separate by tab</Text>
+            <Font>MS UI Gothic</Font>
+          </cmb_Output_Type>
+        </grp_Output_Type>
+        <grp_String_Char>
+          <Text>String Symbol</Text>
+          <Font>MS UI Gothic</Font>
+          <cmb_String_Char>
+            <Text>None,',"</Text>
+            <Font>MS UI Gothic</Font>
+          </cmb_String_Char>
+        </grp_String_Char>
+        <grp_HeaderRow>
+          <Text>Header</Text>
+          <Font>MS UI Gothic</Font>
+          <chk_HeaderRow>
+            <Text>Output</Text>
+            <Font>MS UI Gothic</Font>
+          </chk_HeaderRow>
+        </grp_HeaderRow>
+        <grp_Extension>
+          <Text>File Extension</Text>
+          <Font>MS UI Gothic</Font>
+          <txt_Extension>
+            <Font>MS UI Gothic</Font>
+          </txt_Extension>
+        </grp_Extension>
+        <grp_Output>
+          <Text>Output Item</Text>
+          <Font>MS UI Gothic</Font>
+          <btnToRight>
+            <Text>&gt;</Text>
+            <Font>MS UI Gothic</Font>
+          </btnToRight>
+          <btnToLeft>
+            <Text>&lt;</Text>
+            <Font>MS UI Gothic</Font>
+          </btnToLeft>
+          <btnToUp>
+            <Text>Up</Text>
+            <Font>MS UI Gothic,14</Font>
+          </btnToUp>
+          <btnToDown>
+            <Text>Down</Text>
+            <Font>MS UI Gothic,14</Font>
+          </btnToDown>
+        </grp_Output>
+        <btnAdd>
+          <Text>Add</Text>
+          <Font>MS UI Gothic</Font>
+        </btnAdd>
+        <btnUpd>
+          <Text>Modify</Text>
+          <Font>MS UI Gothic</Font>
+        </btnUpd>
+        <btnDel>
+          <Text>Delete</Text>
+          <Font>MS UI Gothic</Font>
+        </btnDel>
+      </grp_Csv_Output_Setting>
+      <btnUpdate>
+        <Text>Update</Text>
+        <Font>MS UI Gothic</Font>
+      </btnUpdate>
+      <btnCancel>
+        <Text>Cancel</Text>
+        <Font>MS UI Gothic</Font>
+      </btnCancel>
+    </FileOutput>
+
+    <TerminalSettingMainte>
+      <Text>YUBI-TARO</Text>
+      <Title>
+        <Text>Fingerprint Terminal Administration</Text>
+        <Font>MS UI Gothic</Font>
+      </Title>
+      <MessageArea>
+        <Text>Message</Text>
+        <Font>MS UI Gothic</Font>
+        <MessageText>
+          <Font>MS UI Gothic</Font>
+        </MessageText>
+      </MessageArea>
+      <GroupBox1>
+        <chkDeleteRowVisible>
+          <Text>Show deleted record</Text>
+          <Font>MS UI Gothic,10</Font>
+        </chkDeleteRowVisible>
+      </GroupBox1>
+      <DataGridView>
+        <HeaderText>,Machine No.,Usage Type,Device,IP Address,Port,Alarm 1,Alarm 2,Alarm 3,Alarm 4,Alarm 5,Alarm 6,Alarm 7,Alarm 8,Alarm 9,Alarm 10,STATUS,CREATE_DATE_TIME,UPDATE_DATE_TIME</HeaderText>
+        <HeaderFont>MS UI Gothic</HeaderFont>
+        <Font>MS UI Gothic</Font>
+        <DeleteColumn>
+          <Text>DEL</Text>
+        </DeleteColumn>
+        <USETYPEColumn>
+          <Text>Attendance Registration,User Registration,Both</Text>
+        </USETYPEColumn>
+        <DEVICEColumn>
+          <Text>USB=0,TCP/IP=2,USB Memory</Text>
+        </DEVICEColumn>
+      </DataGridView>
+      <btnUpdate>
+        <Text>Update</Text>
+        <Font>MS UI Gothic</Font>
+      </btnUpdate>
+      <btnCancel>
+        <Text>Cancel</Text>
+        <Font>MS UI Gothic</Font>
+      </btnCancel>
+    </TerminalSettingMainte>
+
+    <SplashScreen>
+      <Label1>
+        <Text>Working Management System</Text>
+        <Font>MS UI Gothic</Font>
+      </Label1>
+      <ApplicationTitle>
+        <Text>YUBI-TARO</Text>
+        <Font>MS UI Gothic</Font>
+      </ApplicationTitle>
+      <Version>
+        <Font>MS UI Gothic</Font>
+      </Version>
+      <Copyright>
+        <Text>Copyright © ITC 2010</Text>
+        <Font>MS UI Gothic</Font>
+      </Copyright>
+    </SplashScreen>
+
+    <Processing>
+      <Title>
+        <Text>Processing...</Text>
+        <Font>MS UI Gothic</Font>
+      </Title>
+      <MessageArea>
+        <Text>Message</Text>
+        <Font>MS UI Gothic</Font>
+        <MessageText>
+          <Font>MS UI Gothic</Font>
+        </MessageText>
+      </MessageArea>
+    </Processing>
+
+    <TimeTableMainte>
+      <Title>
+        <Text>Timetable Administration</Text>
+        <Font>MS UI Gothic</Font>
+      </Title>
+      <MessageArea>
+        <Text>Message</Text>
+        <Font>MS UI Gothic</Font>
+        <MessageText>
+          <Font>MS UI Gothic</Font>
+        </MessageText>
+      </MessageArea>
+      <GroupBox1>
+        <chkDeleteRowVisible>
+          <Text>Show deleted record</Text>
+          <Font>MS UI Gothic,10</Font>
+        </chkDeleteRowVisible>
+      </GroupBox1>
+      <DataGridView>
+        <HeaderText>,No.,EXPIRATION_FROM,Start Date,EXPIRATION_TO,End Date,Workplace,Abbreviation,Start of Business Time,End of Business Time,Start of Core Time,Delimitation Time,End of Core Time,Time Unit,Overtime Unit,Start of Midnight,End of Midenight,Recess Time 1,End of Recess 1,Recess Time 2,End of Recess 2,Recess Time 3,End of Recess 3,Recess Time 4,End of Recess 4,Recess Time 5,End of Recess 5,Recess Time 6,End of Recess 6,Recess Time 7,End of Recess 7,Recess Time 8,End of Recess 8,Recess Time 9,End of Recess 9,Recess Time 10,End of Recess 10,STATUS,CREATE_DATE_TIME,UPDATE_DATE_TIME</HeaderText>
+        <HeaderFont>MS UI Gothic,10</HeaderFont>
+        <Font>MS UI Gothic</Font>
+        <DeleteColumn>
+          <Text>DEL</Text>
+        </DeleteColumn>
+        <EXPIRATION_FROM_VIEWColumn>
+          <DateView>DMY,0</DateView>
+        </EXPIRATION_FROM_VIEWColumn>
+        <EXPIRATION_TO_VIEWColumn>
+          <DateView>DMY,99999999</DateView>
+        </EXPIRATION_TO_VIEWColumn>
+        <!--<CORETIMEFROMColumn>
+          <Width></Width>
+        </CORETIMEFROMColumn>
+        <CORETIMETOColumn>
+          <Width></Width>
+        </CORETIMETOColumn>-->
+      </DataGridView>
+      <btnUpdate>
+        <Text>Update</Text>
+        <Font>MS UI Gothic</Font>
+      </btnUpdate>
+      <btnCancel>
+        <Text>Cancel</Text>
+        <Font>MS UI Gothic</Font>
+      </btnCancel>
+    </TimeTableMainte>
+  </form>
+  <const>
+    <information_title>Confirm</information_title>
+    <dialog_filter>{0}file(*.{0})|*.{0}|All files(*.*)|*.*</dialog_filter>
+    <weekday_long>Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday</weekday_long>
+    <weekday_short>Sun,Mon,Tue,Wed,Thu,Fri,Sat</weekday_short>
+    <month_long>January,February,March,April,May,June,July,August,September,October,November,December</month_long>
+    <month_short>Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec</month_short>
+    <!--customize(huecompany) *** start-->
+    <!--<csv_column>Data Year/Month,Employee No.,Name_Last Name・First Name,Name_Last Name,Name_First Name,Working Period,Contract Hour,Contract Hour x 100,Number of on-duty days,Number of on-duty days x 100,Number of holiday duty days,Number of holiday duty days x 100,Working Hour,Working Hour x 100,Recess Hour,Recess Hour x 100,Overtime Hour,Overtime Hour x 100,Midnight Hour,Midnight Hour x 100,Holiday Hour,Holiday Hour x 100,Holiday Midnight Hour,Holiday Midnight Hour x 100,Public Holiday Hour,Public Holiday HourＸ100,Public Holiday Midnight Hour,Public Holiday Midnight HourＸ100,Number of Payable Days,Number of Payable Days x 100,Number of Replacement Leave (day),Number of Replacement Leave (day) x 100,Number of Special Leave (day),Number of Special Leave (day) x 100,Number of Replacement Leave and Special Leave (day),Number of Replacement Leave and Special Leave (day) x 100,Number of Absence (day),Number of Absence (day) x 100,Number of Lateness (day),Number of Lateness (day) x 100,Number of Early Leave (day),Number of Early Leave (day) x 100,Number of Latness and Early Leave,Number of Latness and Early Leave x 100,Hours of Lateness,Hours of Lateness x 100,Hours of Early Leave,Hours of Early Leave x 100,Hours of Lateness and Early Leave,Hours of Lateness and Early Leave x 100,blank</csv_column>-->
+    <csv_column>Data Year/Month,Employee No.,Name_Last Name・First Name,Name_Last Name,Name_First Name,Working Period,Contract Hour,Contract Hour x 100,Number of on-duty days,Number of on-duty days x 100,Number of holiday duty days,Number of holiday duty days x 100,Working Hour,Working Hour x 100,Recess Hour,Recess Hour x 100,Overtime Hour,Overtime Hour x 100,Midnight Hour,Midnight Hour x 100,Holiday Hour,Holiday Hour x 100,Holiday Midnight Hour,Holiday Midnight Hour x 100,Public Holiday Hour,Public Holiday HourＸ100,Public Holiday Midnight Hour,Public Holiday Midnight HourＸ100,Number of Payable Days,Number of Payable Days x 100,Number of Replacement Leave (day),Number of Replacement Leave (day) x 100,Number of Special Leave (day),Number of Special Leave (day) x 100,Number of Replacement Leave and Special Leave (day),Number of Replacement Leave and Special Leave (day) x 100,Number of Permission (day),Number of Permission (day) x 100,Number of Lateness (day),Number of Lateness (day) x 100,Number of Early Leave (day),Number of Early Leave (day) x 100,Number of Latness and Early Leave,Number of Latness and Early Leave x 100,Hours of Lateness,Hours of Lateness x 100,Hours of Early Leave,Hours of Early Leave x 100,Hours of Lateness and Early Leave,Hours of Lateness and Early Leave x 100,blank</csv_column>
+    <!--customize(huecompany) *** end-->
+    <csv_column_brank>Unset Row</csv_column_brank>
+    <use_type>Attendance Registration,User Registration,Both</use_type>
+    <device>USB,Serial,TCP/IP,U-DISK</device>
+    <administrator>Admin</administrator>
+    <!--customize(huecompany) *** start-->
+    <!--<work_type>Normal Duty=1,Paid Leave,Half-day Leave (AM),Half-day Leave (PM),Special Leave,Replacement Leave,Absence,Holiday Duty,Substitute Duty,Sick Leave,Half-day Specical Leave,Half-day sick Leave,Unpaid half-day Leave,Standby Leave,Half-day Paid Leave,Half-day Standby Leave,Half-day Replacement Leave,Half-day Substitute Duty,Individual Holiday,Marriage leave,Marriage leave 1/2 day,Compassionate leave,Compassionate leave 1/2 day,Off with plan,Off with plan 1/2 day,Of without plan,Off without plan 1/2 day,Off without notice,Off without notice 1/2 day</work_type>-->
+    <work_type>Normal Duty=1,Annual Leave,Half-day Leave (AM),Half-day Leave (PM),Special Leave,Replacement Leave,Permission,Holiday Duty,Substitute Duty,Sick Leave,Half-day Specical Leave,Half-day sick Leave,Unpaid half-day Leave,Standby Leave,Half-day Paid Leave,Half-day Standby Leave,Half-day Replacement Leave,Half-day Substitute Duty,Individual Holiday,Marriage leave,Marriage leave 1/2 day,Compassionate leave,Compassionate leave 1/2 day,Off with plan,Off with plan 1/2 day,Of without plan,Off without plan 1/2 day,Absent without permission,Absent without permission 1/2 day,1/2 Permission,Maternity Leave</work_type>
+    <!--customize(huecompany) *** end-->
+    <list_title>Attendance List ({1}, {0})</list_title>
+    <in_out_mode>On Duty[{0}],Off Duty[{0}],Attendance Unknown[{0}],Attendance Unknown[{0}]</in_out_mode>
+    <national_holiday_flag>True</national_holiday_flag>
+    <date_format_delimiter>/</date_format_delimiter>
+    <list_date_format>DM</list_date_format>
+    <csv_date_format>DMY</csv_date_format>
+    <ymd_date_format>DMY</ymd_date_format>
+    <ym_date_format>MY</ym_date_format>
+    <md_date_format>DM</md_date_format>
+    <emsize_character_flag>False</emsize_character_flag>
+    <username_set_flag>False</username_set_flag>
+    <paidvacationtime_days>5</paidvacationtime_days>
+    <tolerance_time></tolerance_time>
+    <tolerance_latetime></tolerance_latetime>
+    <tolerance_earlytime></tolerance_earlytime>
+
+    <!--customize(huecompany) *** start-->
+    <customize_code>HueCompany</customize_code>
+    <!--customize(huecompany) *** end-->
+    <attendance_list_title></attendance_list_title>
+    <attendance_list_date_format>DMY</attendance_list_date_format>
+    <hoatho_list_date_format>MY</hoatho_list_date_format>
+
+  </const>
+</language>

@@ -1,0 +1,188 @@
+﻿<UserControl x:Class="YUBI_TOOL.View.LoginView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:YUBI_TOOL.Common"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:interaction="http://schemas.microsoft.com/expression/2010/interactions" 
+             xmlns:cal="clr-namespace:Caliburn.Micro;assembly=Caliburn.Micro"
+             mc:Ignorable="d"  Style="{StaticResource resChildWindow}"
+             d:DesignHeight="740" d:DesignWidth="1000">
+    <UserControl.Resources>
+        <DataTemplate x:Key="test">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="30"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="1" Text="{Binding Header, RelativeSource={RelativeSource Mode=TemplatedParent}}">
+                                    <i:Interaction.Triggers>
+                                        <i:EventTrigger EventName="PreviewMouseDown">
+                                            <cal:ActionMessage  MethodName="ChangeLanguage"  >
+                                                <cal:Parameter Value="{Binding Path=Header,  RelativeSource={RelativeSource Mode=TemplatedParent}}"></cal:Parameter>
+                                            </cal:ActionMessage>
+                                        </i:EventTrigger>
+                                    </i:Interaction.Triggers>
+                </TextBlock>
+            </Grid>
+        </DataTemplate>
+        <Style x:Key="resMenuItem" TargetType="MenuItem">
+            <Style.Setters>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="MenuItem">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="30"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Column="1" Text="{Binding Header, RelativeSource={RelativeSource Mode=TemplatedParent}}">
+                                    <i:Interaction.Triggers>
+                                        <i:EventTrigger EventName="PreviewMouseDown">
+                                            <cal:ActionMessage  MethodName="ChangeLanguage"  >
+                                                <cal:Parameter Value="{Binding Path=Header,  RelativeSource={RelativeSource Mode=TemplatedParent}}"></cal:Parameter>
+                                            </cal:ActionMessage>
+                                        </i:EventTrigger>
+                                    </i:Interaction.Triggers>
+                                </TextBlock>
+                            </Grid>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style.Setters>
+        </Style>
+    </UserControl.Resources>
+    <Grid x:Name="LayoutRoot" Style="{StaticResource resMainGrid}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="10"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="10"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ContextMenu>
+            <ContextMenu >
+
+                <MenuItem   Header="English" Style="{StaticResource resMenuItem}" />
+                <MenuItem Header="Japanese" Style="{StaticResource resMenuItem}"  />
+                <MenuItem Header="Vietnamese"  Style="{StaticResource resMenuItem}"  />
+            </ContextMenu>
+        </Grid.ContextMenu>
+        <Grid Grid.Column="1" Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="5"></RowDefinition>
+                <RowDefinition Height="100"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="100"></ColumnDefinition>
+                <ColumnDefinition Width="5"></ColumnDefinition>
+                <ColumnDefinition Width="300"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Label FontFamily="{Binding Path=LblLogin.FontFamily}"  x:Name="LblLogin_Text"  Grid.Column="0" Grid.ColumnSpan="4" Content="LOGIN" Style="{StaticResource resLabelWindownTitle}" >
+
+            </Label>
+
+            <GroupBox Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="5"
+                      Header="{Binding Path=LblMessageArea.Text}"
+                      FontFamily="{Binding Path=LblMessageArea.FontFamily}"
+                      FontSize="{Binding Path=LblMessageArea.FontSize}">
+                <Border Padding="0,5,0,5">
+                    <TextBox Text="{Binding Path=Message.Message}" Background="{Binding Path=Message.Background}"
+                             Foreground="{Binding Path=Message.Foreground}"
+                         FontFamily="{Binding Path=LblMessageText.FontFamily}" FontSize="{Binding Path=LblMessageText.FontSize}" Style="{StaticResource resTextBoxMessage}"></TextBox>
+                </Border>
+
+            </GroupBox>
+            <Grid Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="3">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0"></ColumnDefinition>
+                    <ColumnDefinition Width="355"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <GroupBox Grid.Column="1"  Header="{Binding Path=LblGrpInput.Text}"
+                      FontFamily="{Binding Path=LblGrpInput.FontFamily}"
+                      FontSize="{Binding Path=LblGrpInput.FontSize}">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="10"></RowDefinition>
+                            <RowDefinition Height="25"></RowDefinition>
+                            <RowDefinition Height="20"></RowDefinition>
+                            <RowDefinition Height="25"></RowDefinition>
+                            <RowDefinition Height="20"></RowDefinition>
+                            <RowDefinition Height="25"></RowDefinition>
+                            <RowDefinition Height="*"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition Width="100"></ColumnDefinition>
+                            <ColumnDefinition Width="5"></ColumnDefinition>
+                            <ColumnDefinition Width="200"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Label x:Name="LblCompany_Text" FontFamily="{Binding Path=LblCompany.FontFamily}" FontSize="{Binding Path=LblCompany.FontSize}" 
+                   Grid.Column="1" Grid.Row="1" Content="Company"  Style="{StaticResource resLabelCaption}"></Label>
+                        <Label x:Name="LblUserName_Text" FontFamily="{Binding Path=LblUserName.FontFamily}" FontSize="{Binding Path=LblUserName.FontSize}" 
+                   Grid.Column="1" Grid.Row="3" Content="UserName"  Style="{StaticResource resLabelCaption}"></Label>
+                        <Label  x:Name="LblPassword_Text"  FontFamily="{Binding Path=LblPassword.FontFamily}" FontSize="{Binding Path=LblPassword.FontSize}" 
+                     Grid.Column="1" Grid.Row="5" Content="Password" Style="{StaticResource resLabelCaption}"></Label>
+                       
+                        <ComboBox Grid.Column="3" Grid.Row="1" x:Name="cmbCompany" 
+                      ItemsSource="{Binding Path=CompanyList}"
+                      SelectedValuePath="Company_no"
+                      DisplayMemberPath="Company_name"
+                      ></ComboBox>
+                        <TextBox Grid.Column="3" Grid.Row="3" Style="{StaticResource resTextBoxLeft}"
+                                 Text="{Binding Path=UserName}" x:Name="txtUserName" local:FocusExtension.IsFocused="{Binding Path=IsFocused, Mode=TwoWay}">
+                            <i:Interaction.Triggers>
+                                <interaction:KeyTrigger ActiveOnFocus="True" Key="Enter" FiredOn="KeyUp">
+                                    <cal:ActionMessage MethodName="Login">
+                                    </cal:ActionMessage>
+                                </interaction:KeyTrigger>
+                            </i:Interaction.Triggers>
+                        </TextBox>
+                        <PasswordBox Grid.Column="3" Grid.Row="5"  x:Name="pbPassword">
+                            <i:Interaction.Behaviors>
+                                <local:PasswordBoxBehavior PasswordValue="{Binding Path=Password, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></local:PasswordBoxBehavior>
+                            </i:Interaction.Behaviors>
+                            <i:Interaction.Triggers>
+                                <interaction:KeyTrigger  ActiveOnFocus="True" Key="Enter" FiredOn="KeyUp">
+                                    <cal:ActionMessage MethodName="Login">
+                                    </cal:ActionMessage>
+                                </interaction:KeyTrigger>
+                            </i:Interaction.Triggers>
+                        </PasswordBox>
+                    </Grid>
+                </GroupBox>
+            </Grid>
+
+            <Grid Grid.Column="1" Grid.Row="6" Grid.ColumnSpan="4">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2"></ColumnDefinition>
+                    <ColumnDefinition Width="120"></ColumnDefinition>
+                    <ColumnDefinition Width="10"></ColumnDefinition>
+                    <ColumnDefinition Width="100"></ColumnDefinition>
+                    <ColumnDefinition Width="10"></ColumnDefinition>
+                    <ColumnDefinition Width="100"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="1" Content="{Binding Path=BtnDBServer.Text}" x:Name="UpdateDB" Style="{StaticResource resButtonCommon}"></Button>
+                <Button Grid.Column="3" Content="{Binding Path=BtnLogin.Text}" x:Name="Login" Style="{StaticResource resButtonCommon}"></Button>
+                <Button Grid.Column="5" Content="{Binding Path=BtnClose.Text}" x:Name="Close" Style="{StaticResource resButtonCommon}"></Button>
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>

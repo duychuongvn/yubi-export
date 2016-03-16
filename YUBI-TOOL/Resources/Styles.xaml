@@ -1,0 +1,270 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style x:Key="resWindow" TargetType="{x:Type Window}">
+        <Setter Property="Width" Value="1024"></Setter>
+        <Setter Property="Height" Value="800"></Setter>
+    </Style>
+    <Style x:Key="resMainWindow" TargetType="{x:Type UserControl}">
+        <Setter Property="Width" Value="980"></Setter>
+        <Setter Property="Height" Value="760"></Setter>
+    </Style>
+    <Style x:Key="resChildWindow" TargetType="{x:Type UserControl}">
+        <Setter Property="MinWidth" Value="1000"></Setter>
+        <Setter Property="MinHeight" Value="600"></Setter>
+    </Style>
+
+    <Style x:Key="resBaseControl" TargetType="Control">
+        <Setter Property="FontSize" Value="14"></Setter>
+        <Setter Property="FontWeight" Value="Regular"></Setter>
+    </Style>
+    <Style x:Key="resMainGrid" TargetType="Grid">
+        <Setter Property="Background" Value="#FFFFF0"></Setter>
+    </Style>
+    <Style x:Key="resBaseLabel" TargetType="Label" BasedOn="{StaticResource resBaseControl}">
+        <Setter Property="Padding" Value="5,2,5,2"></Setter>
+    </Style>
+    <Style x:Key="resLabelCenter" TargetType="Label" BasedOn="{StaticResource resBaseLabel}">
+        <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+    </Style>
+    <Style x:Key="resBaseTextBox" TargetType="TextBox" >
+        <Setter Property="Padding" Value="5,2,5,2"></Setter>
+        <Setter Property="HorizontalContentAlignment" Value="Left"></Setter>
+        <Setter Property="HorizontalAlignment" Value="Stretch"></Setter>
+        <Setter Property="VerticalContentAlignment" Value="Stretch"></Setter>
+    </Style>
+    <Style x:Key="resTextBoxCenter" TargetType="TextBox" BasedOn="{StaticResource resBaseTextBox}">
+        <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+    </Style>
+    <Style x:Key="resTextBoxLeft" TargetType="TextBox" BasedOn="{StaticResource resBaseTextBox}">
+        <Setter Property="HorizontalContentAlignment" Value="Left"></Setter>
+
+    </Style>
+    <Style x:Key="resBaseButton" TargetType="Button" BasedOn="{StaticResource resBaseControl}"></Style>
+    <Style x:Key="resLabelWindownTitle" TargetType="Label" BasedOn="{StaticResource resBaseLabel}">
+        <Setter Property="Padding" Value="0 2 0 2"></Setter>
+        <Setter Property="FontWeight" Value="Bold"></Setter>
+        <Setter Property="FontSize" Value="24"></Setter>
+    </Style>
+    <Style x:Key="resButtonCommon" TargetType="Button" BasedOn="{StaticResource resBaseButton}">
+        <Setter Property="Background" Value="Blue"></Setter>
+        <Setter Property="Foreground" Value="White"></Setter>
+        <Setter Property="Padding" Value="0 2 0 2"></Setter>
+        <Setter Property="FontWeight" Value="Bold"></Setter>
+        <Setter Property="FontSize" Value="18"></Setter>
+    </Style>
+    <Style x:Key="resTextBoxMessage" TargetType="TextBox" BasedOn="{StaticResource resBaseTextBox}">
+        <Setter Property="AcceptsReturn" Value="True"></Setter>
+        <Setter Property="HorizontalScrollBarVisibility" Value="Disabled"></Setter>
+        <Setter Property="VerticalScrollBarVisibility" Value="Auto"></Setter>
+        <Setter Property="IsReadOnly" Value="True"></Setter>
+    </Style>
+    <Style x:Key="resLabelCaption" TargetType="Label" BasedOn="{StaticResource resBaseLabel}">
+        <Setter Property="HorizontalContentAlignment" Value="Right"></Setter>
+        <Setter Property="HorizontalAlignment" Value="Stretch"></Setter>
+        <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+
+        <Setter Property="Background" Value="#C0FFC0"></Setter>
+    </Style>
+    <Style x:Key="resBaseCombobox" TargetType="{x:Type ComboBox}" BasedOn="{StaticResource resBaseControl}">
+
+    </Style>
+    <Style x:Key="resLabelGridHeader" TargetType="Label" BasedOn="{StaticResource resBaseLabel}">
+        <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Label">
+                    <Label  Style="{StaticResource resBaseLabel}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"
+                            HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}">
+                        <AccessText TextTrimming="WordEllipsis" TextAlignment="Center" Text="{Binding Path=Content, RelativeSource={RelativeSource Mode=TemplatedParent}}" TextWrapping="Wrap"></AccessText>
+                    </Label>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+
+    </Style>
+    <Style x:Key="resLabelGridContentLeft" TargetType="Label" BasedOn="{StaticResource resBaseLabel}">
+        <Setter Property="HorizontalContentAlignment" Value="Left"></Setter>
+    </Style>
+    <Style x:Key="resLabelGridContentCenter" TargetType="Label" BasedOn="{StaticResource resBaseLabel}">
+        <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+    </Style>
+    <Style x:Key="ColumnHeaderGripperStyle"
+       TargetType="{x:Type Thumb}">
+        <Setter Property="Width"
+          Value="8" />
+        <Setter Property="Background"
+          Value="Transparent" />
+        <Setter Property="Cursor"
+          Value="SizeWE" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Thumb}">
+                    <Border Background="{TemplateBinding Background}"
+                Padding="{TemplateBinding Padding}" />
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="resBaseDataGridColumnHeader" TargetType="{x:Type DataGridColumnHeader}">
+        <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+        <Setter Property="HorizontalAlignment" Value="Stretch"></Setter>
+        <Setter Property="FontStyle" Value="Normal"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="BorderThickness" Value="0.8" />
+        <Setter Property="BorderBrush" Value="#B7B7BC" />
+        <Setter Property="Background" Value="#C0FFC0"/>
+        <Setter Property="SnapsToDevicePixels" Value="True" />
+        <Setter Property="MinWidth" Value="0" />
+        <Setter Property="MinHeight" Value="20" />
+        <!--<Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type DataGridColumnHeader}">
+                    <Grid>
+                        <Border x:Name="columnHeaderBorder"
+                  BorderThickness="1"
+                  Padding="3,0,3,0">
+                            <Border.BorderBrush>
+                                <LinearGradientBrush EndPoint="0.5,1"
+                                   StartPoint="0.5,0">
+                                    <GradientStop Color="{DynamicResource BorderLightColor}"
+                              Offset="0" />
+                                    <GradientStop Color="{DynamicResource BorderDarkColor}"
+                              Offset="1" />
+                                </LinearGradientBrush>
+                            </Border.BorderBrush>
+                            <Border.Background>
+                                <LinearGradientBrush EndPoint="0.5,1"
+                                   StartPoint="0.5,0">
+                                    <GradientStop Color="{DynamicResource ControlLightColor}"
+                              Offset="0" />
+                                    <GradientStop Color="{DynamicResource ControlMediumColor}"
+                              Offset="1" />
+                                </LinearGradientBrush>
+                            </Border.Background>
+                            <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                              SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"
+                              VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+                        </Border>
+
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>-->
+
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type DataGridColumnHeader}">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="5" />
+                        </Grid.ColumnDefinitions>
+                        <Border Grid.Column="0" Grid.ColumnSpan="3" BorderThickness="1" Margin="0,0,-1,0" BorderBrush="#B7B7BC" x:Name="BackgroundBorder" Background="{TemplateBinding Background}">
+                            <Border BorderThickness="0,0,1,1" BorderBrush="White" >
+                                <ContentPresenter VerticalAlignment="Center" />
+                            </Border>
+                        </Border>
+                        <Path x:Name="SortArrow" Visibility="Collapsed" Data="M0,0 L1,0 0.5,1 z" Stretch="Fill" Grid.Column="1" Width="8"
+                               Height="6" Fill="#000000" Margin="0,0,1,0" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.4" />
+
+                        <Thumb x:Name="PART_LeftHeaderGripper"  Grid.Column="0" Grid.ColumnSpan="3"
+                 HorizontalAlignment="Left"
+                 Style="{StaticResource ColumnHeaderGripperStyle}" />
+                        <Thumb x:Name="PART_RightHeaderGripper"  Grid.Column="0" Grid.ColumnSpan="3"
+                 HorizontalAlignment="Right"
+                 Style="{StaticResource ColumnHeaderGripperStyle}" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="SortDirection" Value="Ascending">
+                            <Setter TargetName="SortArrow" Property="Visibility" Value="Visible" />
+                            <Setter TargetName="SortArrow" Property="RenderTransform">
+                                <Setter.Value>
+                                    <RotateTransform Angle="180" />
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                        <Trigger Property="SortDirection" Value="Descending">
+                            <Setter TargetName="SortArrow" Property="Visibility" Value="Visible" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="styleDataGridCell" TargetType="{x:Type DataGridCell}">
+        <Setter Property="Margin" Value="1,0,-1,0"/>
+        <Setter Property="BorderThickness" Value="0,0,1,0"/>
+        <Style.Triggers>
+            <Trigger Property="IsSelected" Value="True">
+                <Setter Property="Foreground" Value="Black"/>
+                <Setter Property="Background" Value="#C6DBFF"/>
+                <Setter Property="BorderBrush" Value="#C6DBFF"/>
+                <Setter Property="Margin" Value="1,0,-1,0"/>
+            </Trigger>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Foreground" Value="Black"/>
+                <Setter Property="Background" Value="#C6DBFF"/>
+                <Setter Property="BorderBrush" Value="#C6DBFF"/>
+                <Setter Property="Margin" Value="1,0,-1,0"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <Style x:Key="resBaseDataGrid" TargetType="DataGrid">
+        <Setter Property="ColumnHeaderStyle" Value="{StaticResource resBaseDataGridColumnHeader}"></Setter>
+        <Setter Property="CellStyle" Value="{StaticResource styleDataGridCell}"/>
+        <Setter Property="BorderBrush" Value="#CCCCCC"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="AutoGenerateColumns" Value="False"/>
+        <Setter Property="ScrollViewer.CanContentScroll" Value="True"/>
+        <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Auto"/>
+        <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Auto"/>
+        <Setter Property="CanUserResizeColumns" Value="True"/>
+        <Setter Property="CanUserAddRows" Value="False"/>
+        <Setter Property="CanUserDeleteRows" Value="False"/>
+        <Setter Property="CanUserSortColumns" Value="True"/>
+        <Setter Property="CanUserResizeRows" Value="True"/>
+        <Setter Property="CanUserReorderColumns" Value="False"/>
+        <Setter Property="VerticalGridLinesBrush" Value="#B2B0A2"/>
+        <Setter Property="HorizontalGridLinesBrush" Value="#B2B0A2"/>
+        <Setter Property="RowHeaderWidth" Value="0"/>
+        <Setter Property="RowHeight" Value="22"/>
+        <Setter Property="Background" Value="#FFFFFF"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="BorderBrush" Value="#494649"/>
+        <Setter Property="HorizontalScrollBarVisibility" Value="Visible"/>
+        <Setter Property="VerticalScrollBarVisibility" Value="Auto"/>
+
+    </Style>
+    <Style x:Key="resLabelRight" BasedOn="{StaticResource resBaseLabel}" TargetType="Label">
+        <Setter Property="HorizontalContentAlignment" Value="Right"></Setter>
+    </Style>
+    <Style x:Key="resLabelLeft" BasedOn="{StaticResource resBaseLabel}" TargetType="Label">
+        <Setter Property="HorizontalContentAlignment" Value="Left"></Setter>
+    </Style>
+    <Style x:Key="resTextBoxReadOnly" BasedOn="{StaticResource resBaseTextBox}" TargetType="TextBox">
+        <Setter Property="IsReadOnly" Value="True"></Setter>
+    </Style>
+    <Style x:Key="resBaseCheckBox" TargetType="CheckBox" BasedOn="{StaticResource resBaseControl}">
+        <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+
+    </Style>
+    <Style x:Key="resBaseTextBlock" TargetType="TextBlock">
+        <Setter Property="Padding" Value="5,2,5,2"></Setter>
+        <Setter Property="FontSize" Value="14"></Setter>
+        <Setter Property="FontWeight" Value="Regular"></Setter>
+    </Style>
+    <Style x:Key="resTextBlockLeft" TargetType="TextBlock" BasedOn="{StaticResource resBaseTextBlock}">
+        <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+        <Setter Property="VerticalAlignment" Value="Center"></Setter>
+    </Style>
+
+    <Style x:Key="resTextBlockCenter" TargetType="TextBlock"  BasedOn="{StaticResource resBaseTextBlock}">
+
+        <!--<Setter Property="HorizontalAlignment" Value="Center"></Setter>
+        <Setter Property="VerticalAlignment" Value="Center"></Setter>-->
+        <Setter Property="TextAlignment" Value="Center" />
+    </Style>
+
+</ResourceDictionary>

@@ -1,0 +1,1416 @@
+<language>
+  <message>
+    <A0001>下記の項目が重複しています。\n{0},,16</A0001>
+    <A0002>下記の項目が重複しています。\n{0}　{1},,16</A0002>
+    <A0003>下記の項目が重複しています。\n{0}　{1}　{2},,16</A0003>
+    <A0005>下記の項目は必須入力です。\n{0},,16</A0005>
+    <A0011>下記の項目にチェックが入っていません。,,16</A0011>
+    <A0012>指紋認証端末にユーザー情報が登録されていません。\n指紋認証端末でユーザー情報を登録してください。\nまたは、「指紋端末復旧」を行ってください。,0,16</A0012>
+    <!--<A0013>ユーザー情報が登録されていません。,0,16</A0013>-->
+    <A0014>数値を入力してください。,0,16</A0014>
+    <A0015>出力項目を設定してください。,0,16</A0015>
+    <A0016>社員マスタが登録されていません。\n先に社員マスタを登録してください。,0,16</A0016>
+    <A0017>社員番号({0})は既に使用されています。\n別の社員番号を設定してください。,0,16</A0017>
+    <!--<A0017>退職、または、削除した社員の社員番号は再利用出来ません。,0,16</A0017>-->
+    <A0018>同時に出力出来る社員は255名までです。,0,16</A0018>
+    <A0019>{0}は、翌営業開始時間までです。,,16</A0019>
+    <A0020>社員番号が設定されていません。\n社員マスタ登録で社員番号を設定してください。,0,16</A0020>
+    <A0021>未入力の項目があります。,0,16</A0021>
+    <A0022>日付が不正です。,0,16</A0022>
+    <A0023>社員番号、パスワードが一致しません。,0,16</A0023>
+    <A0024>社員マスタに登録されていないIDが指紋認証端末に存在します。\n社員マスタ登録で登録してください。,0,16</A0024>
+    <A0025>期間指定に誤りがあります。,,16</A0025>
+    <A0026>{0}が{1}より過去の時刻になっています。,,16</A0026>
+    <A0027>下記の項目の時刻が不正です。,,16</A0027>
+    <A0028>{0}は、{1}までです。,,16</A0028>
+    <A0029>ユーザー登録用端末、または、兼用端末は1台のみ設定してください。,0,16</A0029>
+    <A0030>1から31の範囲内で入力してください。,0,16</A0030>
+    <!--<A0031>勤怠データが存在しません。,0,16</A0031>-->
+    <A0032>存在しない年月です。,0,16</A0032>
+    <!--<A0033>最後の適用終了月は 9999/99 として下さい。,0,16</A0033>-->
+    <!--<A0034>毎月の締め日を入力して下さい。,0,16</A0034>-->
+    <A0035>適用期間が開始＞終了となっています。,0,16</A0035>
+    <!--<A0036>適用期間が連続していません。,0,16</A0036>-->
+    <!--<A0037>勤務時間単位を入力して下さい。,0,16</A0037>-->
+    <A0038>ユーザーＩＤ({0})が追加されています。\n指紋認証端末にて先に登録して下さい。,,16</A0038>
+    <A0039>勤務時間単位は、01～60(分)で指定して下さい。,0,16</A0039>
+    <A0040>時刻が、開始≧終了となっています。,0,16</A0040>
+    <A0041>半角文字を入力して下さい。,0,16</A0041>
+    <!--<A0042>半角英文字を入力して下さい。,0,16</A0042>-->
+    <A0043>{0}～{1}が、{2}～{3}の時間と重複しています。,0,16</A0043>
+    <A0044>{0}は1以上を入力してください。,0,16</A0044>
+    <A0045>半角英文字・半角数字・ハイフンを入力して下さい。,0,16</A0045>
+    <A0046>社員マスタ画面でデフォルト・タイムテーブルを設定してください。,0,16</A0046>
+    <A0047>コアタイム開始～終了は、始業時刻～終了時刻の範囲内で入力してください。,0,16</A0047>
+    <A0048>氏名が設定されていません。\n社員マスタ登録で氏名を設定してください。,0,16</A0048>
+    <A0049>勤怠登録用の指紋認証端末が設定されていません。\n指紋端末マスタ登録で設定してください。,0,16</A0049>
+    <A0050>ユーザー登録用の指紋認証端末が設定されていません。\n指紋端末マスタ登録で設定してください。,0,16</A0050>
+    <!--<A0051>部署マスタが登録されていません。\n先に部署マスタを登録してください。,0,16</A0051>-->
+    <A0052>会社マスタが登録されていません。\n先に会社マスタを登録してください。,0,16</A0052>
+    <A0053>タイムテーブルマスタが登録されていません。\n先にタイムテーブルマスタを登録してください。,0,16</A0053>
+    <A0054>月次マスタが登録されていません。\n先に月次マスタを登録してください。\n登録済みの場合、前月分が登録されていません。,0,16</A0054>
+    <A0055>{0}が不正です。,0,16</A0055>
+    <A0056>デバイスがTCP/IPのときは、{0}を入力して下さい。,0,16</A0056>
+    <A0057>{0}が、{1}の時間と重複しています。,0,16</A0057>
+    <A0058>アラーム時刻は00:00～23:59で指定して下さい。\n{0},0,16</A0058>
+    <!--<A0059>下記のIPアドレスとポートが重複しています。\n{0}　{1},0,16</A0059>-->
+    <A0060>指紋端末マスタが登録されていません。\n先に指紋端末マスタを登録してください。,0,16</A0060>
+    <A0061>指紋端末は最低1件登録して下さい。,0,16</A0061>
+    <A0062>出退勤時間が未入力の項目があります。,0,16</A0062>
+    <A0063>締め日の指定が行われていません。\n月次マスタで締め日の設定を行ってください。,0,16</A0063>
+    <A0064>ファイル出力マスタが登録されていません。\n先にファイル出力マスタを登録してください。,0,16</A0064>
+    <A0065>認証したユーザーはログイン出来ません。,0,16</A0065>
+    <A0066>ファイル出力マスタが登録されていません。\n先にファイル出力マスタを登録してください。,0,16</A0066>
+    <!--<A0067>社員の適用開始日の期間では使用出来ません。,0,16</A0067>-->
+    <A0068>社員マスタに社員番号が設定されていないデータがあります。\n先に社員マスタ登録で社員番号を設定してください。,0,16</A0068>
+    <!--<A0069>出退勤時間をまたいだ時間の設定は出来ません。,0,16</A0069>-->
+    <A0070>IPアドレスの形式が不正です。,0,16</A0070>
+    <A0071>機械番号:{0} 利用種別:{1} デバイス:{2}</A0071>
+    <A0072> IPアドレス:{0} ポート:{1}</A0072>
+    <!--<A0072>適用期間外のタイムテーブルNo.です。,0,16</A0072>-->
+    <A0073>{0} : {1}が翌日の{2}より未来の時刻になっています。,,16</A0073>
+    <A0074>{0} : {1}は、{2}までです。,,16</A0074>
+    <A0075>{0} : {1}が前日の{2}より過去の時刻になっています。,,16</A0075>
+    <A0076>{0} : {1}が不正です。,0,16</A0076>
+    <A0077>{0} : 適用期間外のタイムテーブルです。,0,16</A0077>
+    <A0078>{0} : 勤務種別が不正です。,0,16</A0078>
+    <A0079>{0} : {1}が{2}より過去の時刻になっています。,,16</A0079>
+    <A0080>月次マスタが登録されていません。,0,16</A0080>
+    <A0081>{0}が{1}より未来の時刻になっています。,,16</A0081>
+    <A0082>端末から取得したユーザーデータファイルが見つかりません。,,16</A0082>
+    <A0083>端末から取得した勤怠データファイルが見つかりません。,,16</A0083>
+    <A0084>社員番号、または、会社の変更のある場合は、修正出来ません。,,16</A0084>
+    <A0085>\、/、:、*、?、"、&lt;、&gt;、|、スペースは入力出来ません。,,16</A0085>
+    <A0086>選択されたデータベースは使用出来ません。,,16</A0086>
+    <A0087>{0} : 選択されている勤務種別では、{1}を入力出来ません。,0,16</A0087>
+    <A0088>{0} : {1}が1日分を超えています。,0,16</A0088>
+    <A0089>{0}の1年の合計が{1}日分を超えています。,0,16</A0089>
+    <A0090>{0}が入力されている場合、{1}は必須入力です。,0,16</A0090>
+    <A0091>勤怠登録用の指紋認証端末が設定されていません。,0,16</A0091>
+    <A0092>ユーザー登録用の指紋認証端末が設定されていません。,0,16</A0092>
+    <A0093>指紋認証端末のユーザー情報が壊れています。\n「指紋端末復旧」を行ってください。,0,16</A0093>
+    <I0001>データを更新します。\nよろしいですか？,1,64</I0001>
+    <I0002>更新されたデータを破棄します。\nよろしいですか？,1,64</I0002>
+    <I0003>入力された値でデータを追加します。\nよろしいですか？,1,64</I0003>
+    <I0004>入力された値でデータを修正します。\nよろしいですか？,1,64</I0004>
+    <I0005>データを削除します。\nよろしいですか？,1,64</I0005>
+    <I0006>データを更新します。\nよろしいですか？\n\n[はい] 更新して前月分を表示します。\n[いいえ] 更新せずに前月分を表示します。\n[キャンセル] 前月分の表示をキャンセルします。,3,32</I0006>
+    <I0007>データを更新します。\nよろしいですか？\n\n[はい] 更新して翌月分を表示します。\n[いいえ] 更新せずに翌月分を表示します。\n[キャンセル] 翌月分の表示をキャンセルします。,3,32</I0007>
+    <I0011>データベースの社員情報を元に、指紋認証端末のユーザー情報を全て上書きします。\nよろしいですか？,1,64</I0011>
+    <I0012>{0}～{1}までの\n{2}曜日を休日にします。\n\nよろしいですか？,1,64</I0012>
+    <!--<I0013>{0}～{1}までの\n{2}日を締め日にします。\n\nよろしいですか？,1,64</I0013>-->
+    <I0014>指紋認証端末との通信に失敗したため、最新の勤怠データを取得せずに「勤怠一覧」を表示します。\nよろしいですか？,1,64</I0014>
+    <!--<I0015>指紋認証端末との通信に失敗したため、最新の勤怠データを取得せずに帳票出力を実行します。\nよろしいですか？,1,64</I0015>-->
+    <I0016>ファイル出力が完了しました。,0,64</I0016>
+    <I0017>勤怠データの取込を完了しました。,0,64</I0017>
+    <I0021>データベースをバックアップしました。,0,64</I0021>
+    <I0022>指紋認証端末のユーザー情報を更新しました。,0,64</I0022>
+    <!--<I0023>ファイルを上書きします。\nよろしいですか？,1,64</I0023>-->
+    <I0024>指紋認証端末のアラーム情報を更新しました。,0,64</I0024>
+    <I0025>指紋認証端末(機械番号：{0})から、ユーザーデータを取得中です。,0,64</I0025>
+    <I0026>指紋認証端末(機械番号：{0})へ、ユーザーデータを書き込み中です。,0,64</I0026>
+    <I0027>指紋認証端末(機械番号：{0})から、勤怠データを取得中です。,0,64</I0027>
+    <I0028>指紋認証端末(機械番号：{0})に接続中です。,0,64</I0028>
+    <I0029>指紋認証端末(機械番号：{0})に端末設定を書き込み中です。,0,64</I0029>
+    <I0030>適用開始日がシステム日付より新しい日付になっています。\nシステム日付に修正します。よろしいですか？,1,64</I0030>
+    <I0031>データベースをリストアしました。,0,64</I0031>
+    <I0032>データベースの更新に失敗しました。\n再度編集してください。,0,64</I0032>
+    <I0033>データベースサーバーを変更しました。\n再度アプリケーションを起動してください。,0,64</I0033>
+    <I1001>行の削除：日付の列でDeleteを押下してください。\n行のコピー：Ctrl + Cを押下してください。\n行の貼り付け：Ctrl + Vを押下してください。 </I1001>
+    <I1002>目的の作業に該当するボタンをクリックしてください。\n勤務時間の確認、修正等は「社員一覧」ボタンをクリックしてください。</I1002>
+    <I1003>「社員番号」と「パスワード」を入力してください。\nまたは、ユーザー登録用端末で指紋認証を行ってください。</I1003>
+    <I1004>該当データをダブルクリックすると、入力画面が表示されます。\n※登録番号は、指紋認証端末で登録したユーザーＩＤです。\n※パスワードが設定されている社員のみ、当システムにログインが可能です。</I1004>
+    <I1006>休日を設定してください。\n定休日は下部の入力項目からまとめて追加できます。\n※削除された会社の休日データは修正出来ません。</I1006>
+    <I1008>会社情報を入力してください。</I1008>
+    <I1009>部署情報を入力してください。</I1009>
+    <I1010>タイムテーブルを入力してください。\n時間単位は1日の勤務時間の合計から切り捨てる時間(分単位)を選択してください。\n残業単位は1日の残業時間の合計から切り捨てる時間(分単位)を選択してください。</I1010>
+    <!--<I1011>年月を選択してください。</I1011>-->
+    <I1012>お使いの給与計算ソフトの仕様にあわせて設定してください。\n「出力項目」の右側のリストにある項目を出力します。\n※詳しくは給与計算ソフトのマニュアルを参照してください。</I1012>
+    <I1013>勤怠一覧を表示したい社員を選択してください。\n印刷、または、ファイル出力する場合は、出力したい社員にチェックを付けてください。\n※一覧上でダブルクリックによる選択も可能です。</I1013>
+    <I1014>締め日と勤務時間単位を設定してください。\n勤務時間単位は1ヶ月の勤務時間の合計から切り捨てる時間(分単位)を選択してください。</I1014>
+    <I1015>指紋端末情報を入力してください。</I1015>
+    <I1016>「社員番号」と「パスワード」を入力してください。</I1016>
+    <I1017>社員情報を入力してください。\n※社員番号は変更出来ません。\n※パスワードが設定されている社員のみ、当システムにログインが可能です。</I1017>
+    <I1018>社員情報を入力してください。\n※パスワードが設定されている社員のみ、当システムにログインが可能です。</I1018>
+    <I1019>データベースのサーバー名を入力してください。</I1019>
+    <!--<L0001>指紋認証端末に未接続です。</L0001>-->
+    <!--<L0002>指紋認証端末がロック状態です。</L0002>-->
+    <!--<L0003>指紋認証端末にデータがありません。</L0003>-->
+    <!--<L0004>ユーザ名を登録できませんでした。</L0004>-->
+    <!--<L0005>指紋認証端末のユーザ情報を取得できませんでした。</L0005>-->
+    <!--<L0006>指紋認証端末の指紋データ及びパスワードを取得できませんでした。</L0006>-->
+    <!--<L0007>ユーザーが作成されませんでした。</L0007>-->
+    <!--<S0001>ActionIDが不正です。,0,16</S0001>-->
+    <!--<S0002>指紋認証端末の接続情報が不正です。,0,16</S0002>-->
+    <S0011>指紋認証端末のデータの更新に失敗しました。,0,16</S0011>
+    <S0012>指紋認証端末の勤怠データの取得に失敗しました。,0,16</S0012>
+    <S0013>指紋認証端末との通信に失敗しました。,0,16</S0013>
+    <S0014>指紋認証端末との通信に失敗しました。\n指紋認証端末が接続されているか、また、電源がONになっているか確認してください。,0,16</S0014>
+    <S0015>指紋認証端末の勤怠データの取得に失敗しました。\n「社員番号」と「パスワード」を入力し、\n「ログイン」をクリックしてください。,0,16</S0015>
+    <S0101>帳票出力中にエラーが発生しました。\nMicrosoft Excelがインストールされていません。,0,16</S0101>
+  </message>
+  <form>
+    <Login>
+      <Text>ようこそ！</Text>
+      <Title>
+        <Text>ログイン</Text>
+        <Font>MS UI Gothic</Font>
+      </Title>
+      <MessageArea>
+        <Text>メッセージ</Text>
+        <Font>MS UI Gothic</Font>
+        <MessageText>
+          <Font>MS UI Gothic</Font>
+        </MessageText>
+      </MessageArea>
+      <grpInput>
+        <Text>入力項目</Text>
+        <Font>MS UI Gothic</Font>
+        <lblCompany>
+          <Text>会社：</Text>
+          <Font>MS UI Gothic</Font>
+        </lblCompany>
+        <cmbCompany>
+          <Font>MS UI Gothic</Font>
+        </cmbCompany>
+        <lblEmployeeNo>
+          <Text>社員番号：</Text>
+          <Font>MS UI Gothic</Font>
+        </lblEmployeeNo>
+        <txtEmployeeNo>
+          <Font>MS UI Gothic</Font>
+        </txtEmployeeNo>
+        <lblPassword>
+          <Text>パスワード：</Text>
+          <Font>MS UI Gothic</Font>
+        </lblPassword>
+        <txtPassword>
+          <Font>MS UI Gothic</Font>
+        </txtPassword>
+      </grpInput>
+      <btnDBServerMante>
+        <Text>DBサーバー</Text>
+        <Font>MS UI Gothic</Font>
+      </btnDBServerMante>
+      <btnLogin>
+        <Text>ログイン</Text>
+        <Font>MS UI Gothic</Font>
+      </btnLogin>
+      <btnEnd>
+        <Text>終了</Text>
+        <Font>MS UI Gothic</Font>
+      </btnEnd>
+    </Login>
+
+    <DBServerMante>
+      <Text>YUBI-TARO</Text>
+      <Title>
+        <Text>DBサーバー変更</Text>
+        <Font>MS UI Gothic</Font>
+      </Title>
+      <MessageArea>
+        <Text>メッセージ</Text>
+        <Font>MS UI Gothic</Font>
+        <MessageText>
+          <Font>MS UI Gothic</Font>
+        </MessageText>
+      </MessageArea>
+      <grpInput>
+        <Text>入力項目</Text>
+        <Font>MS UI Gothic</Font>
+        <lblDBServerName>
+          <Text>サーバー名：</Text>
+          <Font>MS UI Gothic</Font>
+        </lblDBServerName>
+        <txtDBServerName>
+          <Font>MS UI Gothic</Font>
+        </txtDBServerName>
+        <lblAuthentication>
+          <Text>認証：</Text>
+          <Font>MS UI Gothic</Font>
+        </lblAuthentication>
+        <rdoWindowsAuthentication>
+          <Text>Windows 認証</Text>
+          <Font>MS UI Gothic</Font>
+        </rdoWindowsAuthentication>
+        <rdoSQLServerAuthentication>
+          <Text>SQL Server 認証</Text>
+          <Font>MS UI Gothic</Font>
+        </rdoSQLServerAuthentication>
+      </grpInput>
+      <btnUpdate>
+        <Text>更新</Text>
+        <Font>MS UI Gothic</Font>
+      </btnUpdate>
+      <btnCancel>
+        <Text>戻る</Text>
+        <Font>MS UI Gothic</Font>
+      </btnCancel>
+      <btnEnd>
+        <Text>終了</Text>
+        <Font>MS UI Gothic</Font>
+      </btnEnd>
+    </DBServerMante>
+
+    <Menu>
+      <Text>YUBI-TARO</Text>
+      <Title>
+        <Text>メニュー</Text>
+        <Font>MS UI Gothic</Font>
+      </Title>
+      <MessageArea>
+        <Text>メッセージ</Text>
+        <Font>MS UI Gothic</Font>
+        <MessageText>
+          <Font>MS UI Gothic</Font>
+        </MessageText>
+      </MessageArea>
+      <GroupBox1>
+        <Text>勤怠データ</Text>
+        <Font>MS UI Gothic</Font>
+        <btnEmployeeList>
+          <Text>社員一覧</Text>
+          <Font>MS UI Gothic</Font>
+        </btnEmployeeList>
+      </GroupBox1>
+      <GroupBox3>
+        <Text>保守</Text>
+        <Font>MS UI Gothic</Font>
+        <btnBackup>
+          <Text>バックアップ</Text>
+          <Font>MS UI Gothic</Font>
+        </btnBackup>
+        <btnRestoring>
+          <Text>リストア</Text>
+          <Font>MS UI Gothic</Font>
+        </btnRestoring>
+        <btnRecovery>
+          <Text>指紋端末復旧</Text>
+          <Font>MS UI Gothic</Font>
+        </btnRecovery>
+      </GroupBox3>
+      <GroupBox4>
+        <Text>USBメモリー</Text>
+        <Font>MS UI Gothic</Font>
+        <btnInOutLogImport>
+          <Text>勤怠ログ取込</Text>
+          <Font>MS UI Gothic</Font>
+        </btnInOutLogImport>
+      </GroupBox4>
+      <GroupBox2>
+        <Text>マスタメンテナンス</Text>
+        <Font>MS UI Gothic</Font>
+        <btnEmployeeMante>
+          <Text>社員</Text>
+          <Font>MS UI Gothic</Font>
+        </btnEmployeeMante>
+        <btnCompanyMante>
+          <Text>会社</Text>
+          <Font>MS UI Gothic</Font>
+        </btnCompanyMante>
+        <btnPostMante>
+          <Text>部署</Text>
+          <Font>MS UI Gothic</Font>
+        </btnPostMante>
+        <btnTimeTableMante>
+          <Text>タイムテーブル</Text>
+          <Font>MS UI Gothic</Font>
+        </btnTimeTableMante>
+        <btnHolidayMante>
+          <Text>休日</Text>
+          <Font>MS UI Gothic</Font>
+        </btnHolidayMante>
+        <btnMonthlyMante>
+          <Text>月次</Text>
+          <Font>MS UI Gothic</Font>
+        </btnMonthlyMante>
+        <btnFileOutput>
+          <Text>ファイル出力</Text>
+          <Font>MS UI Gothic</Font>
+        </btnFileOutput>
+        <btnTerminalSettingMainte>
+          <Text>指紋端末</Text>
+          <Font>MS UI Gothic</Font>
+        </btnTerminalSettingMainte>
+      </GroupBox2>
+      <btnLogout>
+        <Text>ログアウト</Text>
+        <Font>MS UI Gothic</Font>
+      </btnLogout>
+      <btnEnd>
+        <Text>終了</Text>
+        <Font>MS UI Gothic</Font>
+      </btnEnd>
+    </Menu>
+
+    <EmployeeList>
+      <Text>YUBI-TARO</Text>
+      <Title>
+        <Text>社員一覧</Text>
+        <Font>MS UI Gothic</Font>
+      </Title>
+      <MessageArea>
+        <Text>メッセージ</Text>
+        <Font>MS UI Gothic</Font>
+        <MessageText>
+          <Font>MS UI Gothic</Font>
+        </MessageText>
+      </MessageArea>
+      <GroupBox1>
+        <chkExport>
+          <Text>全選択</Text>
+          <Font>MS UI Gothic</Font>
+        </chkExport>
+      </GroupBox1>
+      <Label3>
+        <Text>会社：</Text>
+        <Font>MS UI Gothic</Font>
+      </Label3>
+      <cmb_Company>
+        <Font>MS UI Gothic</Font>
+      </cmb_Company>
+      <Label1>
+        <Text>部署：</Text>
+        <Font>MS UI Gothic</Font>
+        <!--<Left></Left>-->
+      </Label1>
+      <cmb_Post>
+        <Font>MS UI Gothic</Font>
+      </cmb_Post>
+      <Label8>
+        <Text>社員番号／氏名：</Text>
+        <Font>MS UI Gothic</Font>
+        <!--<Left></Left>-->
+      </Label8>
+      <txt_EmployeeNo>
+        <Font>MS UI Gothic</Font>
+      </txt_EmployeeNo>
+      <btn_Search>
+        <Text>検索</Text>
+        <Font>MS UI Gothic</Font>
+      </btn_Search>
+      <Label2>
+        <Text>年月：</Text>
+        <Font>MS UI Gothic</Font>
+        <!--<Left></Left>-->
+      </Label2>
+      <cmb_Year>
+        <Font>MS UI Gothic</Font>
+        <!--<Left></Left>-->
+      </cmb_Year>
+      <Label4>
+        <Text>/</Text>
+        <Font>MS UI Gothic</Font>
+        <!--<Left></Left>-->
+      </Label4>
+      <cmb_Month>
+        <Font>MS UI Gothic</Font>
+        <Text>01=1,02,03,04,05,06,07,08,09,10,11,12</Text>
+        <!--<Left></Left>
+        <Width></Width>-->
+      </cmb_Month>
+      <Label7>
+        <Text>/</Text>
+        <Font>MS UI Gothic</Font>
+        <!--<Left></Left>-->
+      </Label7>
+      <cmb_Day>
+        <Font>MS UI Gothic</Font>
+        <!--<Left></Left>-->
+      </cmb_Day>
+      <DataGridView>
+        <HeaderText>出力,EXPIRATION_FROM,EXPIRATION_TO,会社名,部署名,社員番号,氏名,契約時間,労働時間,残業時間,備考,ID,COMPANY_NO,TIME_TABLE_NO,EMSIZE_LAST_NAME,EMSIZE_FIRST_NAME</HeaderText>
+        <HeaderFont>MS UI Gothic</HeaderFont>
+        <Font>MS UI Gothic</Font>
+      </DataGridView>
+      <GroupBox3>
+        <btnFileOutput>
+          <Text>ファイル出力</Text>
+          <Font>MS UI Gothic</Font>
+        </btnFileOutput>
+        <cmb_Output_Name>
+          <Font>MS UI Gothic</Font>
+        </cmb_Output_Name>
+      </GroupBox3>
+      <btnXlsExport>
+        <Text>帳票出力</Text>
+        <Font>MS UI Gothic</Font>
+      </btnXlsExport>
+      <btnAttendanceListXlsExport>
+        <!--customize(huecompany) *** start-->
+        <!--<Text>出勤状況</Text>-->
+        <Text>日次帳票</Text>
+        <!--customize(huecompany) *** end-->
+        <Font>MS UI Gothic</Font>
+      </btnAttendanceListXlsExport>
+      <Label5>
+        <Text>契約時間</Text>
+        <Font>MS UI Gothic</Font>
+      </Label5>
+      <lblContractTime>
+        <Font>MS UI Gothic</Font>
+      </lblContractTime>
+      <Label6>
+        <Text>労働時間</Text>
+        <Font>MS UI Gothic</Font>
+      </Label6>
+      <lblWorkingTime>
+        <Font>MS UI Gothic</Font>
+      </lblWorkingTime>
+      <Label9>
+        <Text>残業時間</Text>
+        <Font>MS UI Gothic</Font>
+      </Label9>
+      <lblOverTime>
+        <Font>MS UI Gothic</Font>
+      </lblOverTime>
+      <btnPrevious>
+        <Text>戻る</Text>
+        <Font>MS UI Gothic</Font>
+      </btnPrevious>
+      <btnCustomizeList1XlsExport>
+        <!--customize(huecompany) *** start-->
+        <Text>月次帳票</Text>
+        <!--customize(huecompany) *** end-->
+        <Font>MS UI Gothic</Font>
+        <!--<Left>842</Left>-->
+      </btnCustomizeList1XlsExport>
+      <btnCustomizeList2XlsExport>
+        <Text>カスタム2</Text>
+        <Font>MS UI Gothic</Font>
+        <!--<Left>676</Left>-->
+      </btnCustomizeList2XlsExport>
+      <btnCustomizeList3XlsExport>
+        <Text>カスタム3</Text>
+        <Font>MS UI Gothic</Font>
+        <!--<Left>510</Left>-->
+      </btnCustomizeList3XlsExport>
+  </EmployeeList>
+
+    <WorkList>
+      <Text>YUBI-TARO</Text>
+      <!--<ContextMenuStrip>999970：特別教育訓練,999971：電車遅延,999976：特別休暇,999978：午前半休,999978：午後半休,999979：有休</ContextMenuStrip>-->
+      <Title>
+        <Text>勤怠一覧</Text>
+        <Font>MS UI Gothic</Font>
+      </Title>
+      <Label1>
+        <Text>氏名：</Text>
+        <Font>MS UI Gothic</Font>
+      </Label1>
+      <lblEmployeeName>
+        <Font>MS UI Gothic</Font>
+      </lblEmployeeName>
+      <Label3>
+        <Text>期間：</Text>
+        <Font>MS UI Gothic</Font>
+      </Label3>
+      <btnPreviousMonth>
+        <Text>＜</Text>
+        <Font>MS UI Gothic</Font>
+      </btnPreviousMonth>
+      <lblPeriodFromTo>
+        <Font>MS UI Gothic</Font>
+        <Tag>YMD</Tag>
+      </lblPeriodFromTo>
+      <btnNextMonth>
+        <Text>＞</Text>
+        <Font>MS UI Gothic</Font>
+        <!--<Left></Left>-->
+      </btnNextMonth>
+      <MessageArea>
+        <Text>メッセージ</Text>
+        <Font>MS UI Gothic</Font>
+        <MessageText>
+          <Font>MS UI Gothic</Font>
+        </MessageText>
+      </MessageArea>
+      <Label4>
+        <Text>年</Text>
+        <Font>MS UI Gothic</Font>
+      </Label4>
+      <Label2>
+        <Text>月</Text>
+        <Font>MS UI Gothic</Font>
+      </Label2>
+      <LblUpdate_start_time>
+        <Text>出勤修正</Text>
+      </LblUpdate_start_time>
+      <LblUpdate_end_time>
+        <Text>退勤修正</Text>
+      </LblUpdate_end_time>
+      <LblWork_type>
+        <Text>勤務種別</Text>
+      </LblWork_type>
+      <DataGridView>
+        <HeaderText>WORK_DATE,日付,出勤,退勤,勤務\n種別,出勤日\n種別,タイム\nテーブル,出勤修正,退勤修正,REST_TIME,休憩,CONTRACT_TIME,WORKING_TIME,労働,OVER_TIME,残業,LATE_NIGHT_TIME,深夜,HOLIDAY_TIME,休日,HOLIDAY_LATE_NIGHT_TIME,休日深夜,PAID_VACATION_TIME,時間有給,BEING_LATE_TIME,遅刻,LEAVING_EARLY_TIME,早退,メモ,WORK_DAYS,HOLIDAY_DAYS,PAID_VACATION_DAYS,COMPENSATORY_DAY_OFF,SPECIAL_HOLIDAYS,ABSENCE_DAYS,DILIGENCE_INDOLENCE_POINT,BEING_LATE_DAYS,LEAVING_EARLY_DAYS,CREATE_DATE_TIME,UPDATE_DATE_TIME</HeaderText>
+        <HeaderFont>MS UI Gothic</HeaderFont>
+        <!--<HeaderHeight></HeaderHeight>-->
+        <Font>MS UI Gothic</Font>
+        <!--<WORK_DATE_VIEWColumn>
+          <Font></Font>
+        </WORK_DATE_VIEWColumn>-->
+        <WORK_TYPE_NOColumn>
+          <!--customize(huecompany) *** start-->
+          <!--<Text>通常勤務=1,有給休暇,午前半休,午後半休,特別休暇,代休,欠勤,休日出勤,代出</Text>-->
+          <Text>通常勤務=1,有給休暇=2,無給休暇=7,1/2 無給休暇=30,産休=31,無断欠勤=28,特別休暇=5,休日出勤=8</Text>
+          <!--customize(huecompany) *** end-->
+        </WORK_TYPE_NOColumn>
+        <Tag>MD</Tag>
+      </DataGridView>
+      <Label5>
+        <Text>契約時間</Text>
+        <Font>MS UI Gothic</Font>
+      </Label5>
+      <lblContractTime>
+        <Font>MS UI Gothic</Font>
+      </lblContractTime>
+      <Label6>
+        <Text>労働時間</Text>
+        <Font>MS UI Gothic</Font>
+      </Label6>
+      <lblTrueWorkTime>
+        <Font>MS UI Gothic</Font>
+      </lblTrueWorkTime>
+      <Label9>
+        <Text>残業時間</Text>
+        <Font>MS UI Gothic</Font>
+      </Label9>
+      <lblOverTime>
+        <Font>MS UI Gothic</Font>
+      </lblOverTime>
+      <Label10>
+        <Text>深夜時間</Text>
+        <Font>MS UI Gothic</Font>
+      </Label10>
+      <lblLateNightTime>
+        <Font>MS UI Gothic</Font>
+      </lblLateNightTime>
+      <Label11>
+        <Text>休日時間</Text>
+        <Font>MS UI Gothic</Font>
+      </Label11>
+      <lblHolidayTime>
+        <Font>MS UI Gothic</Font>
+      </lblHolidayTime>
+      <Label18>
+        <Text>休日深夜</Text>
+        <Font>MS UI Gothic</Font>
+      </Label18>
+      <lblHolidayLateNightTime>
+        <Font>MS UI Gothic</Font>
+      </lblHolidayLateNightTime>
+      <Label8>
+        <Text>時間有給</Text>
+        <Font>MS UI Gothic</Font>
+      </Label8>
+      <lblPaidVacationTime>
+        <Font>MS UI Gothic</Font>
+      </lblPaidVacationTime>
+      <Label12>
+        <Text>有給</Text>
+        <Font>MS UI Gothic</Font>
+      </Label12>
+      <lblPaidVacationDays>
+        <Font>MS UI Gothic</Font>
+      </lblPaidVacationDays>
+      <Label13>
+        <Text>代休</Text>
+        <Font>MS UI Gothic</Font>
+      </Label13>
+      <lblCompensatoryDayOff>
+        <Font>MS UI Gothic</Font>
+      </lblCompensatoryDayOff>
+      <Label14>
+        <!--customize(huecompany) *** start-->
+        <!--<Text>欠勤</Text>-->
+        <Text>無給</Text>
+        <!--customize(huecompany) *** end-->
+        <Font>MS UI Gothic</Font>
+      </Label14>
+      <lblAbsenceDays>
+        <Font>MS UI Gothic</Font>
+      </lblAbsenceDays>
+      <Label2>
+        <Text>特休</Text>
+        <Font>MS UI Gothic</Font>
+      </Label2>
+      <lblSpecialHolidays>
+        <Font>MS UI Gothic</Font>
+      </lblSpecialHolidays>
+      <Label4>
+        <Text>遅刻</Text>
+        <Font>MS UI Gothic</Font>
+      </Label4>
+      <lblBeingLateTime>
+        <Font>MS UI Gothic</Font>
+      </lblBeingLateTime>
+      <Label7>
+        <Text>早退</Text>
+        <Font>MS UI Gothic</Font>
+      </Label7>
+      <lblLeavingEarlyTime>
+        <Font>MS UI Gothic</Font>
+      </lblLeavingEarlyTime>
+      <btnOutputList>
+        <Text>帳票出力</Text>
+        <Font>MS UI Gothic</Font>
+      </btnOutputList>
+      <btnPreviousMenu>
+        <Text>メニュー</Text>
+        <Font>MS UI Gothic</Font>
+      </btnPreviousMenu>
+      <btnUpdate>
+        <Text>更新</Text>
+        <Font>MS UI Gothic</Font>
+      </btnUpdate>
+      <btnPrevious>
+        <Text>戻る</Text>
+        <Font>MS UI Gothic</Font>
+      </btnPrevious>
+      <btnCustomizeList1XlsExport>
+        <Text>毎月</Text>
+        <Font>MS UI Gothic,14</Font>
+      </btnCustomizeList1XlsExport>
+    </WorkList>
+
+    <EmployeeMainte>
+      <Text>YUBI-TARO</Text>
+      <Title>
+        <Text>社員マスタ登録</Text>
+        <Font>MS UI Gothic</Font>
+      </Title>
+      <MessageArea>
+        <Text>メッセージ</Text>
+        <Font>MS UI Gothic</Font>
+        <MessageText>
+          <Font>MS UI Gothic</Font>
+        </MessageText>
+      </MessageArea>
+      <Label3>
+        <Text>会社：</Text>
+        <Font>MS UI Gothic</Font>
+      </Label3>
+      <cmb_Company>
+        <Font>MS UI Gothic</Font>
+      </cmb_Company>
+      <Label1>
+        <Text>部署：</Text>
+        <Font>MS UI Gothic</Font>
+        <!--<Left></Left>-->
+      </Label1>
+      <cmb_Post>
+        <Font>MS UI Gothic</Font>
+      </cmb_Post>
+      <Label2>
+        <Text>社員番号／氏名：</Text>
+        <Font>MS UI Gothic</Font>
+        <!--<Left></Left>-->
+      </Label2>
+      <txt_EmployeeNo>
+        <Font>MS UI Gothic</Font>
+      </txt_EmployeeNo>
+      <btn_Search>
+        <Text>検索</Text>
+        <Font>MS UI Gothic</Font>
+      </btn_Search>
+      <GroupBox1>
+        <chkDeleteRowVisible>
+          <Text>削除データ表示</Text>
+          <Font>MS UI Gothic</Font>
+        </chkDeleteRowVisible>
+      </GroupBox1>
+      <DataGridView>
+        <HeaderText>登録番号,社員番号,LOGIN_PASSWORD,ログイン\nパスワード,EXPIRATION_FROM,適用開始日,適用終了日,会社コード,会社名,部署コード,部署名,タイム\nテーブル,タイム\nテーブル,氏名\n(姓),氏名\n(名),姓(英字),名(英字),RETIREMENT_DATE,退職年月日,備考,STATUS,CREATE_DATE_TIME,UPDATE_DATE_TIME</HeaderText>
+        <HeaderFont>MS UI Gothic</HeaderFont>
+        <Font>MS UI Gothic</Font>
+        <EXPIRATION_FROM_VIEWColumn>
+          <DateView>YMD,0</DateView>
+        </EXPIRATION_FROM_VIEWColumn>
+        <RETIREMENT_DATE_VIEWColumn>
+          <DateView>YMD,NULL</DateView>
+        </RETIREMENT_DATE_VIEWColumn>
+      </DataGridView>
+      <btn_Upd>
+        <Text>更新</Text>
+        <Font>MS UI Gothic</Font>
+      </btn_Upd>
+      <btn_Ret>
+        <Text>戻る</Text>
+        <Font>MS UI Gothic</Font>
+      </btn_Ret>
+    </EmployeeMainte>
+
+    <EmployeeInput>
+      <Text>YUBI-TARO</Text>
+      <Title>
+        <Text>社員マスタ入力</Text>
+        <Font>MS UI Gothic</Font>
+      </Title>
+      <MessageArea>
+        <Text>メッセージ</Text>
+        <Font>MS UI Gothic</Font>
+        <MessageText>
+          <Font>MS UI Gothic</Font>
+        </MessageText>
+      </MessageArea>
+      <lbl_UserID>
+        <Text>登録番号</Text>
+        <Font>MS UI Gothic</Font>
+      </lbl_UserID>
+      <txt_UserID>
+        <Font>MS UI Gothic</Font>
+      </txt_UserID>
+      <lbl_EmployeeNO>
+        <Text>社員番号</Text>
+        <Font>MS UI Gothic</Font>
+      </lbl_EmployeeNO>
+      <txt_EmployeeNO>
+        <Font>MS UI Gothic</Font>
+      </txt_EmployeeNO>
+      <lbl_LoginPW>
+        <Text>ログインパスワード</Text>
+        <Font>MS UI Gothic</Font>
+        <!--<Left></Left>-->
+      </lbl_LoginPW>
+      <txt_LoginPW>
+        <Font>MS UI Gothic</Font>
+        <!--<Left></Left>-->
+      </txt_LoginPW>
+      <lbl_Use_Flag_Of_Holiday>
+        <Text>休日マスタ</Text>
+        <Font>MS UI Gothic</Font>
+        <!--<Left></Left>-->
+      </lbl_Use_Flag_Of_Holiday>
+      <cmb_Use_Flag_Of_Holiday>
+        <Text>使用しない,使用する</Text>
+        <Font>MS UI Gothic</Font>
+        <!--<Left></Left>-->
+        <!--<Width></Width>-->
+      </cmb_Use_Flag_Of_Holiday>
+      <lbl_Company>
+        <Text>会社</Text>
+        <Font>MS UI Gothic</Font>
+      </lbl_Company>
+      <cmb_Company>
+        <Font>MS UI Gothic</Font>
+      </cmb_Company>
+      <lbl_Post>
+        <Text>部署</Text>
+        <Font>MS UI Gothic</Font>
+      </lbl_Post>
+      <cmb_Post>
+        <Font>MS UI Gothic</Font>
+      </cmb_Post>
+      <lbl_TimeTable>
+        <Text>デフォルトタイムテーブル</Text>
+        <Font>MS UI Gothic</Font>
+      </lbl_TimeTable>
+      <cmb_TimeTable>
+        <Font>MS UI Gothic</Font>
+      </cmb_TimeTable>
+      <lbl_Name1>
+        <Text>社員氏名（姓）</Text>
+        <Font>MS UI Gothic</Font>
+      </lbl_Name1>
+      <txt_Name1>
+        <Font>MS UI Gothic</Font>
+      </txt_Name1>
+      <lbl_Name2>
+        <Text>社員氏名（名）</Text>
+        <Font>MS UI Gothic</Font>
+      </lbl_Name2>
+      <txt_Name2>
+        <Font>MS UI Gothic</Font>
+      </txt_Name2>
+      <lbl_Remarks>
+        <Text>備考</Text>
+        <Font>MS UI Gothic</Font>
+      </lbl_Remarks>
+      <txt_Remarks>
+        <Font>MS UI Gothic</Font>
+      </txt_Remarks>
+      <!--customize(huecompany) *** start-->
+      <lbl_RemarksA>
+        <!--<Text>備考A</Text>-->
+        <Text>チーム</Text>
+        <Font>MS UI Gothic</Font>
+      </lbl_RemarksA>
+      <txt_RemarksA>
+        <Font>MS UI Gothic</Font>
+      </txt_RemarksA>
+      <lbl_RemarksB>
+        <!--<Text>備考B</Text>-->
+        <Text>役職</Text>
+        <Font>MS UI Gothic</Font>
+      </lbl_RemarksB>
+      <txt_RemarksB>
+        <Font>MS UI Gothic</Font>
+      </txt_RemarksB>
+      <!--customize(huecompany) *** end-->
+      <lbl_Expiration_From>
+        <Text>適用開始日</Text>
+        <Font>MS UI Gothic</Font>
+      </lbl_Expiration_From>
+      <txt_Expiration_From>
+        <Font>MS UI Gothic</Font>
+        <DateView>YMD,0</DateView>
+      </txt_Expiration_From>
+      <txt_Expiration_To>
+        <DateView>YMD,99999999</DateView>
+      </txt_Expiration_To>
+      <lbl_Retirement_Date>
+        <Text>退職年月日</Text>
+        <Font>MS UI Gothic</Font>
+      </lbl_Retirement_Date>
+      <txt_Retirement_Date>
+        <Font>MS UI Gothic</Font>
+        <DateView>YMD,NULL</DateView>
+      </txt_Retirement_Date>
+      <btn_Add>
+        <Text>追加</Text>
+        <Font>MS UI Gothic</Font>
+      </btn_Add>
+      <btn_Upd>
+        <Text>修正</Text>
+        <Font>MS UI Gothic</Font>
+      </btn_Upd>
+      <btn_Del>
+        <Text>削除</Text>
+        <Font>MS UI Gothic</Font>
+      </btn_Del>
+      <btn_Ret>
+        <Text>戻る</Text>
+        <Font>MS UI Gothic</Font>
+      </btn_Ret>
+    </EmployeeInput>
+
+    <CompanyMainte>
+      <Text>YUBI-TARO</Text>
+      <Title>
+        <Text>会社マスタ登録</Text>
+        <Font>MS UI Gothic</Font>
+      </Title>
+      <MessageArea>
+        <Text>メッセージ</Text>
+        <Font>MS UI Gothic</Font>
+        <MessageText>
+          <Font>MS UI Gothic</Font>
+        </MessageText>
+      </MessageArea>
+      <GroupBox1>
+        <chkDeleteRowVisible>
+          <Text>削除データ表示</Text>
+          <Font>MS UI Gothic</Font>
+        </chkDeleteRowVisible>
+      </GroupBox1>
+      <DataGridView>
+        <HeaderText>,会社No.,EXPIRATION_FROM,適用開始日,EXPIRATION_END,適用終了日,会社名,FISCAL_YEAR_FROM,年度開始日,時間有給日数,WORKING_MINUTES,時間有給1日分,STATUS,作成日時,更新日時</HeaderText>
+        <HeaderFont>MS UI Gothic</HeaderFont>
+        <!--<HeaderHeight></HeaderHeight>-->
+        <Font>MS UI Gothic</Font>
+        <DeleteColumn>
+          <Text>DEL</Text>
+        </DeleteColumn>
+        <EXPIRATION_FROM_VIEWColumn>
+          <DateView>YMD,0</DateView>
+        </EXPIRATION_FROM_VIEWColumn>
+        <EXPIRATION_TO_VIEWColumn>
+          <DateView>YMD,99999999</DateView>
+        </EXPIRATION_TO_VIEWColumn>
+        <!--<COMPANYNOColumn>
+          <Width></Width>
+        </COMPANYNOColumn>-->
+        <FISCAL_YEAR_FROM_VIEWColumn>
+          <!--<Width></Width>-->
+          <DateView>MD,NULL</DateView>
+        </FISCAL_YEAR_FROM_VIEWColumn>
+      </DataGridView>
+      <btnUpdate>
+        <Text>更新</Text>
+        <Font>MS UI Gothic</Font>
+      </btnUpdate>
+      <btnCancel>
+        <Text>戻る</Text>
+        <Font>MS UI Gothic</Font>
+      </btnCancel>
+    </CompanyMainte>
+
+    <PostMainte>
+      <Text>YUBI-TARO</Text>
+      <Title>
+        <Text>部署マスタ登録</Text>
+        <Font>MS UI Gothic</Font>
+      </Title>
+      <MessageArea>
+        <Text>メッセージ</Text>
+        <Font>MS UI Gothic</Font>
+        <MessageText>
+          <Font>MS UI Gothic</Font>
+        </MessageText>
+      </MessageArea>
+      <Label3>
+        <Text>会社：</Text>
+        <Font>MS UI Gothic</Font>
+      </Label3>
+      <cmb_Company>
+        <Font>MS UI Gothic</Font>
+      </cmb_Company>
+      <GroupBox1>
+        <chkDeleteRowVisible>
+          <Text>削除データ表示</Text>
+          <Font>MS UI Gothic</Font>
+        </chkDeleteRowVisible>
+      </GroupBox1>
+      <DataGridView>
+        <HeaderText>,会社No.,部署No.,EXPIRATION_FROM,適用開始日,EXPIRATION_TO,適用終了日,部署名,STATUS,CREATE_DATE_TIME,UPDATE_DATE_TIME</HeaderText>
+        <HeaderFont>MS UI Gothic</HeaderFont>
+        <Font>MS UI Gothic</Font>
+        <DeleteColumn>
+          <Text>DEL</Text>
+        </DeleteColumn>
+        <EXPIRATION_FROM_VIEWColumn>
+          <DateView>YMD,0</DateView>
+        </EXPIRATION_FROM_VIEWColumn>
+        <EXPIRATION_TO_VIEWColumn>
+          <DateView>YMD,99999999</DateView>
+        </EXPIRATION_TO_VIEWColumn>
+      </DataGridView>
+      <btnUpdate>
+        <Text>更新</Text>
+        <Font>MS UI Gothic</Font>
+      </btnUpdate>
+      <btnCancel>
+        <Text>戻る</Text>
+        <Font>MS UI Gothic</Font>
+      </btnCancel>
+    </PostMainte>
+
+    <HolidayMainte>
+      <Text>YUBI-TARO</Text>
+      <Title>
+        <Text>休日マスタ登録</Text>
+        <Font>MS UI Gothic</Font>
+      </Title>
+      <MessageArea>
+        <Text>メッセージ</Text>
+        <Font>MS UI Gothic</Font>
+        <MessageText>
+          <Font>MS UI Gothic</Font>
+        </MessageText>
+      </MessageArea>
+      <Label3>
+        <Text>会社：</Text>
+        <Font>MS UI Gothic</Font>
+      </Label3>
+      <cmbCompany>
+        <Font>MS UI Gothic</Font>
+      </cmbCompany>
+      <Label4>
+        <Text>年月：</Text>
+        <Font>MS UI Gothic</Font>
+        <!--<Left></Left>-->
+      </Label4>
+      <cmbYear>
+        <Font>MS UI Gothic</Font>
+        <!--<Left></Left>-->
+      </cmbYear>
+      <Label1>
+        <Text>/</Text>
+        <Font>MS UI Gothic</Font>
+        <!--<Left></Left>-->
+      </Label1>
+      <cmbMonth>
+        <Font>MS UI Gothic</Font>
+        <Text>01=1,02,03,04,05,06,07,08,09,10,11,12</Text>
+        <!--<Left></Left>
+        <Width></Width>-->
+      </cmbMonth>
+      <DataGridView>
+        <HeaderText>日,月,火,水,木,金,土</HeaderText>
+        <HeaderFont>MS UI Gothic</HeaderFont>
+        <Font>MS UI Gothic</Font>
+      </DataGridView>
+      <btn_Previous>
+        <Text>＜</Text>
+        <Font>MS UI Gothic</Font>
+      </btn_Previous>
+      <btn_Next>
+        <Text>＞</Text>
+        <Font>MS UI Gothic</Font>
+      </btn_Next>
+      <Label7>
+        <Text>備考：</Text>
+        <Font>MS UI Gothic</Font>
+      </Label7>
+      <txt_Remarks>
+        <Font>MS UI Gothic</Font>
+      </txt_Remarks>
+      <GroupBox1>
+        <Text>定休日一括設定</Text>
+        <Font>MS UI Gothic</Font>
+        <Label2>
+          <Text>期間：</Text>
+          <Font>MS UI Gothic</Font>
+          <!--<Left></Left>-->
+        </Label2>
+        <dtbFrom>
+          <Font>MS UI Gothic</Font>
+          <DateView>MD,0</DateView>
+        </dtbFrom>
+        <Label8>
+          <Text>～</Text>
+          <Font>MS UI Gothic</Font>
+        </Label8>
+        <dtbTo>
+          <Font>MS UI Gothic</Font>
+          <DateView>MD,0</DateView>
+        </dtbTo>
+        <lbl_Weekday>
+          <Visible>False</Visible>
+          <Text></Text>
+          <Font>MS UI Gothic</Font>
+        </lbl_Weekday>
+        <cmb_Weekday>
+          <Text>日=0,月,火,水,木,金,土</Text>
+          <Font>MS UI Gothic</Font>
+          <!--<Left></Left>
+          <Width></Width>-->
+        </cmb_Weekday>
+        <Label5>
+          <Visible>True</Visible>
+          <Text>曜日</Text>
+          <Font>MS UI Gothic</Font>
+        </Label5>
+        <Label6>
+          <Text>備考：</Text>
+          <Font>MS UI Gothic</Font>
+        </Label6>
+        <txt_AddRemarks>
+          <Font>MS UI Gothic</Font>
+          <!--<Left></Left>-->
+        </txt_AddRemarks>
+        <btnSetBatch>
+          <Text>設定</Text>
+          <Font>MS UI Gothic</Font>
+        </btnSetBatch>
+      </GroupBox1>
+      <btnUpdate>
+        <Text>更新</Text>
+        <Font>MS UI Gothic</Font>
+      </btnUpdate>
+      <btnCancel>
+        <Text>戻る</Text>
+        <Font>MS UI Gothic</Font>
+      </btnCancel>
+    </HolidayMainte>
+
+    <MonthlyMainte>
+      <Text>YUBI-TARO</Text>
+      <Title>
+        <Text>月次マスタ登録</Text>
+        <Font>MS UI Gothic</Font>
+      </Title>
+      <MessageArea>
+        <Text>メッセージ</Text>
+        <Font>MS UI Gothic</Font>
+        <MessageText>
+          <Font>MS UI Gothic</Font>
+        </MessageText>
+      </MessageArea>
+      <Label3>
+        <Text>会社：</Text>
+        <Font>MS UI Gothic</Font>
+      </Label3>
+      <cmbCompany>
+        <Font>MS UI Gothic</Font>
+      </cmbCompany>
+      <DataGridView>
+        <HeaderText>,COMPANY_NO,EXPIRATION_FROM,適用開始月,EXPIRATION_TO,締め日,勤務時間単位,STATUS,CREATE_DATE_TIME,UPDATE_DATE_TIME</HeaderText>
+        <HeaderFont>MS UI Gothic</HeaderFont>
+        <Font>MS UI Gothic</Font>
+        <EXPIRATION_FROM_VIEWColumn>
+          <DateView>YM,0</DateView>
+        </EXPIRATION_FROM_VIEWColumn>
+      </DataGridView>
+      <btnUpdate>
+        <Text>更新</Text>
+        <Font>MS UI Gothic</Font>
+      </btnUpdate>
+      <btnCancel>
+        <Text>戻る</Text>
+        <Font>MS UI Gothic</Font>
+      </btnCancel>
+    </MonthlyMainte>
+
+    <FileOutput>
+      <Text>YUBI-TARO</Text>
+      <Title>
+        <Text>ファイル出力マスタ登録</Text>
+        <Font>MS UI Gothic</Font>
+      </Title>
+      <MessageArea>
+        <Text>メッセージ</Text>
+        <Font>MS UI Gothic</Font>
+        <MessageText>
+          <Font>MS UI Gothic</Font>
+        </MessageText>
+      </MessageArea>
+      <grp_Output_File_Type>
+        <Text>出力設定選択</Text>
+        <Font>MS UI Gothic</Font>
+        <cmb_Output_Name>
+          <Font>MS UI Gothic</Font>
+        </cmb_Output_Name>
+      </grp_Output_File_Type>
+      <grp_Csv_Output_Setting>
+        <Text>出力設定</Text>
+        <Font>MS UI Gothic</Font>
+        <grp_Output_Name>
+          <Text>出力設定名</Text>
+          <Font>MS UI Gothic</Font>
+          <txt_Output_Name>
+            <Font>MS UI Gothic</Font>
+          </txt_Output_Name>
+        </grp_Output_Name>
+        <grp_Output_Type>
+          <Text>区切り文字</Text>
+          <Font>MS UI Gothic</Font>
+          <cmb_Output_Type>
+            <Text>カンマ区切り,タブ区切り</Text>
+            <Font>MS UI Gothic</Font>
+          </cmb_Output_Type>
+        </grp_Output_Type>
+        <grp_String_Char>
+          <Text>文字列記号</Text>
+          <Font>MS UI Gothic</Font>
+          <cmb_String_Char>
+            <Text>なし,',"</Text>
+            <Font>MS UI Gothic</Font>
+          </cmb_String_Char>
+        </grp_String_Char>
+        <grp_HeaderRow>
+          <Text>ヘッダー行</Text>
+          <Font>MS UI Gothic</Font>
+          <chk_HeaderRow>
+            <Text>出力する</Text>
+            <Font>MS UI Gothic</Font>
+          </chk_HeaderRow>
+        </grp_HeaderRow>
+        <grp_Extension>
+          <Text>ファイルの拡張子</Text>
+          <Font>MS UI Gothic</Font>
+          <txt_Extension>
+            <Font>MS UI Gothic</Font>
+          </txt_Extension>
+        </grp_Extension>
+        <grp_Output>
+          <Text>出力項目</Text>
+          <Font>MS UI Gothic</Font>
+          <btnToRight>
+            <Text>→</Text>
+            <Font>MS UI Gothic</Font>
+          </btnToRight>
+          <btnToLeft>
+            <Text>←</Text>
+            <Font>MS UI Gothic</Font>
+          </btnToLeft>
+          <btnToUp>
+            <Text>↑</Text>
+            <Font>MS UI Gothic</Font>
+          </btnToUp>
+          <btnToDown>
+            <Text>↓</Text>
+            <Font>MS UI Gothic</Font>
+          </btnToDown>
+        </grp_Output>
+        <btnAdd>
+          <Text>追加</Text>
+          <Font>MS UI Gothic</Font>
+        </btnAdd>
+        <btnUpd>
+          <Text>修正</Text>
+          <Font>MS UI Gothic</Font>
+        </btnUpd>
+        <btnDel>
+          <Text>削除</Text>
+          <Font>MS UI Gothic</Font>
+        </btnDel>
+      </grp_Csv_Output_Setting>
+      <btnUpdate>
+        <Text>更新</Text>
+        <Font>MS UI Gothic</Font>
+      </btnUpdate>
+      <btnCancel>
+        <Text>戻る</Text>
+        <Font>MS UI Gothic</Font>
+      </btnCancel>
+    </FileOutput>
+
+    <TerminalSettingMainte>
+      <Text>YUBI-TARO</Text>
+      <Title>
+        <Text>指紋端末マスタ登録</Text>
+        <Font>MS UI Gothic</Font>
+      </Title>
+      <MessageArea>
+        <Text>メッセージ</Text>
+        <Font>MS UI Gothic</Font>
+        <MessageText>
+          <Font>MS UI Gothic</Font>
+        </MessageText>
+      </MessageArea>
+      <GroupBox1>
+        <chkDeleteRowVisible>
+          <Text>削除データ表示</Text>
+          <Font>MS UI Gothic</Font>
+        </chkDeleteRowVisible>
+      </GroupBox1>
+      <DataGridView>
+        <HeaderText>,機械番号,利用種別,デバイス,IPアドレス,ポート,アラーム\n時刻１,アラーム\n時刻２,アラーム\n時刻３,アラーム\n時刻４,アラーム\n時刻５,アラーム\n時刻６,アラーム\n時刻７,アラーム\n時刻８,アラーム\n時刻９,アラーム\n時刻１０,STATUS,CREATE_DATE_TIME,UPDATE_DATE_TIME</HeaderText>
+        <HeaderFont>MS UI Gothic</HeaderFont>
+        <Font>MS UI Gothic</Font>
+        <DeleteColumn>
+          <Text>DEL</Text>
+        </DeleteColumn>
+        <USETYPEColumn>
+          <Text>勤怠登録用,ユーザー登録用,兼用</Text>
+        </USETYPEColumn>
+        <DEVICEColumn>
+          <Text>USB=0,TCP/IP=2,USBメモリー</Text>
+        </DEVICEColumn>
+      </DataGridView>
+      <btnUpdate>
+        <Text>更新</Text>
+        <Font>MS UI Gothic</Font>
+      </btnUpdate>
+      <btnCancel>
+        <Text>戻る</Text>
+        <Font>MS UI Gothic</Font>
+      </btnCancel>
+    </TerminalSettingMainte>
+
+    <SplashScreen>
+      <Label1>
+        <Text>Working Management System</Text>
+        <Font>MS UI Gothic</Font>
+      </Label1>
+      <ApplicationTitle>
+        <Text>YUBI-TARO</Text>
+        <Font>MS UI Gothic</Font>
+      </ApplicationTitle>
+      <Version>
+        <Font>MS UI Gothic</Font>
+      </Version>
+      <Copyright>
+        <Text>Copyright © ITC 2010</Text>
+        <Font>MS UI Gothic</Font>
+      </Copyright>
+  </SplashScreen>
+
+    <Processing>
+      <Title>
+        <Text>処理中…</Text>
+        <Font>MS UI Gothic</Font>
+      </Title>
+      <MessageArea>
+        <Text>メッセージ</Text>
+        <Font>MS UI Gothic</Font>
+        <MessageText>
+          <Font>MS UI Gothic</Font>
+        </MessageText>
+      </MessageArea>
+    </Processing>
+
+    <TimeTableMainte>
+      <Title>
+        <Text>タイムテーブルマスタ登録</Text>
+        <Font>MS UI Gothic</Font>
+      </Title>
+      <MessageArea>
+        <Text>メッセージ</Text>
+        <Font>MS UI Gothic</Font>
+        <MessageText>
+          <Font>MS UI Gothic</Font>
+        </MessageText>
+      </MessageArea>
+      <GroupBox1>
+        <chkDeleteRowVisible>
+          <Text>削除データ表示</Text>
+          <Font>MS UI Gothic</Font>
+        </chkDeleteRowVisible>
+      </GroupBox1>
+      <DataGridView>
+        <HeaderText>,No.,EXPIRATION_FROM,適用開始日,EXPIRATION_TO,適用終了日,勤務先名,略称,始業時刻,終業時刻,コアタイム開始,区切り時間,コアタイム終了,時間単位,残業単位,深夜開始,深夜終了,休憩①時間,休憩①終了,休憩②時間,休憩②終了,休憩③時間,休憩③終了,休憩④時間,休憩④終了,休憩⑤時間,休憩⑤終了,休憩⑥時間,休憩⑥終了,休憩⑦時間,休憩⑦終了,休憩⑧時間,休憩⑧終了,休憩⑨時間,休憩⑨終了,休憩⑩時間,休憩⑩終了,STATUS,CREATE_DATE_TIME,UPDATE_DATE_TIME</HeaderText>
+        <HeaderFont>MS UI Gothic</HeaderFont>
+        <Font>MS UI Gothic</Font>
+        <DeleteColumn>
+          <Text>DEL</Text>
+        </DeleteColumn>
+        <EXPIRATION_FROM_VIEWColumn>
+          <DateView>YMD,0</DateView>
+        </EXPIRATION_FROM_VIEWColumn>
+        <EXPIRATION_TO_VIEWColumn>
+          <DateView>YMD,99999999</DateView>
+        </EXPIRATION_TO_VIEWColumn>
+        <!--<CORETIMEFROMColumn>
+          <Width></Width>
+        </CORETIMEFROMColumn>
+        <CORETIMETOColumn>
+          <Width></Width>
+        </CORETIMETOColumn>-->
+      </DataGridView>
+      <btnUpdate>
+        <Text>更新</Text>
+        <Font>MS UI Gothic</Font>
+      </btnUpdate>
+      <btnCancel>
+        <Text>戻る</Text>
+        <Font>MS UI Gothic</Font>
+      </btnCancel>
+    </TimeTableMainte>
+  </form>
+  <const>
+    <information_title>確認</information_title>
+    <dialog_filter>{0}ファイル(*.{0})|*.{0}|すべてのファイル(*.*)|*.*</dialog_filter>
+    <weekday_long>日曜日,月曜日,火曜日,水曜日,木曜日,金曜日,土曜日</weekday_long>
+    <weekday_short>日,月,火,水,木,金,土</weekday_short>
+    <month_long>01,02,03,04,05,06,07,08,09,10,11,12</month_long>
+    <month_short>01,02,03,04,05,06,07,08,09,10,11,12</month_short>
+    <!--customize(huecompany) *** start-->
+    <!--<csv_column>データ年月=0,社員番号,氏名_姓・名,氏名_姓,氏名_名,稼動期間,契約時間,契約時間Ｘ100,出勤日数,出勤日数Ｘ100,休日出勤日数,休日出勤日数Ｘ100,労働時間,労働時間Ｘ100,休憩時間,休憩時間Ｘ100,残業時間,残業時間Ｘ100,深夜時間,深夜時間Ｘ100,休日時間,休日時間Ｘ100,休日深夜時間,休日深夜時間Ｘ100,祝日時間,祝日時間Ｘ100,祝日深夜時間,祝日深夜時間Ｘ100,有給日数,有給日数Ｘ100,代休日数,代休日数Ｘ100,特休日数,特休日数Ｘ100,代休特休日数,代休特休日数Ｘ100,欠勤日数,欠勤日数Ｘ100,遅刻日数,遅刻日数Ｘ100,早退日数,早退日数Ｘ100,遅刻早退回数,遅刻早退回数Ｘ100,遅刻時間,遅刻時間Ｘ100,早退時間,早退時間Ｘ100,遅刻早退時間,遅刻早退時間Ｘ100,空白</csv_column>-->
+    <csv_column>データ年月=0,社員番号,氏名_姓・名,氏名_姓,氏名_名,稼動期間,契約時間,契約時間Ｘ100,出勤日数,出勤日数Ｘ100,休日出勤日数,休日出勤日数Ｘ100,労働時間,労働時間Ｘ100,休憩時間,休憩時間Ｘ100,残業時間,残業時間Ｘ100,深夜時間,深夜時間Ｘ100,休日時間,休日時間Ｘ100,休日深夜時間,休日深夜時間Ｘ100,祝日時間,祝日時間Ｘ100,祝日深夜時間,祝日深夜時間Ｘ100,有給日数,有給日数Ｘ100,代休日数,代休日数Ｘ100,特休日数,特休日数Ｘ100,代休特休日数,代休特休日数Ｘ100,無給日数,無給日数Ｘ100,遅刻日数,遅刻日数Ｘ100,早退日数,早退日数Ｘ100,遅刻早退回数,遅刻早退回数Ｘ100,遅刻時間,遅刻時間Ｘ100,早退時間,早退時間Ｘ100,遅刻早退時間,遅刻早退時間Ｘ100,空白</csv_column>
+    <!--customize(huecompany) *** end-->
+    <csv_column_brank>未設定列</csv_column_brank>
+    <use_type>勤怠登録用,ユーザー登録用,兼用</use_type>
+    <device>USB,Serial,TCP/IP,U-DISK</device>
+    <administrator>管理者</administrator>
+    <!--customize(huecompany) *** start-->
+    <!--<work_type>通常勤務=1,有給休暇,午前半休,午後半休,特別休暇,代休,欠勤,休日出勤,代出,病気休暇,半日特休,半日病休,半日欠勤,待機休暇,半日有給,半日待機,半日代休,半日代出,個別休日,結婚休暇,半日結婚,忌引休暇,半日忌引,予定欠勤,半日予定欠勤,予定外欠勤,半日予定外欠勤,無断欠勤,半日無断欠勤</work_type>-->
+    <work_type>通常勤務=1,有給休暇,午前半休,午後半休,特別休暇,代休,無給休暇,休日出勤,代出,病気休暇,半日特休,半日病休,半日欠勤,待機休暇,半日有給,半日待機,半日代休,半日代出,個別休日,結婚休暇,半日結婚,忌引休暇,半日忌引,予定欠勤,半日予定欠勤,予定外欠勤,半日予定外欠勤,無断欠勤,半日無断欠勤,無給休暇,産休</work_type>
+    <!--customize(huecompany) *** end-->
+    <list_title>勤務表({0}年{1}月度)</list_title>
+    <in_out_mode>出勤[{0}]=0,退勤[{0}],出退不明[{0}],出退不明[{0}]</in_out_mode>
+    <national_holiday_flag>True</national_holiday_flag>
+    <date_format_delimiter>/</date_format_delimiter>
+    <list_date_format>MD</list_date_format>
+    <csv_date_format>YMD</csv_date_format>
+    <ymd_date_format>YMD</ymd_date_format>
+    <ym_date_format>YM</ym_date_format>
+    <md_date_format>MD</md_date_format>
+    <emsize_character_flag>True</emsize_character_flag>
+    <username_set_flag>False</username_set_flag>
+    <paidvacationtime_days>5</paidvacationtime_days>
+    <tolerance_time></tolerance_time>
+    <tolerance_latetime></tolerance_latetime>
+    <tolerance_earlytime></tolerance_earlytime>
+
+    <!--customize(huecompany) *** start-->
+    <customize_code>HueCompany</customize_code>
+    <!--customize(huecompany) *** end-->
+    <attendance_list_title></attendance_list_title>
+    <attendance_list_date_format>YMD</attendance_list_date_format>
+    <hoatho_list_date_format>YM</hoatho_list_date_format>
+
+  </const>
+</language>

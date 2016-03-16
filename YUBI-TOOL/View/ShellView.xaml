@@ -1,0 +1,8 @@
+﻿<Window x:Class="YUBI_TOOL.View.ShellView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ShellView" Style="{StaticResource resWindow}" ShowInTaskbar="True" WindowState="Normal" WindowStartupLocation="CenterScreen" Icon="/YUBI-TOOL;component/taro.ico">
+    <Grid Style="{StaticResource resMainGrid}">
+        <ContentControl x:Name="ActiveItem"></ContentControl>
+    </Grid>
+</Window>

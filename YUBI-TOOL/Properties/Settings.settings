@@ -1,0 +1,53 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="YUBI_TOOL.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="XLS_Daily_Report" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Dailly_Report_V1_{0}.xls</Value>
+    </Setting>
+    <Setting Name="XLS_Monthly_Report" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Monthly_Report_V1_{0}.xls</Value>
+    </Setting>
+    <Setting Name="XLS_Personal_Report" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Personal_Report_V1_{0}.xls</Value>
+    </Setting>
+    <Setting Name="XLS_Export_Path" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="XLS_Use_Multi_Language" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="XLS_Out_Personal_File" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Personal Report, {0}, {1}.xls</Value>
+    </Setting>
+    <Setting Name="XLS_Out_Daily_File" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Daily Report, {0}, {1}.xls</Value>
+    </Setting>
+    <Setting Name="XLS_Out_Monthly_File" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Monthly Report, {0}, {1}.xls</Value>
+    </Setting>
+    <Setting Name="YUBITAROConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=localhost;Initial Catalog=YUBITARO;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=localhost;Initial Catalog=YUBITARO;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="SelectedLanguage" Type="System.String" Scope="User">
+      <Value Profile="(Default)">English</Value>
+    </Setting>
+    <Setting Name="AutoCorrectThirdShift" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="XLS_Correct_Night_Shift" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Correct_Night_Shift_{0}.xls</Value>
+    </Setting>
+    <Setting Name="Is_DB_Configed" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="XLS_Default_Sheet_Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Sheet1</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

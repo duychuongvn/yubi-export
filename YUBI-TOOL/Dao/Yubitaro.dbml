@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="YUBITARO" Class="YubitaroDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=localhost;Initial Catalog=YUBITARO;Persist Security Info=True;User ID=sa" SettingsObjectName="YUBI_TOOL.Properties.Settings" SettingsPropertyName="YUBITAROConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.WORK_DATA" Member="WORK_DATAs">
+    <Type Name="WORK_DATA">
+      <Column Name="COMPANY_NO" Type="System.Decimal" DbType="Decimal(2,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EMPLOYEE_NO" Type="System.String" DbType="NVarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="WORK_DATE" Type="System.Decimal" DbType="Decimal(8,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TIME_TABLE_NO" Type="System.Decimal" DbType="Decimal(3,0)" CanBeNull="true" />
+      <Column Name="WORK_TYPE_NO" Type="System.Decimal" DbType="Decimal(2,0)" CanBeNull="true" />
+      <Column Name="WORK_DAY_TYPE_NO" Type="System.Decimal" DbType="Decimal(1,0)" CanBeNull="true" />
+      <Column Name="START_TIME" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="END_TIME" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="UPDATE_START_TIME" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="UPDATE_END_TIME" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="REST_TIME" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="CONTRACT_TIME" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="WORKING_TIME" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="OVER_TIME" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="LATE_NIGHT_TIME" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="HOLIDAY_TIME" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="HOLIDAY_LATE_NIGHT_TIME" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="BEING_LATE_TIME" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="LEAVING_EARLY_TIME" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="WORK_DAYS" Type="System.Decimal" DbType="Decimal(2,1)" CanBeNull="true" />
+      <Column Name="HOLIDAY_DAYS" Type="System.Decimal" DbType="Decimal(2,1)" CanBeNull="true" />
+      <Column Name="PAID_VACATION_DAYS" Type="System.Decimal" DbType="Decimal(2,1)" CanBeNull="true" />
+      <Column Name="PAID_VACATION_TIME" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="COMPENSATORY_DAY_OFF" Type="System.Decimal" DbType="Decimal(2,1)" CanBeNull="true" />
+      <Column Name="SPECIAL_HOLIDAYS" Type="System.Decimal" DbType="Decimal(2,1)" CanBeNull="true" />
+      <Column Name="ABSENCE_DAYS" Type="System.Decimal" DbType="Decimal(2,1)" CanBeNull="true" />
+      <Column Name="BEING_LATE_DAYS" Type="System.Decimal" DbType="Decimal(2,1)" CanBeNull="true" />
+      <Column Name="LEAVING_EARLY_DAYS" Type="System.Decimal" DbType="Decimal(2,1)" CanBeNull="true" />
+      <Column Name="DILIGENCE_INDOLENCE_POINT" Type="System.Decimal" DbType="Decimal(2,0)" CanBeNull="true" />
+      <Column Name="MEMO" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CREATE_DATE_TIME" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="UPDATE_DATE_TIME" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.COMPANY" Member="COMPANies">
+    <Type Name="COMPANY">
+      <Column Name="COMPANY_NO" Type="System.Decimal" DbType="Decimal(2,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EXPIRATION_FROM" Type="System.Decimal" DbType="Decimal(8,0) NOT NULL" CanBeNull="false" />
+      <Column Name="EXPIRATION_TO" Type="System.Decimal" DbType="Decimal(8,0) NOT NULL" CanBeNull="false" />
+      <Column Name="COMPANY_NAME" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="FISCAL_YEAR_FROM" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="PAID_VACATION_TIME_DAYS" Type="System.Decimal" DbType="Decimal(3,0)" CanBeNull="true" />
+      <Column Name="WORKING_MINUTES" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="STATUS" Type="System.Decimal" DbType="Decimal(1,0) NOT NULL" CanBeNull="false" />
+      <Column Name="CREATE_DATE_TIME" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="UPDATE_DATE_TIME" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CSV_OUTPUT" Member="CSV_OUTPUTs">
+    <Type Name="CSV_OUTPUT">
+      <Column Name="CSV_OUTPUT_NO" Type="System.Decimal" DbType="Decimal(2,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CSV_OUTPUT_NAME" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="COLUMN_INDEX" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="HEADER_FLG" Type="System.Decimal" DbType="Decimal(1,0) NOT NULL" CanBeNull="false" />
+      <Column Name="STRING_CHAR" Type="System.Decimal" DbType="Decimal(1,0) NOT NULL" CanBeNull="false" />
+      <Column Name="OUTPUT_TYPE" Type="System.Decimal" DbType="Decimal(1,0) NOT NULL" CanBeNull="false" />
+      <Column Name="FILE_EXTENSION" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="CREATE_DATE_TIME" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="UPDATE_DATE_TIME" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DB_VERSION" Member="DB_VERSIONs">
+    <Type Name="DB_VERSION">
+      <Column Name="VERSION" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MEMO" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EMPLOYEE" Member="EMPLOYEEs">
+    <Type Name="EMPLOYEE">
+      <Column Name="ID" Type="System.Decimal" DbType="Decimal(8,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EXPIRATION_FROM" Type="System.Decimal" DbType="Decimal(8,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EXPIRATION_TO" Type="System.Decimal" DbType="Decimal(8,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EMPLOYEE_NO" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="LOGIN_PASSWORD" Type="System.Decimal" DbType="Decimal(8,0)" CanBeNull="true" />
+      <Column Name="COMPANY_NO" Type="System.Decimal" DbType="Decimal(2,0) NOT NULL" CanBeNull="false" />
+      <Column Name="POST_NO" Type="System.Decimal" DbType="Decimal(5,0) NOT NULL" CanBeNull="false" />
+      <Column Name="EMSIZE_LAST_NAME" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="EMSIZE_FIRST_NAME" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="ALPHABET_LAST_NAME" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Column Name="ALPHABET_FIRST_NAME" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Column Name="TIME_TABLE_NO" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="USE_FLAG_OF_HOLIDAY" Type="System.Decimal" DbType="Decimal(1,0) NOT NULL" CanBeNull="false" />
+      <Column Name="RETIREMENT_DATE" Type="System.Decimal" DbType="Decimal(8,0)" CanBeNull="true" />
+      <Column Name="REMARKS" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="STATUS" Type="System.Decimal" DbType="Decimal(1,0) NOT NULL" CanBeNull="false" />
+      <Column Name="CREATE_DATE_TIME" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="UPDATE_DATE_TIME" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.HOLIDAY" Member="HOLIDAYs">
+    <Type Name="HOLIDAY">
+      <Column Name="COMPANY_NO" Type="System.Decimal" DbType="Decimal(2,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="HOLIDAY_DATE" Type="System.Decimal" DbType="Decimal(8,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="NATIONAL_HOLIDAY_FLAG" Type="System.Decimal" DbType="Decimal(1,0) NOT NULL" CanBeNull="false" />
+      <Column Name="REMARKS" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="CREATE_DATE_TIME" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="UPDATE_DATE_TIME" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MONTHLY" Member="MONTHLies">
+    <Type Name="MONTHLY">
+      <Column Name="COMPANY_NO" Type="System.Decimal" DbType="Decimal(2,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EXPIRATION_FROM" Type="System.Decimal" DbType="Decimal(6,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EXPIRATION_TO" Type="System.Decimal" DbType="Decimal(6,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CUTOFF_DAY" Type="System.Decimal" DbType="Decimal(2,0) NOT NULL" CanBeNull="false" />
+      <Column Name="UNIT_MINUTES" Type="System.Decimal" DbType="Decimal(2,0) NOT NULL" CanBeNull="false" />
+      <Column Name="CREATE_DATE_TIME" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="UPDATE_DATE_TIME" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.POST" Member="POSTs">
+    <Type Name="POST">
+      <Column Name="COMPANY_NO" Type="System.Decimal" DbType="Decimal(2,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="POST_NO" Type="System.Decimal" DbType="Decimal(5,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EXPIRATION_FROM" Type="System.Decimal" DbType="Decimal(8,0) NOT NULL" CanBeNull="false" />
+      <Column Name="EXPIRATION_TO" Type="System.Decimal" DbType="Decimal(8,0) NOT NULL" CanBeNull="false" />
+      <Column Name="POST_NAME" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="STATUS" Type="System.Decimal" DbType="Decimal(1,0) NOT NULL" CanBeNull="false" />
+      <Column Name="CREATE_DATE_TIME" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="UPDATE_DATE_TIME" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TERMINAL_SETTING" Member="TERMINAL_SETTINGs">
+    <Type Name="TERMINAL_SETTING">
+      <Column Name="MACHINE_NO" Type="System.Decimal" DbType="Decimal(2,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="USE_TYPE" Type="System.Decimal" DbType="Decimal(1,0) NOT NULL" CanBeNull="false" />
+      <Column Name="DEVICE" Type="System.Decimal" DbType="Decimal(1,0) NOT NULL" CanBeNull="false" />
+      <Column Name="IP_ADDRESS" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="NETPORT_NO" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="ALARM1" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="ALARM2" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="ALARM3" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="ALARM4" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="ALARM5" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="ALARM6" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="ALARM7" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="ALARM8" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="ALARM9" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="ALARM10" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="STATUS" Type="System.Decimal" DbType="Decimal(1,0) NOT NULL" CanBeNull="false" />
+      <Column Name="CREATE_DATE_TIME" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="UPDATE_DATE_TIME" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TERMINAL_USER_DATA" Member="TERMINAL_USER_DATAs">
+    <Type Name="TERMINAL_USER_DATA">
+      <Column Name="ID" Type="System.Decimal" DbType="Decimal(8,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="BACKUP_NO" Type="System.Decimal" DbType="Decimal(2,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MACHINE_PRIVILEGE" Type="System.Decimal" DbType="Decimal(1,0) NOT NULL" CanBeNull="false" />
+      <Column Name="ENROLL_DATA" Type="System.String" DbType="NText NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="CREATE_DATE_TIME" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="UPDATE_DATE_TIME" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TIME_TABLE" Member="TIME_TABLEs">
+    <Type Name="TIME_TABLE">
+      <Column Name="TIME_TABLE_NO" Type="System.Decimal" DbType="Decimal(3,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EXPIRATION_FROM" Type="System.Decimal" DbType="Decimal(8,0) NOT NULL" CanBeNull="false" />
+      <Column Name="EXPIRATION_TO" Type="System.Decimal" DbType="Decimal(8,0) NOT NULL" CanBeNull="false" />
+      <Column Name="TIME_TABLE_NAME" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="ABBREVIATION" Type="System.String" DbType="NVarChar(2)" CanBeNull="true" />
+      <Column Name="WORK_FROM" Type="System.Decimal" DbType="Decimal(4,0) NOT NULL" CanBeNull="false" />
+      <Column Name="WORK_TO" Type="System.Decimal" DbType="Decimal(4,0) NOT NULL" CanBeNull="false" />
+      <Column Name="CORETIME_FROM" Type="System.Decimal" DbType="Decimal(4,0) NOT NULL" CanBeNull="false" />
+      <Column Name="DELIMITATION" Type="System.Decimal" DbType="Decimal(4,0) NOT NULL" CanBeNull="false" />
+      <Column Name="CORETIME_TO" Type="System.Decimal" DbType="Decimal(4,0) NOT NULL" CanBeNull="false" />
+      <Column Name="MIDNIGHT_WORK_FROM" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="MIDNIGHT_WORK_TO" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="REST1_FROM" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="REST1_TO" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="REST2_FROM" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="REST2_TO" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="REST3_FROM" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="REST3_TO" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="REST4_FROM" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="REST4_TO" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="REST5_FROM" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="REST5_TO" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="REST6_FROM" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="REST6_TO" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="REST7_FROM" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="REST7_TO" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="REST8_FROM" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="REST8_TO" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="REST9_FROM" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="REST9_TO" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="REST10_FROM" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="REST10_TO" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="UNIT_MINUTES" Type="System.Decimal" DbType="Decimal(2,0)" CanBeNull="true" />
+      <Column Name="OVER_UNIT_MINUTES" Type="System.Decimal" DbType="Decimal(2,0)" CanBeNull="true" />
+      <Column Name="STATUS" Type="System.Decimal" DbType="Decimal(1,0) NOT NULL" CanBeNull="false" />
+      <Column Name="CREATE_DATE_TIME" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="UPDATE_DATE_TIME" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

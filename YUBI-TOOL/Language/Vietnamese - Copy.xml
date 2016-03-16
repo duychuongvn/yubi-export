@@ -1,0 +1,1426 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language>
+  <message>
+    <A0001>Các mục dưới đây được nhân đôi.\n{0},0,16</A0001>
+    <A0002>Các mục dưới đây được nhân đôi.\n{0} {1},0,16</A0002>
+    <A0003>Các mục dưới đây được nhân đôi.\n{0} {1} {2},0,16</A0003>
+    <A0005>Các mục dưới đây bắt buộc nhập vào :\n{0},0,16</A0005>
+    <A0011>Không có nhân viên nào được chọn .\nĐể xuất dữ liệu /xem bảng chuyên cần của N.Viên đầu tiên thực hiện việc lựa chọn N.Viên cần xuất .,0,16</A0011>
+    <A0012>Dữ liệu thông tin người sử dùng chưa được đăng ký tại thiết bị nhận dạng vân tay.  Xin vui lòng sử dụng thiết bị nhận dạng vân tay để đăng ký thông tin người sử dụng\, hoặc tiến hành "Thiết bị nhận dạng vân tay phục hồi".,0,16</A0012>
+    <!--<A0013>Dữ liệu thông tin người sử dụng chưa được đăng ký.<A0013>-->
+    <A0014>Xin chèn số giá trị.,0,16</A0014>
+    <A0015>Xin thiết lập các mục sẽ được xuất ra file .,0,16</A0015>
+    <A0016>Mục quuản lý nhân viên chưa được đăng ký.  Trước tiên xin đăng ký "Mục quuản lý nhân viên" .,0,16</A0016>
+    <A0017>Mã số nhân viên ({0}) đã được sử dụng.\nVui lòng thiết lập mã số nhân viên khác.,0,16</A0017>
+    <!-- <A0017>Mã số nhân viên không thể tái sử dụng.,0,16</A0017>-->
+    <A0018>Số lượng tối đa của các nhân viên có thể được xuất ra cùng lúc là 255 người.,0,16</A0018>
+    <A0019>{0} là cho đến bắt đầu của giờ làm việc ngày tiếp theo.,0,16</A0019>
+    <A0020>Số nhân viên chưa được cài đặt.  Xin cài đặt số nhân viên tại “Mục quản lý nhân viên”.,0,16</A0020>
+    <A0021>Có mục chưa nhập dữ liệu .,0,16</A0021>
+    <A0022>Ngày/Tháng/Năm không đúng.,0,16</A0022>
+    <A0023>Mã số nhân viên và mật khẩu không phù hợp.,0,16</A0023>
+    <A0024>ID chưa đăng ký tại “Mục quản lý nhân viên” được tìm thấy trong các thiết bị nhận dạng vân tay.  Xin đăng ký tại “Mục quản lý nhân viên”.,0,16</A0024>
+    <A0025>Có lỗi sai trong khoảng thời gian chỉ định.,0,16</A0025>
+    <A0026>{0} là  thời gian đã qua sau {1}.,0,16</A0026>
+    <A0027>Thời gian của tiết mục dưới đây không đúng.,0,16</A0027>
+    <A0028>{0} là đến {1},0,16</A0028>
+    <A0029>Xin chọn và cài đặt chỉ một thiết bị nhận dạng vân tay\, dành cho người sử dụng đăng ký hay cho cả hai.,0,16</A0029>
+    <A0030>Xin chèn trong phạm vi số từ 1 đến 31.,0,16</A0030>
+    <!--<A0031>Dữ liệu nhân viên Có/Vắng mặt không tồn tại.<A0031>-->
+    <A0032>Năm/Tháng không tồn tại.,0,16</A0032>
+    <!--<A0033>Xin sử dụng 9999/ 99 như cuối cùng của tháng kết thúc áp dụng.<A0033>-->
+    <!--<A0034>Xin chèn ngày cuối kỳ của mỗi tháng.<A0034>-->
+    <A0035>Thời gian áp dụng  Bắt đầu > Kết thúc.,0,16</A0035>
+    <!--<A0036>Thời gian áp dụng không liên tục.<A0036>-->
+    <!--<A0037>Xin vui lòng chèn đơn vị giờ làm việc.<A0037>-->
+    <A0038>Người sử dụng ID ({0}) đang được bổ sung.  Trước tiên, xin đăng ký tại thiết bị nhận dạng vân tay.,0,16</A0038>
+    <A0039>Xin chỉ định đơn vị giờ làm việc từ 01 đến 60 (phút).,0,16</A0039>
+    <A0040>Thời gian Bắt đầu ≧ Kết thúc.,0,16</A0040>
+    <A0041>Xin chèn dữ liệu bằng nửa chiều rộng ký tự.,0,16</A0041>
+    <!--<A0042>Xin chèn dữ liệu bằng nửa chiều rộng bảng chữ cái.<A0042>-->
+    <A0043>{0}～{1} nhân đôi với thời gian của {2}～{3}.,0,16</A0043>
+    <A0044> Xin nhập {0} với giá trị lớn hơn 1,0,16</A0044>
+    <A0045>Xin nhập chữ và chữ số bằng nửa chiều rộng thường hoặc nhập dấu - ,0,16</A0045>
+    <A0046>Xin hãy chọn bảng thời gian mặc định trên màn hình quản lý nhân viên,0,16</A0046>
+    <A0047>Xin hãy nhập thời điểm bắt đầu và kết thúc giờ làm bắt buộc trong phạm vi thời gian làm việc quy định.,0,16</A0047>
+    <A0048>Họ và tên  chưa được cài đặt.  Xin cài đặt họ và tên viên tại “Mục quản lý nhân viên”.,0,16</A0048>
+    <A0049>Đầu đọc vân tay dùng chấm công không được cài đặt.\nXin hãy cài đặt  bằng cách sử dụng bảng quản lí đầu đọc vân tay ,0,16</A0049>
+    <A0050>Thiết bị cuối nhận dạng vân tay dùng để đăng ký sử dụng không được cài đặt.\nXin hãy cài đặt  bằng cách sử dụng bảng quản lí đầu đọc vân tay ,0,16</A0050>
+    <!--<A0051>Quản lí bộ phận không được đăng kí nên trước hết xin hãy đăng kí quản lí bộ phận.<A0051>-->
+    <A0052>Công ty không được đăng kí nên trước hết xin hãy đăng kí công ty.,0,16</A0052>
+    <A0053>Bảng thời gian không được đăng kí nên trước hết xin hãy đăng kí bảng thời gian.,0,16</A0053>
+    <A0054>Quản lí hàng tháng không được đăng kí nên trước hết xin hãy đăng kí quản lí hàng tháng.\nTrong trường hợp đăng kí xong thì phần tháng trước sẽ không được đăng kí.,0,16</A0054>
+    <A0055>{0} không đúng.,0,16</A0055>
+    <A0056>Khi thiết bị được cài đặt là TCP/IP thì hãy nhập {0},0,16</A0056>
+    <A0057>{0} trùng với thời gian của {1}.,0,16</A0057>
+    <A0058>Xin hãy chọn thời gian báo thức dao động từ 00:00～23:59,0,16</A0058>
+    <!--<A0059>Địa chỉ và cổng IP dưới đây bị trùng lặp<A0059>-->
+    <A0060>Quản lí đầu đọc vân tay không được đăng kí nên trước hết xin hãy đăng kí quản lí đầu đọc vân tay ,0,16</A0060>
+    <A0061>Xin hãy đăng kí ít nhất 1 đầu đọc vân tay,0,16</A0061>
+    <A0062>Cũng có mục không nhập thời gian đến/thời gian về.,0,16</A0062>
+    <A0063>Không tiến hành định ngày hết hạn.\nXin hãy chọn ngày hết hạn bằng quản lí hàng tháng ,0,16</A0063>
+    <A0064>Chưa thiết lập mục "Xuất hồ sơ"  nên trước hết xin hãy thiết lập mục này .,0,16</A0064>
+    <A0065>Người sử dụng đã được nhận dạng sẽ không thể đăng nhập.,0,16</A0065>
+    <A0066>Không đăng kí quản lí tệp tin ra nên trước hết xin hãy đăng kí quản lí tệp tin ra .,0,16</A0066>
+    <!--<A0067>Không thể sử dụng trong thời gian kể từ ngày đầu áp dụng của nhân viên <A0067>-->
+    <A0068>Mã số nhân viên trong quản lí nhân viên có dữ liệu không được cài đặt nên trước hết hãy cài đặt mã số nhân viên bằng cách đăng kí quản lí nhân viên ,0,16</A0068>
+    <!--<A0069>Không thể cài đặt thời gian vượt quá thời gian đến/thời gian về<A0069>-->
+    <A0070>Định dạng địa chỉ IP không đúng.,0,16</A0070>
+    <A0071>Mã số máy: {0} Loại sử dụng : {1} Thiết bị: {2}.</A0071>
+    <A0072>Địa chỉ IP: {0} Cổng: {1}.</A0072>
+    <!--<A0072>Đây là mã số bảng thời gian ngoài thời gian ứng dụng <A0072>-->
+    <A0073>{0} : {1} sẽ là thời gian tương lai kể từ  { 2} của ngày sau đó.,0,16</A0073>
+    <A0074>{0} : {1}lên tới{2}.,0,16</A0074>
+    <A0075>{0} : {1}trở thành thời điểm trong quá khứ so với {2} của ngày hôm trước.,0,16</A0075>
+    <A0076>{0} : {1}không đúng.,0,16</A0076>
+    <A0077>{0} : Đây là bảng thời gian ngoài thời gian ứng dụng ,0,16</A0077>
+    <A0078>{0} : Phân loại công việc không đúng.,0,16</A0078>
+    <A0079>{0} : {1}trở thành thời điểm trong quá khứ so với {2} của ngày hôm trước.,0,16</A0079>
+    <A0080>“Mục quản lý hàng tháng” chưa được đăng ký.,0,16</A0080>
+    <A0081>{0} sẽ là thời gian tương lai kể từ  {1}.,,16</A0081>
+    <A0082>Không tìm thấy dữ liệu hồ sơ người sử dụng đã nhận từ “Thiết bị nhận dạng vân tay”.,,16</A0082>
+    <A0083>Không tìm thấy dữ liệu hồ sơ danh sách có/vắng mặt đã nhận từ “Thiết bị nhận dạng vân tay”.,,16</A0083>
+    <A0084>Trong trường hợp thay đổi mã số nhân viên hay tên công ty\, thì không thể sửa đổi.,,16</A0084>
+    <A0085>\\, /\, :\, *\, ?\, "\, &lt;\, &gt;\, | và khoảng trống thì không thể chèn vào được.,,16</A0085>
+    <A0086>Dữ liệu đã chọn thì không thể sử dụng được.,,16</A0086>
+    <A0087> Phân loại công việc đã chọn thì không chèn {1} vào được.,0,16</A0087>
+    <A0088>{0} : {1} vượt qua giới hạn trong phần 1 ngày.,0,16</A0088>
+    <A0089>Tổng kết  1 năm của {0}  thì  vượt qua giới hạn trong phần 1 ngày.,0,16</A0089>
+    <A0090>Khi chèn {0}\, thì cũng phải chèn {1}.,0,16</A0090>
+    <A0091>Thiết bi nhận dạng vân tay cho đăng ký Đến/Về làm của nhân viên chưa được cài đặt.,0,16</A0091>
+    <A0092>Thiết bi nhận dạng vân tay cho đăng ký người sử dụng chưa được cài đặt.,0,16</A0092>
+    <A0093>Thông tin người sử dụng trong thiết bị nhận dạng vân tay bị hỏng. Xin tiến hành "Phục hổi thiết bị nhận dạng vân tay".,0,16</A0093>
+    <I0001>Bạn có vui lòng cập nhật dữ liệu không?,1,64</I0001>
+    <I0002>Dữ liệu được cập nhật sẽ bị loại bỏ. Bạn có đồng ý không?,1,64</I0002>
+    <I0003>Bạn có vui lòng bổ sung dữ liệu với giá trị đã nhập không?,1,64</I0003>
+    <I0004>Bạn có vui lòng chỉnh sửa dữ liệu với giá trị đã nhập không?,1,64</I0004>
+    <I0005>Dữ liệu sẽ bị xóa. Bạn có đồng ý không?,1,64</I0005>
+    <I0006>Bạn có vui lòng cập nhật dữ liệu không?\n\n[Vâng] sau khi cập nhật sẽ hiển thị phần dữ liệu tháng trước\,\n[Không] không cập nhật mà hiển thị phần dữ liệu tháng trước\,\n[Hủy bỏ] Hủy bỏ hiển thị  phần dữ liệu tháng trước.,3,32</I0006>
+    <I0007>Bạn có vui lòng cập nhật dữ liệu không?\n\n[Vâng] sau khi cập nhật sẽ hiển thị phần dữ liệu tháng sau\,\n[Không] không cập nhật mà hiển thị phần dữ liệu tháng sau\,\n[Hủy bỏ] Hủy bỏ hiển thị  phần dữ liệu tháng sau.,3,32</I0007>
+    <I0011>Bạn có vui lòng ghi đè tất cả thông tin của người sử dụng trên đầu đọc vân tay lên dữ liệu thông tin nhân viên của cơ sở dữ liệu hiện tại ?,1,64</I0011>
+    <I0012>Bạn có đồng ý chọn thứ {2} từ  {0}～{1} làm ngày nghỉ không?,1,64</I0012>
+    <!--<I0013>Bạn có đồng ý chọn ngày {2} từ  {0}～{1} làm ngày hết hạn không?<I0013>-->
+    <I0014>Do lỗi kết nối với đầu đọc vân tay nên sẽ hiển thị "Bảng thống kê " mà không thu được dữ liệu thời gian đến/thời gian về mới nhất.\nBạn có đồng ý không?,1,64</I0014>
+    <!--<I0015>Do lỗi kết nối với đầu đọc vân tay nên sẽ đưa ra bảng biểu mà không thu được dữ liệu thời gian đến/thời gian về mới nhất.\nBạn có đồng ý không?<I0015>-->
+    <I0016>Đã hoàn thành đưa tệp tin ra,1,64</I0016>
+    <I0017>Quá trình lấy dữ liệu chuyên cần của nhân viên đã được hoàn tất.,0,64</I0017>
+    <I0021>Cơ sở dữ liệu đã được lưu,1,64</I0021>
+    <I0022>Đã cập nhật thông tin người sử dụng đầu đọc vân tay.,1,64</I0022>
+    <!--<I0023>Bạn có vui lòng chèn tệp tin?<I0023>-->
+    <I0024>Đã cập nhật thông tin báo động của đầu đọc vân tay.,1,64</I0024>
+    <I0025>Đầu đọc vân tay (Máy số:{0})đang thu dữ liệu người sử dụng từ ,0,64</I0025>
+    <I0026>Đầu đọc vân tay (Máy số:{0})đang viết dữ liệu người sử dụng sang,0,64</I0026>
+    <I0027>Đầu đọc vân tay (Máy số:{0})đang thu dữ liệu thời gian đến/thời gian về từ ,0,64</I0027>
+    <I0028>Đầu đọc vân tay (Máy số:{0})đang kết nối với  ,0,64</I0028>
+    <I0029>Đầu đọc vân tay (Máy số:{0})đang lưu trữ nhận dạng vào,0,64</I0029>
+    <I0030>Ngày bắt đầu ứng dụng sẽ chậm hơn ngày của hệ thống?\nBạn có đồng ý chỉnh sang ngày của hệ thống không?,1,64</I0030>
+    <I0031>Đã khôi phục lại cơ sở dữ liệu.,0,64</I0031>
+    <I0032>Không thể cập nhật cơ sở dữ liệu.\nHãy chỉnh sửa nó một lần nữa.,0,64</I0032>
+    <I0033>Thay đổi các máy chủ cơ sở dữ liệu.\nHãy khởi động lại ứng dụng.,0,64</I0033>
+    <I1001>Xóa: Hãy kích chuột vào ô cần xóa và bấm phím "Delete" .\n Copy : Bấm Ctrl+C.\n Dán  : Bấm Ctrl+V.\nHoặc hãy kích chuột vào dòng cần xóa tại cột Ngày Tháng và bấm phím "Delete" để xóa cả dòng .</I1001>
+    <I1002>Hãy kích chuột vào mục tương ứng với mục đích của bạn.\nHãy kích chuột vào "Danh sách nhân viên" khi muốn xác  nhận hay chỉnh sửa bảng chuyên cần.</I1002>
+    <I1003>Hãy nhập "mã số nhân viên" và "mật khẩu".\nHoặc hãy thực hiện nhận dạng vân tay bằng thiết bị nhận dạng vân tay dành cho người sử dụng đăng kí .</I1003>
+    <I1004>Kích đúp vào nhân viên tương ứng sẽ hiển thị màn hình thiết lập dữ liệu.\nMã số đăng kí chính là mã số ID của người sử dụng đã đăng kí ở thiết bị vân tay.\nChỉ những nhân viên được cài đặt mật khẩu mới có thể truy cập vào hệ thống phần mềm này.</I1004>
+    <I1006>Hãy thiết lập ngày nghỉ định kỳ.\nNgày nghỉ cố định có thể được bổ sung sau khi kết thúc các thiết lập dưới đây .</I1006>
+    <I1008>Hãy nhập thông tin về công ty.</I1008>
+    <I1009>Hãy nhập thông tin về  Bộ Phận /Đơn Vị</I1009>
+    <I1010>Xin thiết lập bảng thời gian cần thiết . Xin chọn "Đơn vị thời gian" là thời gian (Đơn vị phút) được bỏ đi từ tổng số thời gian làm việc trong 1 ngày. Xin chọn "Đơn vị làm thêm"  là thời gian (Đơn vị phút) được bỏ đi từ tổng số thời gian làm thêm trong 1 ngày.</I1010>
+    <!--<I1011>Hãy chọn tháng và năm.<I1011>-->
+    <I1012>Hãy thiết lập các nội dung trên file xuất ra sau khi kết hợp với các dữ liệu cần thiết phục vụ cho việc tính lương / phần mềm tiền lương bạn đang sử dụng.</I1012>
+    <I1013>Hãy lựa chọn những nhân viên muốn xuất bảng chuyên cần.\n Trường hợp muốn in hoặc lấy dữ liệu thì hãy chọn vào tên nhân viên đó. Bạn cũng có thể thực hiện bằng cách nhấn đúp chuột vào nhân viên trên bảng danh sách.</I1013>
+    <I1014>Xin cài đặt ngày cuối kỳ quyết toán và đơn vị thời gian làm việc.Xin chọn "Đơn vị thời gian làm việc"  là thời gian (Đơn vị phút)lẻ được bỏ đi từ tổng số thời gian làm việc trong 1 tháng.</I1014>
+    <I1015>Xin hãy thiết lập thông tin thiết bị vân tay .</I1015>
+    <I1016>Xin hãy nhập "Mã số nhân viên" và "Mật khẩu"</I1016>
+    <I1017>Xin hãy nhập thông tin của nhân viên.Mã số nhân viên không thể thay đổi.\n Hãy thiết lập mật khẩu để nhân viên này có thể truy cập vào phần mềm này.</I1017>
+    <I1018>Xin hãy nhập thông tin của nhân viên.\n Chỉ những nhân viên được cài đặt mật khẩu mới có thể truy cập vào hệ thống này.</I1018>
+    <I1019>Xin vui lòng nhập tên của máy chủ cơ sở dữ liệu.</I1019>
+    <!--<L0001>Không kết nối được với đầu đọc vân tay.<L0001>-->
+    <!--<L0002>Đầu đọc vân tay đang bị khóa.<L0002>-->
+    <!--<L0003>Không có dữ liệu trên đầu đọc vân tay.<L0003>-->
+    <!--<L0004>Không thể đăng kí tên người sử dụng.<L0004>-->
+    <!--<L0005>Không thể thu được thông tin của người sử dụng trên đầu đọc vân tay.<L0005>-->
+    <!--<L0006>Không thể thu được mật khẩu và dữ liệu vân tay trên đầu đọc vân tay.<L0006>-->
+    <!--<L0007>Không thể tạo mới người sử dụng.<L0007>-->
+    <S0001>Hoạt động ID(nhận dạng cá nhân) không đúng.,0,16</S0001>
+    <!--<S0002>Thông tin kết nối của đầu đọc vân tay không đúng.<S0002>-->
+    <S0011>Cập nhật dữ liệu của đầu đọc vân tay không thành công.,0,16</S0011>
+    <S0012>Tiếp nhận dữ liệu của đầu đọc vân tay không thành công.,0,16</S0012>
+    <S0013>Kết nối với đầu đọc vân tay không thành công.,0,16</S0013>
+    <S0014>Việc kết nối với thiết bị nhận dạng vân tay đã thất bại. Xin xác nhận thiết bị nhận dạng vân tay đang được kết nối và đã được khởi động.,0,16</S0014>
+    <S0015>Việc lấy dữ liệu vân tay từ thiết bị nhận dạng vân tay đã thất bại .\nXin nhập  [Mã số NV] và [Mật khẩu] rồi nhấn [Đăng nhập]để thực hiện các tác vụ quản lý trên phần mềm .,0,16</S0015>
+    <S0101>Lỗi xảy ra trong qúa trình xuất file. Có thể Microsoft Excel chưa được cài đặt.,0,16</S0101>
+  </message>
+  <form>
+    <Login>
+      <Text>Chào mừng đến với  Yubi-Taro </Text>
+      <Title>
+        <Text>Đăng nhập</Text>
+        <Font>Times New Roman</Font>
+      </Title>
+      <MessageArea>
+        <Text>Tin nhắn</Text>
+        <Font>Times New Roman</Font>
+        <MessageText>
+          <Font>Times New Roman</Font>
+        </MessageText>
+      </MessageArea>
+      <grpInput>
+        <Text>Nhâp tiết mục</Text>
+        <Font>Times New Roman</Font>
+        <lblCompany>
+          <Text>Công ty:</Text>
+          <Font>Times New Roman,12</Font>
+        </lblCompany>
+        <cmbCompany>
+          <Font>Times New Roman</Font>
+        </cmbCompany>
+        <lblEmployeeNo>
+          <Text>Mã số NV:</Text>
+          <Font>Times New Roman,12</Font>
+        </lblEmployeeNo>
+        <txtEmployeeNo>
+          <Font>Times New Roman</Font>
+        </txtEmployeeNo>
+        <lblPassword>
+          <Text>Mật khẩu:</Text>
+          <Font>Times New Roman,12</Font>
+        </lblPassword>
+        <txtPassword>
+          <Font>Times New Roman</Font>
+        </txtPassword>
+      </grpInput>
+      <btnDBServerMante>
+        <Text>DB Máy chủ</Text>
+        <Font>Times New Roman</Font>
+      </btnDBServerMante>
+      <btnLogin>
+        <Text>Đăng nhập</Text>
+        <Font>Times New Roman</Font>
+      </btnLogin>
+      <btnEnd>
+        <Text>Xong</Text>
+        <Font>Times New Roman</Font>
+      </btnEnd>
+    </Login>
+
+    <DBServerMante>
+      <Text>YUBI-TARO</Text>
+      <Title>
+        <Text>Thay đổi các máy chủ cơ sở dữ liệu</Text>
+        <Font>Times New Roman,20</Font>
+      </Title>
+      <MessageArea>
+        <Text>Tin nhắn</Text>
+        <Font>Times New Roman</Font>
+        <MessageText>
+          <Font>Times New Roman</Font>
+        </MessageText>
+      </MessageArea>
+      <grpInput>
+        <Text>Đầu vào mục</Text>
+        <Font>Times New Roman</Font>
+        <lblDBServerName>
+          <Text>Tên máy chủ:</Text>
+          <Font>Times New Roman,12</Font>
+        </lblDBServerName>
+        <txtDBServerName>
+          <Font>Times New Roman</Font>
+        </txtDBServerName>
+        <lblAuthentication>
+          <Text>Xác thực:</Text>
+          <Font>Times New Roman,12</Font>
+        </lblAuthentication>
+        <rdoWindowsAuthentication>
+          <Text>Xác thực Windows</Text>
+          <Font>Times New Roman,12</Font>
+        </rdoWindowsAuthentication>
+        <rdoSQLServerAuthentication>
+          <Text>Xác thực SQL Server </Text>
+          <Font>Times New Roman,12</Font>
+        </rdoSQLServerAuthentication>
+      </grpInput>
+      <btnUpdate>
+        <Text>Lưu thay đổi</Text>
+        <Font>Times New Roman</Font>
+      </btnUpdate>
+      <btnCancel>
+        <Text>Hủy</Text>
+        <Font>Times New Roman</Font>
+      </btnCancel>
+      <btnEnd>
+        <Text>Xong</Text>
+        <Font>Times New Roman</Font>
+      </btnEnd>
+    </DBServerMante>
+
+    <Menu>
+      <Text>YUBI-TARO</Text>
+      <Title>
+        <Text>Thư mục</Text>
+        <Font>Times New Roman</Font>
+      </Title>
+      <MessageArea>
+        <Text>Tin nhắn</Text>
+        <Font>Times New Roman</Font>
+        <MessageText>
+          <Font>Times New Roman</Font>
+        </MessageText>
+      </MessageArea>
+      <GroupBox1>
+        <Text>Điểm danh NV</Text>
+        <Font>Times New Roman</Font>
+        <btnEmployeeList>
+          <Text>Danh sách NV</Text>
+          <Font>Times New Roman</Font>
+        </btnEmployeeList>
+      </GroupBox1>
+      <GroupBox3>
+        <Text>Bảo trì</Text>
+        <Font>Times New Roman</Font>
+        <btnBackup>
+          <Text>Bản sao lưu</Text>
+          <Font>Times New Roman</Font>
+        </btnBackup>
+        <btnRestoring>
+          <Text>Khôi phục</Text>
+          <Font>Times New Roman</Font>
+        </btnRestoring>
+        <btnRecovery>
+          <Text>Phục hồi TBVT</Text>
+          <Font>Times New Roman</Font>
+        </btnRecovery>
+      </GroupBox3>
+      <GroupBox4>
+        <Text>Bộ nhớ USB</Text>
+        <Font>Times New Roman</Font>
+        <btnInOutLogImport>
+          <Text>Ghi điểm danh NV</Text>
+          <Font>Times New Roman,14</Font>
+        </btnInOutLogImport>
+      </GroupBox4>
+      <GroupBox2>
+        <Text>Quản lý hệ thống</Text>
+        <Font>Times New Roman</Font>
+        <btnEmployeeMante>
+          <Text>Nhân viên</Text>
+          <Font>Times New Roman</Font>
+        </btnEmployeeMante>
+        <btnCompanyMante>
+          <Text>Công ty (hãng)</Text>
+          <Font>Times New Roman</Font>
+        </btnCompanyMante>
+        <btnPostMante>
+          <Text>Bộ (cục)</Text>
+          <Font>Times New Roman</Font>
+        </btnPostMante>
+        <btnTimeTableMante>
+          <Text>Bảng giờ giấc</Text>
+          <Font>Times New Roman</Font>
+        </btnTimeTableMante>
+        <btnHolidayMante>
+          <Text>Ngày nghỉ</Text>
+          <Font>Times New Roman</Font>
+        </btnHolidayMante>
+        <btnMonthlyMante>
+          <Text>Lịch (niên giám)</Text>
+          <Font>Times New Roman</Font>
+        </btnMonthlyMante>
+        <btnFileOutput>
+          <Text>Hồ sơ xuất ra</Text>
+          <Font>Times New Roman</Font>
+        </btnFileOutput>
+        <btnTerminalSettingMainte>
+          <Text>Đầu đọc VT</Text>
+          <Font>Times New Roman</Font>
+        </btnTerminalSettingMainte>
+      </GroupBox2>
+      <btnLogout>
+        <Text>Đăng xuất</Text>
+        <Font>Times New Roman</Font>
+      </btnLogout>
+      <btnEnd>
+        <Text>Xong</Text>
+        <Font>Times New Roman</Font>
+      </btnEnd>
+    </Menu>
+
+    <EmployeeList>
+      <Text>YUBI-TARO</Text>
+      <Title>
+        <Text>Danh sách nhân viên</Text>
+        <Font>Times New Roman</Font>
+      </Title>
+      <MessageArea>
+        <Text>Tin nhắn</Text>
+        <Font>Times New Roman</Font>
+        <MessageText>
+          <Font>Times New Roman</Font>
+        </MessageText>
+      </MessageArea>
+      <GroupBox1>
+        <chkExport>
+          <Text>Chọn cả</Text>
+          <Font>Times New Roman,9</Font>
+        </chkExport>
+      </GroupBox1>
+      <Label3>
+        <Text>Công ty:</Text>
+        <Font>Times New Roman,10</Font>
+      </Label3>
+      <cmb_Company>
+        <Font>Times New Roman</Font>
+      </cmb_Company>
+      <Label1>
+        <Text>Tên bộ (cục):</Text>
+        <Font>Times New Roman,10</Font>
+        <Left>282</Left>
+      </Label1>
+      <cmb_Post>
+        <Font>Times New Roman</Font>
+        <Left>372</Left>
+      </cmb_Post>
+      <Label8>
+        <Text>Mã số nhân viên/Họ/Tên:</Text>
+        <Font>Times New Roman,10</Font>
+        <!--<Left></Left>-->
+      </Label8>
+      <txt_EmployeeNo>
+        <Font>Times New Roman</Font>
+      </txt_EmployeeNo>
+      <btn_Search>
+        <Text>Tìm kiếm</Text>
+        <Font>Times New Roman,12</Font>
+      </btn_Search>
+      <Label2>
+        <Text>Năm/Tháng:</Text>
+        <Font>Times New Roman,10</Font>
+        <Left>518</Left>
+      </Label2>
+      <cmb_Year>
+        <Font>Times New Roman</Font>
+        <Left>826</Left>
+      </cmb_Year>
+      <Label4>
+        <Text>/</Text>
+        <Font>Times New Roman</Font>
+        <Left>800</Left>
+      </Label4>
+      <cmb_Month>
+        <Font>Times New Roman</Font>
+        <Text>January=1,February,March,April,May,June,July,August,September,October,November,December</Text>
+        <Left>684</Left>
+        <Width>110</Width>
+      </cmb_Month>
+      <Label7>
+        <Text>/</Text>
+        <Font>Times New Roman</Font>
+        <Left>658</Left>
+      </Label7>
+      <cmb_Day>
+        <Font>Times New Roman</Font>
+        <Left>607</Left>
+      </cmb_Day>
+      <DataGridView>
+        <HeaderText>,EXPIRATION_FROM,EXPIRATION_TO,Hãng (xưởng),Bộ (cục),Mã số NV,Họ/tên,Giờ hợp đồng,Gìơ làm việc,Gìơ làm thêm,Lưu ý,ID,COMPANY_NO,TIME_TABLE_NO,EMSIZE_LAST_NAME,EMSIZE_FIRST_NAME</HeaderText>
+        <HeaderFont>Times New Roman,12</HeaderFont>
+        <Font>Times New Roman</Font>
+      </DataGridView>
+      <GroupBox3>
+        <btnFileOutput>
+          <Text>Xuất hồ sơ</Text>
+          <Font>Times New Roman,14</Font>
+        </btnFileOutput>
+        <cmb_Output_Name>
+          <Font>Times New Roman</Font>
+        </cmb_Output_Name>
+      </GroupBox3>
+      <btnXlsExport>
+        <Text>Xuất mục HS</Text>
+        <Font>Times New Roman,14</Font>
+      </btnXlsExport>
+      <btnAttendanceListXlsExport>
+        <!--customize(huecompany) *** start-->
+        <!--<Text>DS đi làm/vắng mặt</Text>-->
+        <!--<Font>Times New Roman,9</Font>-->
+        <Text>Daily</Text>
+        <Font>Times New Roman,14</Font>
+        <!--customize(huecompany) *** end-->
+      </btnAttendanceListXlsExport>
+      <Label5>
+        <Text>Gìơ hợp đồng</Text>
+        <Font>Times New Roman,9</Font>
+      </Label5>
+      <lblContractTime>
+        <Font>Times New Roman</Font>
+      </lblContractTime>
+      <Label6>
+        <Text>Gìơ làm việc</Text>
+        <Font>Times New Roman,9</Font>
+      </Label6>
+      <lblWorkingTime>
+        <Font>Times New Roman</Font>
+      </lblWorkingTime>
+      <Label9>
+        <Text>Gìơ làm thêm</Text>
+        <Font>Times New Roman,9</Font>
+      </Label9>
+      <lblOverTime>
+        <Font>Times New Roman</Font>
+      </lblOverTime>
+      <btnPrevious>
+        <Text>Hủy</Text>
+        <Font>Times New Roman</Font>
+      </btnPrevious>
+      <btnCustomizeList1XlsExport>
+        <!--customize(huecompany) *** start-->
+        <Text>Monthly</Text>
+        <Font>Times New Roman,14</Font>
+        <!--customize(huecompany) *** end-->
+        <!--<Left>842</Left>-->
+      </btnCustomizeList1XlsExport>
+      <btnCustomizeList2XlsExport>
+        <Text>CustomizeList2</Text>
+        <Font>Times New Roman,9</Font>
+        <!--<Left>676</Left>-->
+      </btnCustomizeList2XlsExport>
+      <btnCustomizeList3XlsExport>
+        <Text>CustomizeList3</Text>
+        <Font>Times New Roman,9</Font>
+        <!--<Left>510</Left>-->
+      </btnCustomizeList3XlsExport>
+    </EmployeeList>
+
+    <WorkList>
+      <Text>YUBI-TARO</Text>
+      <!--<ContextMenuStrip></ContextMenuStrip>-->
+      <Title>
+        <Text>Danh sách nhân viên Có/Vắng mặt</Text>
+        <Font>Times New Roman,12</Font>
+      </Title>
+      <Label1>
+        <Text>Họ/Tên:</Text>
+        <Font>Times New Roman,9</Font>
+      </Label1>
+      <lblEmployeeName>
+        <Font>Times New Roman,9</Font>
+      </lblEmployeeName>
+      <Label3>
+        <Text>Thời hạn:</Text>
+        <Font>Times New Roman,9</Font>
+      </Label3>
+      <btnPreviousMonth>
+        <Text>&lt;</Text>
+        <Font>Times New Roman</Font>
+      </btnPreviousMonth>
+      <lblPeriodFromTo>
+        <Font>Times New Roman</Font>
+        <Tag>DMY</Tag>
+      </lblPeriodFromTo>
+      <btnNextMonth>
+        <Text>&gt;</Text>
+        <Font>Times New Roman</Font>
+        <Left>680</Left>
+      </btnNextMonth>
+      <MessageArea>
+        <Text>Tin nhắn</Text>
+        <Font>Times New Roman</Font>
+        <MessageText>
+          <Font>Times New Roman</Font>
+        </MessageText>
+      </MessageArea>
+      <!--<Label4>
+        <Text>年</Text>
+        <Font>Times New Roman</Font>
+      </Label4>
+      <Label2>
+        <Text>月</Text>
+        <Font>Times New Roman</Font>
+      </Label2>-->
+      <LblUpdate_start_time>
+        <Text>Sửa giờ đi làm</Text>
+      </LblUpdate_start_time>
+      <LblUpdate_end_time>
+        <Text>Sửa giờ làm về</Text>
+      </LblUpdate_end_time>
+      <LblWork_type>
+        <Text>Loại công việc</Text>
+      </LblWork_type>
+      <DataGridView>
+        <HeaderText>WORK_DATE,Ngày,Đi làm,Rời công ty,Loại công việc,Bảng giờ giấc,Sửa giờ đi làm,Sửa gời đi làm,Sửa giờ làm về,REST_TIME,Nghỉ giải lao,CONTRACT_TIME,WORKING_TIME,Lao động,OVER_TIME,Làm thêm,LATE_NIGHT_TIME,Nữa đêm,HOLIDAY_TIME,Ngày nghỉ,HOLIDAY_LATE_NIGHT_TIME,Nữa đêm ngày nghỉ,PAID_VACATION_TIME,Thời gian có lương,BEING_LATE_TIME,Đến trễ,LEAVING_EARLY_TIME,Về sớm,Ghi chú,WORK_DAYS,HOLIDAY_DAYS,PAID_VACATION_DAYS,COMPENSATORY_DAY_OFF,SPECIAL_HOLIDAYS,ABSENCE_DAYS,DILIGENCE_INDOLENCE_POINT,BEING_LATE_DAYS,LEAVING_EARLY_DAYS,CREATE_DATE_TIME,UPDATE_DATE_TIME</HeaderText>
+        <HeaderFont>Times New Roman,10</HeaderFont>
+        <HeaderHeight>66</HeaderHeight>
+        <Font>Times New Roman</Font>
+        <WORK_DATE_VIEWColumn>
+          <Font>Times New Roman,8</Font>
+        </WORK_DATE_VIEWColumn>
+        <WORK_TYPE_NOColumn>
+          <!--customize(huecompany) *** start-->
+          <!--<Text>Làm việc bình thường=1,Nghỉ có lương,Nghỉ nữa buổi sáng,Nghỉ nữa buổi chiều,Nghỉ đặc biệt,Nghỉ thay thế,Nghỉ làm,Đi làm ngày nghỉ,Ngày nghỉ mà phải đi làm</Text>-->
+          <Text>Normal Duty=1,Annual Leave=2,Permission=7,1/2 Permission=30,Maternity Leave=31, Absent without permission=28,Special Leave=5,Holiday Duty=8</Text>
+          <!--customize(huecompany) *** end-->
+        </WORK_TYPE_NOColumn>
+        <Tag>DM</Tag>
+      </DataGridView>
+      <Label5>
+        <Text>Gìơ hợp đồng</Text>
+        <Font>Times New Roman,7</Font>
+      </Label5>
+      <lblContractTime>
+        <Font>Times New Roman</Font>
+      </lblContractTime>
+      <Label6>
+        <Text>Gìơ làm việc</Text>
+        <Font>Times New Roman,7</Font>
+      </Label6>
+      <lblTrueWorkTime>
+        <Font>Times New Roman</Font>
+      </lblTrueWorkTime>
+      <Label9>
+        <Text>Gìơ làm thêm</Text>
+        <Font>Times New Roman,7</Font>
+      </Label9>
+      <lblOverTime>
+        <Font>Times New Roman</Font>
+      </lblOverTime>
+      <Label10>
+        <Text>Gìơ nữa đêm</Text>
+        <Font>Times New Roman,7</Font>
+      </Label10>
+      <lblLateNightTime>
+        <Font>Times New Roman</Font>
+      </lblLateNightTime>
+      <Label11>
+        <Text>Gìơ nghỉ</Text>
+        <Font>Times New Roman,7</Font>
+      </Label11>
+      <lblHolidayTime>
+        <Font>Times New Roman</Font>
+      </lblHolidayTime>
+      <Label18>
+        <Text>Gìơ nghỉ nữa đêm</Text>
+        <Font>Times New Roman,7</Font>
+      </Label18>
+      <lblHolidayLateNightTime>
+        <Font>Times New Roman</Font>
+      </lblHolidayLateNightTime>
+      <Label8>
+        <Text>Thời gian có lương</Text>
+        <Font>Times New Roman,7</Font>
+      </Label8>
+      <lblPaidVacationTime>
+        <Font>Times New Roman</Font>
+      </lblPaidVacationTime>
+      <Label12>
+        <!--customize(huecompany) *** start-->
+        <!--<Text>Có lương</Text>-->
+        <Text>AL</Text>
+        <!--customize(huecompany) *** end-->
+        <Font>Times New Roman,7</Font>
+      </Label12>
+      <lblPaidVacationDays>
+        <Font>Times New Roman</Font>
+      </lblPaidVacationDays>
+      <Label13>
+        <!--customize(huecompany) *** start-->
+        <!--<Text>Nghỉ thay thế</Text>-->
+        <Text>RPL</Text>
+        <!--customize(huecompany) *** end-->
+        <Font>Times New Roman,7</Font>
+      </Label13>
+      <lblCompensatoryDayOff>
+        <Font>Times New Roman</Font>
+      </lblCompensatoryDayOff>
+      <Label14>
+        <!--customize(huecompany) *** start-->
+        <!--<Text>Nghỉ làm</Text>-->
+        <Text>P</Text>
+        <!--customize(huecompany) *** end-->
+        <Font>Times New Roman,7</Font>
+      </Label14>
+      <lblAbsenceDays>
+        <Font>Times New Roman</Font>
+      </lblAbsenceDays>
+      <Label2>
+        <!--customize(huecompany) *** start-->
+        <!--<Text>Nghỉ đặc biệt</Text>-->
+        <Text>SL</Text>
+        <!--customize(huecompany) *** end-->
+        <Font>Times New Roman,7</Font>
+      </Label2>
+      <lblSpecialHolidays>
+        <Font>Times New Roman</Font>
+      </lblSpecialHolidays>
+      <Label4>
+        <Text>Đến trễ</Text>
+        <Font>Times New Roman,7</Font>
+      </Label4>
+      <lblBeingLateTime>
+        <Font>Times New Roman</Font>
+      </lblBeingLateTime>
+      <Label7>
+        <Text>Về sớm</Text>
+        <Font>Times New Roman,7</Font>
+      </Label7>
+      <lblLeavingEarlyTime>
+        <Font>Times New Roman</Font>
+      </lblLeavingEarlyTime>
+      <btnOutputList>
+        <Text>Xuất mục HS</Text>
+        <Font>Times New Roman,10</Font>
+      </btnOutputList>
+      <btnPreviousMenu>
+        <Text>Thư mục</Text>
+        <Font>Times New Roman,10</Font>
+      </btnPreviousMenu>
+      <btnUpdate>
+        <Text>Lưu thay đổi</Text>
+        <Font>Times New Roman,10</Font>
+      </btnUpdate>
+      <btnPrevious>
+        <Text>Hủy</Text>
+        <Font>Times New Roman,10</Font>
+      </btnPrevious>
+      <btnCustomizeList1XlsExport>
+        <Text>BC Tháng</Text>
+        <Font>MS UI Gothic,14</Font>
+      </btnCustomizeList1XlsExport>
+    </WorkList>
+
+    <EmployeeMainte>
+      <Text>YUBI-TARO</Text>
+      <Title>
+        <Text>Mục quản lý nhân viên</Text>
+        <Font>Times New Roman</Font>
+      </Title>
+      <MessageArea>
+        <Text>Tin nhắn</Text>
+        <Font>Times New Roman</Font>
+        <MessageText>
+          <Font>Times New Roman</Font>
+        </MessageText>
+      </MessageArea>
+      <Label3>
+        <Text>Công ty:</Text>
+        <Font>Times New Roman,10</Font>
+      </Label3>
+      <cmb_Company>
+        <Font>Times New Roman</Font>
+      </cmb_Company>
+      <Label1>
+        <Text>Tên bộ (cục):</Text>
+        <Font>Times New Roman,10</Font>
+        <Left>282</Left>
+      </Label1>
+      <cmb_Post>
+        <Font>Times New Roman</Font>
+        <Left>372</Left>
+      </cmb_Post>
+      <Label2>
+        <Text>Mã số nhân viên/Họ/Tên:</Text>
+        <Font>Times New Roman,10</Font>
+        <!--<Left></Left>-->
+      </Label2>
+      <txt_EmployeeNo>
+        <Font>Times New Roman</Font>
+      </txt_EmployeeNo>
+      <btn_Search>
+        <Text>Tìm kiếm</Text>
+        <Font>Times New Roman,12</Font>
+      </btn_Search>
+      <GroupBox1>
+        <chkDeleteRowVisible>
+          <Text>Hiển thị dữ liệu đã xóa</Text>
+          <Font>Times New Roman,10</Font>
+        </chkDeleteRowVisible>
+      </GroupBox1>
+      <DataGridView>
+        <HeaderText>Mã số đăng ký,Mã số nhân viên,LOGIN_PASSWORD,Đăng nhập mật khẩu,EXPIRATION_FROM,Ngày bắt đầu áp dụng,EXPIRATION_TO,Co. No.,Tên công ty (Hãng),Dept. No.,Tên bộ (cục),Timetable,Bảng giờ giấc,Họ,Tên,Last Name(en),First Name(en),RETIREMENT_DATE,Ngày về hưu,Lưu ý,STATUS,CREATE_DATE_TIME,UPDATE_DATE_TIME</HeaderText>
+        <HeaderFont>Times New Roman</HeaderFont>
+        <Font>Times New Roman</Font>
+        <EXPIRATION_FROM_VIEWColumn>
+          <DateView>DMY,0</DateView>
+        </EXPIRATION_FROM_VIEWColumn>
+        <RETIREMENT_DATE_VIEWColumn>
+          <DateView>DMY,NULL</DateView>
+        </RETIREMENT_DATE_VIEWColumn>
+      </DataGridView>
+      <btn_Upd>
+        <Text>Lưu thay đổi</Text>
+        <Font>Times New Roman</Font>
+      </btn_Upd>
+      <btn_Ret>
+        <Text>Hủy</Text>
+        <Font>Times New Roman</Font>
+      </btn_Ret>
+    </EmployeeMainte>
+
+    <EmployeeInput>
+      <Text>YUBI-TARO</Text>
+      <Title>
+        <Text>Mục quuản lý nhân viên</Text>
+        <Font>Times New Roman</Font>
+      </Title>
+      <MessageArea>
+        <Text>Tin nhắn</Text>
+        <Font>Times New Roman</Font>
+        <MessageText>
+          <Font>Times New Roman</Font>
+        </MessageText>
+      </MessageArea>
+      <lbl_UserID>
+        <Text>Mã số đăng ký</Text>
+        <Font>Times New Roman,10</Font>
+      </lbl_UserID>
+      <txt_UserID>
+        <Font>Times New Roman</Font>
+      </txt_UserID>
+      <lbl_EmployeeNO>
+        <Text>Mã số nhân viên</Text>
+        <Font>Times New Roman</Font>
+      </lbl_EmployeeNO>
+      <txt_EmployeeNO>
+        <Font>Times New Roman</Font>
+      </txt_EmployeeNO>
+      <lbl_LoginPW>
+        <Text>Đăng nhập mật khẩu</Text>
+        <Font>Times New Roman</Font>
+        <Left>296</Left>
+      </lbl_LoginPW>
+      <txt_LoginPW>
+        <Font>Times New Roman</Font>
+        <Left>300</Left>
+      </txt_LoginPW>
+      <lbl_Use_Flag_Of_Holiday>
+        <Text>Mục quản lý ngày nghỉ</Text>
+        <Font>Times New Roman</Font>
+        <Left>490</Left>
+      </lbl_Use_Flag_Of_Holiday>
+      <cmb_Use_Flag_Of_Holiday>
+        <Text>Không sử dụng,Sử dụng</Text>
+        <Font>Times New Roman</Font>
+        <Left>494</Left>
+        <Width>160</Width>
+      </cmb_Use_Flag_Of_Holiday>
+      <lbl_Company>
+        <Text>Tên công ty</Text>
+        <Font>Times New Roman</Font>
+      </lbl_Company>
+      <cmb_Company>
+        <Font>Times New Roman</Font>
+      </cmb_Company>
+      <lbl_Post>
+        <Text>Bộ (cục)</Text>
+        <Font>Times New Roman</Font>
+      </lbl_Post>
+      <cmb_Post>
+        <Font>Times New Roman</Font>
+      </cmb_Post>
+      <lbl_TimeTable>
+        <Text>Bảng giờ giấc</Text>
+        <Font>Times New Roman</Font>
+      </lbl_TimeTable>
+      <cmb_TimeTable>
+        <Font>Times New Roman</Font>
+      </cmb_TimeTable>
+      <lbl_Name1>
+        <Text>Họ</Text>
+        <Font>Times New Roman</Font>
+      </lbl_Name1>
+      <txt_Name1>
+        <Font>Times New Roman</Font>
+      </txt_Name1>
+      <lbl_Name2>
+        <Text>Tên</Text>
+        <Font>Times New Roman</Font>
+      </lbl_Name2>
+      <txt_Name2>
+        <Font>Times New Roman</Font>
+      </txt_Name2>
+      <lbl_Remarks>
+        <Text>Lưu ý</Text>
+        <Font>Times New Roman</Font>
+      </lbl_Remarks>
+      <txt_Remarks>
+        <Font>Times New Roman</Font>
+      </txt_Remarks>
+      <!--customize(huecompany) *** start-->
+      <lbl_RemarksA>
+        <!--<Text>Lưu ý A</Text>-->
+        <Text>Team</Text>
+        <Font>Times New Roman</Font>
+      </lbl_RemarksA>
+      <txt_RemarksA>
+        <Font>Times New Roman</Font>
+      </txt_RemarksA>
+      <lbl_RemarksB>
+        <!--<Text>Lưu ý B</Text>-->
+        <Text>Position</Text>
+        <Font>Times New Roman</Font>
+      </lbl_RemarksB>
+      <txt_RemarksB>
+        <Font>Times New Roman</Font>
+      </txt_RemarksB>
+      <!--customize(huecompany) *** end-->
+      <lbl_Expiration_From>
+        <Text>Ngày đầu</Text>
+        <Font>Times New Roman</Font>
+      </lbl_Expiration_From>
+      <txt_Expiration_From>
+        <Font>Times New Roman</Font>
+        <DateView>DMY,0</DateView>
+      </txt_Expiration_From>
+      <txt_Expiration_To>
+        <DateView>DMY,99999999</DateView>
+      </txt_Expiration_To>
+      <lbl_Retirement_Date>
+        <Text>Năm/Tháng/Ngày về hưu</Text>
+        <Font>Times New Roman</Font>
+      </lbl_Retirement_Date>
+      <txt_Retirement_Date>
+        <Font>Times New Roman</Font>
+        <DateView>DMY,NULL</DateView>
+      </txt_Retirement_Date>
+      <btn_Add>
+        <Text>Thêm vào</Text>
+        <Font>Times New Roman</Font>
+      </btn_Add>
+      <btn_Upd>
+        <Text>Sửa đổi</Text>
+        <Font>Times New Roman</Font>
+      </btn_Upd>
+      <btn_Del>
+        <Text>Xóa</Text>
+        <Font>Times New Roman</Font>
+      </btn_Del>
+      <btn_Ret>
+        <Text>Hủy</Text>
+        <Font>Times New Roman</Font>
+      </btn_Ret>
+    </EmployeeInput>
+
+    <CompanyMainte>
+      <Text>YUBI-TARO</Text>
+      <Title>
+        <Text>Mục quản lý công ty</Text>
+        <Font>Times New Roman</Font>
+      </Title>
+      <MessageArea>
+        <Text>Tin nhắn</Text>
+        <Font>Times New Roman</Font>
+        <MessageText>
+          <Font>Times New Roman</Font>
+        </MessageText>
+      </MessageArea>
+      <GroupBox1>
+        <chkDeleteRowVisible>
+          <Text>Hiển thị dữ liệu đã xóa</Text>
+          <Font>Times New Roman,10</Font>
+        </chkDeleteRowVisible>
+      </GroupBox1>
+      <DataGridView>
+        <HeaderText>,Công ty No.,EXPIRATION_FROM,Ngày đầu,EXPIRATION_TO,Ngày cuối,Tên công ty,FISCAL_YEAR_FROM,Ngày đầu năm,Số ngày nghỉ có lương,WORKING_MINUTES,Lương 1 ngày,STATUS,CREATE_DATE_TIME,UPDATE_DATE_TIME</HeaderText>
+        <HeaderFont>Times New Roman</HeaderFont>
+        <!--<HeaderHeight></HeaderHeight>-->
+        <Font>Times New Roman</Font>
+        <DeleteColumn>
+          <Text>Xóa</Text>
+        </DeleteColumn>
+        <EXPIRATION_FROM_VIEWColumn>
+          <DateView>DMY,0</DateView>
+        </EXPIRATION_FROM_VIEWColumn>
+        <EXPIRATION_TO_VIEWColumn>
+          <DateView>DMY,99999999</DateView>
+        </EXPIRATION_TO_VIEWColumn>
+        <COMPANYNOColumn>
+          <Width>140</Width>
+        </COMPANYNOColumn>
+        <FISCAL_YEAR_FROM_VIEWColumn>
+          <Width>150</Width>
+          <DateView>DM,NULL</DateView>
+        </FISCAL_YEAR_FROM_VIEWColumn>
+      </DataGridView>
+      <btnUpdate>
+        <Text>Lưu thay đổi</Text>
+        <Font>Times New Roman</Font>
+      </btnUpdate>
+      <btnCancel>
+        <Text>Hủy</Text>
+        <Font>Times New Roman</Font>
+      </btnCancel>
+    </CompanyMainte>
+
+    <PostMainte>
+      <Text>YUBI-TARO</Text>
+      <Title>
+        <Text>Mục quản lý bộ</Text>
+        <Font>Times New Roman</Font>
+      </Title>
+      <MessageArea>
+        <Text>Tin nhắn</Text>
+        <Font>Times New Roman</Font>
+        <MessageText>
+          <Font>Times New Roman</Font>
+        </MessageText>
+      </MessageArea>
+      <Label3>
+        <Text>Công ty:</Text>
+        <Font>Times New Roman,10</Font>
+      </Label3>
+      <cmb_Company>
+        <Font>Times New Roman</Font>
+      </cmb_Company>
+      <GroupBox1>
+        <chkDeleteRowVisible>
+          <Text>Hiển thị dữ liệu đã xóa</Text>
+          <Font>Times New Roman,10</Font>
+        </chkDeleteRowVisible>
+      </GroupBox1>
+      <DataGridView>
+        <HeaderText>,Co.No.,Số bộ,EXPIRATION_FROM,Ngày đầu,EXPIRATION_TO,Ngày cuối,Tên bộ (cục),STATUS,CREATE_DATE_TIME,UPDATE_DATE_TIME</HeaderText>
+        <HeaderFont>Times New Roman</HeaderFont>
+        <Font>Times New Roman</Font>
+        <DeleteColumn>
+          <Text>Xóa</Text>
+        </DeleteColumn>
+        <EXPIRATION_FROM_VIEWColumn>
+          <DateView>DMY,0</DateView>
+        </EXPIRATION_FROM_VIEWColumn>
+        <EXPIRATION_TO_VIEWColumn>
+          <DateView>DMY,99999999</DateView>
+        </EXPIRATION_TO_VIEWColumn>
+      </DataGridView>
+      <btnUpdate>
+        <Text>Lưu thay đổi</Text>
+        <Font>Times New Roman</Font>
+      </btnUpdate>
+      <btnCancel>
+        <Text>Hủy</Text>
+        <Font>Times New Roman</Font>
+      </btnCancel>
+    </PostMainte>
+
+    <HolidayMainte>
+      <Text>YUBI-TARO</Text>
+      <Title>
+        <Text>Mục quản lý ngày nghỉ</Text>
+        <Font>Tin nhắn</Font>
+      </Title>
+      <MessageArea>
+        <Text>Tin nhắn</Text>
+        <Font>Times New Roman</Font>
+        <MessageText>
+          <Font>Times New Roman</Font>
+        </MessageText>
+      </MessageArea>
+      <Label3>
+        <Text>Công ty:</Text>
+        <Font>Times New Roman,10</Font>
+      </Label3>
+      <cmbCompany>
+        <Font>Times New Roman</Font>
+      </cmbCompany>
+      <Label4>
+        <Text>Năm/Tháng:</Text>
+        <Font>Times New Roman,10</Font>
+        <Left>320</Left>
+      </Label4>
+      <cmbYear>
+        <Font>Times New Roman</Font>
+        <Left>540</Left>
+      </cmbYear>
+      <Label1>
+        <Text>/</Text>
+        <Font>Times New Roman</Font>
+        <Left>520</Left>
+      </Label1>
+      <cmbMonth>
+        <Text>January=1,February,March,April,May,June,July,August,September,October,November,December</Text>
+        <Font>Times New Roman</Font>
+        <Left>410</Left>
+        <Width>110</Width>
+      </cmbMonth>
+      <DataGridView>
+        <HeaderText>Chủ nhật,Thứ hai,Thứ ba,Thứ tư,Thứ năm,Thứ sáu,Thứ bảy</HeaderText>
+        <HeaderFont>Times New Roman</HeaderFont>
+        <Font>Times New Roman</Font>
+      </DataGridView>
+      <btn_Previous>
+        <Text>&lt;</Text>
+        <Font>Times New Roman</Font>
+      </btn_Previous>
+      <btn_Next>
+        <Text>&gt;</Text>
+        <Font>Times New Roman</Font>
+      </btn_Next>
+      <Label7>
+        <Text>Lưu ý:</Text>
+        <Font>Times New Roman,10</Font>
+      </Label7>
+      <txt_Remarks>
+        <Font>Times New Roman</Font>
+      </txt_Remarks>
+      <GroupBox1>
+        <Text>Cài đặt ngày nghỉ định kỳ</Text>
+        <Font>Times New Roman</Font>
+        <Label2>
+          <Text>Thời hạn:</Text>
+          <Font>Times New Roman,10</Font>
+          <Left>10</Left>
+        </Label2>
+        <dtbFrom>
+          <Font>Times New Roman</Font>
+          <DateView>DM,0</DateView>
+        </dtbFrom>
+        <Label8>
+          <Text>-</Text>
+          <Font>Times New Roman</Font>
+        </Label8>
+        <dtbTo>
+          <Font>Times New Roman</Font>
+          <DateView>DM,0</DateView>
+        </dtbTo>
+        <lbl_Weekday>
+          <Visible>True</Visible>
+          <Text>Ngày:</Text>
+          <Font>Times New Roman,10</Font>
+        </lbl_Weekday>
+        <cmb_Weekday>
+          <Text>Chủ nhật=0,Thứ hai,Thứ ba,Thứ tư,Thứ năm,Thứ sáu,Thứ bảy</Text>
+          <Font>Times New Roman</Font>
+          <Left>345</Left>
+          <Width>100</Width>
+        </cmb_Weekday>
+        <Label5>
+          <Visible>False</Visible>
+          <Text>Ngày</Text>
+          <Font>Times New Roman</Font>
+        </Label5>
+        <Label6>
+          <Text>Lưu ý:</Text>
+          <Font>Times New Roman,10</Font>
+        </Label6>
+        <txt_AddRemarks>
+          <Font>Times New Roman</Font>
+          <Left>540</Left>
+        </txt_AddRemarks>
+        <btnSetBatch>
+          <Text>Cài đặt</Text>
+          <Font>Times New Roman</Font>
+        </btnSetBatch>
+      </GroupBox1>
+      <btnUpdate>
+        <Text>Lưu thay đổi</Text>
+        <Font>Times New Roman</Font>
+      </btnUpdate>
+      <btnCancel>
+        <Text>Hủy</Text>
+        <Font>Times New Roman</Font>
+      </btnCancel>
+    </HolidayMainte>
+
+    <MonthlyMainte>
+      <Text>YUBI-TARO</Text>
+      <Title>
+        <Text>Mục quản lý lịch (niên giám)</Text>
+        <Font>Times New Roman</Font>
+      </Title>
+      <MessageArea>
+        <Text>Tin nhắn</Text>
+        <Font>Times New Roman</Font>
+        <MessageText>
+          <Font>Times New Roman</Font>
+        </MessageText>
+      </MessageArea>
+      <Label3>
+        <Text>Công ty:</Text>
+        <Font>Times New Roman,10</Font>
+      </Label3>
+      <cmbCompany>
+        <Font>Times New Roman</Font>
+      </cmbCompany>
+      <DataGridView>
+        <HeaderText>,COMPANY_NO,EXPIRATION_FROM,Thánng bắt đầu áp dụng,EXPIRATION_TO,Ngày cuối kỳ,Đơn vị thời gian làm việc,STATUS,CREATE_DATE_TIME,UPDATE_DATE_TIME</HeaderText>
+        <HeaderFont>Times New Roman</HeaderFont>
+        <Font>Times New Roman</Font>
+        <EXPIRATION_FROM_VIEWColumn>
+          <DateView>MY,0</DateView>
+        </EXPIRATION_FROM_VIEWColumn>
+      </DataGridView>
+      <btnUpdate>
+        <Text>Lưu thay đổi</Text>
+        <Font>Times New Roman</Font>
+      </btnUpdate>
+      <btnCancel>
+        <Text>Hủy</Text>
+        <Font>Times New Roman</Font>
+      </btnCancel>
+    </MonthlyMainte>
+
+    <FileOutput>
+      <Text>YUBI-TARO</Text>
+      <Title>
+        <Text>Mục quản lý xuất hồ sơ </Text>
+        <Font>Times New Roman</Font>
+      </Title>
+      <MessageArea>
+        <Text>Tin nhắn</Text>
+        <Font>Times New Roman</Font>
+        <MessageText>
+          <Font>Times New Roman</Font>
+        </MessageText>
+      </MessageArea>
+      <grp_Output_File_Type>
+        <Text>Chọn cài đặt xuất hồ sơ </Text>
+        <Font>Times New Roman</Font>
+        <cmb_Output_Name>
+          <Font>Times New Roman</Font>
+        </cmb_Output_Name>
+      </grp_Output_File_Type>
+      <grp_Csv_Output_Setting>
+        <Text>Cài đặt hồ sơ xuất</Text>
+        <Font>Times New Roman</Font>
+        <grp_Output_Name>
+          <Text>Cài đặt tên hồ sơ xuất</Text>
+          <Font>Times New Roman</Font>
+          <txt_Output_Name>
+            <Font>Times New Roman</Font>
+          </txt_Output_Name>
+        </grp_Output_Name>
+        <grp_Output_Type>
+          <Text>Chữ phân cách</Text>
+          <Font>Times New Roman</Font>
+          <cmb_Output_Type>
+            <Text>Phân cách bằng dấu phẩy,Phân cách bằng TAB</Text>
+            <Font>Times New Roman</Font>
+          </cmb_Output_Type>
+        </grp_Output_Type>
+        <grp_String_Char>
+          <Text>Chuỗi ký hiệu</Text>
+          <Font>Times New Roman</Font>
+          <cmb_String_Char>
+            <Text>Không có,',"</Text>
+            <Font>Times New Roman</Font>
+          </cmb_String_Char>
+        </grp_String_Char>
+        <grp_HeaderRow>
+          <Text>Đầu mục</Text>
+          <Font>Times New Roman</Font>
+          <chk_HeaderRow>
+            <Text>Xuất ra</Text>
+            <Font>Times New Roman</Font>
+          </chk_HeaderRow>
+        </grp_HeaderRow>
+        <grp_Extension>
+          <Text>Phần mở rộng tên tập tin</Text>
+          <Font>Times New Roman,10</Font>
+          <txt_Extension>
+            <Font>Times New Roman,14</Font>
+          </txt_Extension>
+        </grp_Extension>
+        <grp_Output>
+          <Text>Xuất tiết mục</Text>
+          <Font>Times New Roman</Font>
+          <btnToRight>
+            <Text>→</Text>
+            <Font>Times New Roman</Font>
+          </btnToRight>
+          <btnToLeft>
+            <Text>←</Text>
+            <Font>Times New Roman</Font>
+          </btnToLeft>
+          <btnToUp>
+            <Text>↑</Text>
+            <Font>Times New Roman,14</Font>
+          </btnToUp>
+          <btnToDown>
+            <Text>↓</Text>
+            <Font>Times New Roman,14</Font>
+          </btnToDown>
+        </grp_Output>
+        <btnAdd>
+          <Text>Thêm</Text>
+          <Font>Times New Roman</Font>
+        </btnAdd>
+        <btnUpd>
+          <Text>Sửa đổi</Text>
+          <Font>Times New Roman</Font>
+        </btnUpd>
+        <btnDel>
+          <Text>Xóa</Text>
+          <Font>Times New Roman</Font>
+        </btnDel>
+      </grp_Csv_Output_Setting>
+      <btnUpdate>
+        <Text>Lưu thay đổi</Text>
+        <Font>Times New Roman</Font>
+      </btnUpdate>
+      <btnCancel>
+        <Text>Hủy</Text>
+        <Font>Times New Roman</Font>
+      </btnCancel>
+    </FileOutput>
+
+    <TerminalSettingMainte>
+      <Text>YUBI-TARO</Text>
+      <Title>
+        <Text>Mục quản lý thiết bị nhận dạng vân tay</Text>
+        <Font>Times New Roman</Font>
+      </Title>
+      <MessageArea>
+        <Text>Tin nhắn</Text>
+        <Font>Times New Roman</Font>
+        <MessageText>
+          <Font>Times New Roman</Font>
+        </MessageText>
+      </MessageArea>
+      <GroupBox1>
+        <chkDeleteRowVisible>
+          <Text>Đăng dữ liệu xóa</Text>
+          <Font>Times New Roman,10</Font>
+        </chkDeleteRowVisible>
+      </GroupBox1>
+      <DataGridView>
+        <HeaderText>,Mã số máy,Loại sử dụng,Thiết bị,Địa chỉ IP,Cổng,Báo động 1,Báo động 2,Báo động 3,Báo động 4,Báo động 5,Báo động 6,Báo động 7,Báo động 8,Báo động 9,Báo động 10,STATUS,CREATE_DATE_TIME,UPDATE_DATE_TIME</HeaderText>
+        <HeaderFont>Times New Roman</HeaderFont>
+        <Font>Times New Roman</Font>
+        <DeleteColumn>
+          <Text>Xóa</Text>
+        </DeleteColumn>
+        <USETYPEColumn>
+          <Text>Dành cho nhân viên đăng ký,Dành cho  khách đăng ký,Dành cho cả hai</Text>
+        </USETYPEColumn>
+        <DEVICEColumn>
+          <Text>USB=0,TCP/IP=2,Bộ nhớ USB</Text>
+        </DEVICEColumn>
+      </DataGridView>
+      <btnUpdate>
+        <Text>Lưu thay đổi</Text>
+        <Font>Times New Roman</Font>
+      </btnUpdate>
+      <btnCancel>
+        <Text>Hủy</Text>
+        <Font>Times New Roman</Font>
+      </btnCancel>
+    </TerminalSettingMainte>
+
+    <SplashScreen>
+      <Label1>
+        <Text>Working Management System</Text>
+        <Font>Times New Roman</Font>
+      </Label1>
+      <ApplicationTitle>
+        <Text>YUBI-TARO</Text>
+        <Font>Times New Roman</Font>
+      </ApplicationTitle>
+      <Version>
+        <Font>Times New Roman</Font>
+      </Version>
+      <Copyright>
+        <Text>Copyright © ITC 2010</Text>
+        <Font>Times New Roman</Font>
+      </Copyright>
+    </SplashScreen>
+
+    <Processing>
+      <Title>
+        <Text>Đang tiến hành…</Text>
+        <Font>Times New Roman</Font>
+      </Title>
+      <MessageArea>
+        <Text>Tin nhắn</Text>
+        <Font>Times New Roman</Font>
+        <MessageText>
+          <Font>Times New Roman</Font>
+        </MessageText>
+      </MessageArea>
+    </Processing>
+
+    <TimeTableMainte>
+      <Title>
+        <Text>Mục quản lý giờ giấc</Text>
+        <Font>Times New Roman</Font>
+      </Title>
+      <MessageArea>
+        <Text>Tin nhắn</Text>
+        <Font>Times New Roman</Font>
+        <MessageText>
+          <Font>Times New Roman</Font>
+        </MessageText>
+      </MessageArea>
+      <GroupBox1>
+        <chkDeleteRowVisible>
+          <Text>Hiển thị dữ liệu đã xóa</Text>
+          <Font>Times New Roman,10</Font>
+        </chkDeleteRowVisible>
+      </GroupBox1>
+      <DataGridView>
+        <HeaderText>,Mã số,EXPIRATION_FROM,Ngày bắt đầu áp dụng,EXPIRATION_TO,Ngày chấm dứt áp dụng,Tên chỗ làm việc,Abbreviation,Gìơ TM bắt đầu,Giờ TM kết thúc,Giờ chính bắt đầu,Giờ phân định,Giờ chính kết thúc,Đơn vị thời gian,Đơn vị gìơ thêm,Nữa đêm bắt đầu,Nữa đêm kết thúc,Kỳ nghỉ 1,Kết thúc kỳ nghỉ 1,Kỳ nghỉ 2,Kết thúc kỳ nghỉ 2,Kỳ nghỉ 3,Kết thúc kỳ nghỉ 3,Kỳ nghỉ 4,Kết thúc kỳ nghỉ 4,Kỳ nghỉ 5,Kết thúc kỳ nghỉ 5,Kỳ nghỉ 6,Kết thúc kỳ nghỉ 6,Kỳ nghỉ 7,Kết thúc kỳ nghỉ 7,Kỳ nghỉ 8,Kết thúc kỳ nghỉ 8,Kỳ nghỉ 9,Kết thúc kỳ nghỉ 9,Kỳ nghỉ 10,KT kỳ nghỉ 10,STATUS,CREATE_DATE_TIME,UPDATE_DATE_TIME</HeaderText>
+        <HeaderFont>Times New Roman,10</HeaderFont>
+        <Font>Times New Roman</Font>
+        <DeleteColumn>
+          <Text>Xóa</Text>
+        </DeleteColumn>
+        <EXPIRATION_FROM_VIEWColumn>
+          <DateView>DMY,0</DateView>
+        </EXPIRATION_FROM_VIEWColumn>
+        <EXPIRATION_TO_VIEWColumn>
+          <DateView>DMY,99999999</DateView>
+        </EXPIRATION_TO_VIEWColumn>
+        <CORETIMEFROMColumn>
+          <Width>100</Width>
+        </CORETIMEFROMColumn>
+        <CORETIMETOColumn>
+          <Width>100</Width>
+        </CORETIMETOColumn>
+      </DataGridView>
+      <btnUpdate>
+        <Text>Lưu thay đổi</Text>
+        <Font>Times New Roman</Font>
+      </btnUpdate>
+      <btnCancel>
+        <Text>Hủy</Text>
+        <Font>Times New Roman</Font>
+      </btnCancel>
+    </TimeTableMainte>
+  </form>
+  <const>
+    <information_title>Xác nhận.</information_title>
+    <dialog_filter>{0}Hồ sơ(*.{0})|*.{0}|Tất cả hồ sơ(*.*)|*.*</dialog_filter>
+    <weekday_long>Chủ nhật,Thứ hai,Thứ ba,Thứ tư,Thứ năm,Thứ sáu,Thứ bảy</weekday_long>
+    <weekday_short>CN,T2,T3,T4,T5,T6,T7</weekday_short>
+    <month_long>January,February,March,April,May,June,July,August,September,October,November,December</month_long>
+    <month_short>Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec</month_short>
+    <csv_column>Dữ liệu Năm/Tháng,Mã số nhân viên,Họ/tên,Họ,Tên,Thời gian hoạt động,Gìơ hợp đồng,Gìơ hợp đồng x 100,Số ngày làm việc,Số ngày làm việc x 100,Số ngày đi làm ngày nghỉ,Số ngày đi làm ngày nghỉ x 100,Gìơ làm việc,Gìơ làm việc x 100,Gìơ nghỉ,Gìơ nghỉ x 100,Gìơ làm thêm,Gìơ làm thêm x 100,Gìơ nữa đêm,Gìơ nữa đêm x 100,Gìơ ngày nghỉ ,Gìơ ngày nghỉ  x 100,Gìơ ngày nghỉ nữa đêm,Gìơ ngày nghỉ nữa đêm x 100,Gìơ nghĩ lễ công cộng,Gìơ nghĩ lễ công cộng x 100,Gìơ nữa đêm ngày lễ,Gìơ nữa đêm ngày lễ x 100,Số ngày có lương,Số ngày có lương x 100,Số ngày nghỉ thay thế,Số ngày nghỉ thay thế x 100,Số ngày nghỉ đặc biệt,Số ngày nghỉ đặc biệt x 100,Số ngày nghỉ thế và đặc biệt,Số ngày nghỉ thế và đặc biệt x 100,Số ngày nghỉ làm,Số ngày nghỉ làm x 100,Số ngày đi trễ,Số ngày đi trễ x 100,Số ngày về sớm,Số ngày về sớm x 100,Số lần đi trễ về sớm,Số lần đi trễ về sớm x 100,Số giờ đi trễ,Số giờ đi trễ x 100,Số giờ về sớm,Số giờ về sớm x 100,Số giờ đi trễ về sớm,Số giờ đi trễ về sớm x 100,Khoảng trống</csv_column>
+    <csv_column_brank>Dòng chưa cài đặt</csv_column_brank>
+    <use_type>Dành cho nhân viên Có/Vắng mặt đăng ký,Dành cho  người sử dụng đăng ký,Dành cho cả hai</use_type>
+    <device>USB,Serial,TCP/IP,Bộ nhớ USB</device>
+    <administrator>Người quản trị</administrator>
+    <!--customize(huecompany) *** start-->
+    <!--<work_type>Làm việc bình thường=1,Nghỉ có lương,Nghỉ nữa buổi sáng,Nghỉ nữa buổi chiều,Nghỉ đặc biệt,Nghỉ thay thế,Nghỉ làm,Đi làm ngày nghỉ,Ngày nghỉ mà phải đi làm,Nghỉ ốm,Nghỉ đặc biệt nửa ngày,Nghỉ ốm nửa ngày,Nghỉ không lương nửa ngày,Nghỉ chờ việc,Nghỉ có lương nửa ngày,Nghỉ chờ việc nửa ngày,Nghỉ thay thế nửa ngày,Ngày nghỉ mà phải đi làm nửa ngày,Ngày nghỉ tự chọn,Nghỉ cưới,Nghỉ cưới 1/2 ngày,Nghỉ tang,Nghỉ tang 1/2 ngày,Nghỉ có plan,Nghỉ có plan 1/2 ngày,Nghỉ không có plan,Nghỉ không plan 1/2 ngày,Nghỉ không có notice,Nghỉ không notice 1/2 ngày</work_type>-->
+    <work_type>Normal Duty=1,Annual Leave,Half-day Leave (AM),Half-day Leave (PM),Special Leave,Replacement Leave,Permission,Holiday Duty,Substitute Duty,Sick Leave,Half-day Specical Leave,Half-day sick Leave,Unpaid half-day Leave,Standby Leave,Half-day Paid Leave,Half-day Standby Leave,Half-day Replacement Leave,Half-day Substitute Duty,Individual Holiday,Marriage leave,Marriage leave 1/2 day,Compassionate leave,Compassionate leave 1/2 day,Off with plan,Off with plan 1/2 day,Of without plan,Off without plan 1/2 day,Absent without permission,Absent without permission 1/2 day,1/2 Permission,Maternity Leave</work_type>
+    <!--customize(huecompany) *** end-->
+    <list_title>Danh sách nhân viên có mặt({1}, {0})</list_title>
+    <in_out_mode>Đến công ty (hãng)[{0}],Rời công ty (hãng)[{0}],Đến/Về không rõ[{0}],Đến/Về không rõ[{0}]</in_out_mode>
+    <national_holiday_flag>True</national_holiday_flag>
+    <date_format_delimiter>/</date_format_delimiter>
+    <list_date_format>DM</list_date_format>
+    <csv_date_format>DMY</csv_date_format>
+    <ymd_date_format>DMY</ymd_date_format>
+    <ym_date_format>MY</ym_date_format>
+    <md_date_format>DM</md_date_format>
+    <emsize_character_flag>False</emsize_character_flag>
+    <username_set_flag>False</username_set_flag>
+    <paidvacationtime_days>5</paidvacationtime_days>
+    <tolerance_time></tolerance_time>
+    <tolerance_latetime></tolerance_latetime>
+    <tolerance_earlytime></tolerance_earlytime>
+
+    <!--customize(huecompany) *** start-->
+    <customize_code>HueCompany</customize_code>
+    <!--customize(huecompany) *** end-->>
+    <attendance_list_title></attendance_list_title>
+    <attendance_list_date_format>DMY</attendance_list_date_format>
+    <hoatho_list_date_format>MY</hoatho_list_date_format>
+
+  </const>
+</language>
